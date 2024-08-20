@@ -1,7 +1,4 @@
 {
-  "deno.enable": true,
-  "editor.quickSuggestions": {
-    "strings": true
-  },
-  "editor.defaultFormatter": "denoland.vscode-deno"
+    "editor.indentSize": "tabSize",
+    "editor.tabSize": 4
 }
