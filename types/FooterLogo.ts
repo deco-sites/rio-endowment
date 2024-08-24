@@ -1,7 +1,7 @@
 import { ImageWidget } from "apps/admin/widgets.ts";
 
-/** @title {{alt}} */
-export interface SocialProps {
+/** @title Logo - Footer */
+export interface FooterLogo {
     /**
      * @title Imagem do Logo
      */
@@ -18,6 +18,4 @@ export interface SocialProps {
      * @title Altura 
      */
     height: number;
-    /** @title Link da Rede Social */
-    href: string;
 }
