@@ -1,0 +1,1 @@
+export { default } from "site/components/ClassesSlider/ClassesSlider.tsx"

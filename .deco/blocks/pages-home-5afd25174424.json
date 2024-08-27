@@ -6,13 +6,92 @@
       "__resolveType": "Header Principal"
     },
     {
-      "__resolveType": "site/sections/Hero.tsx",
-      "title": "<p>Click here to tweak this text however you want.</p>",
-      "cta": [],
-      "description": "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away."
+      "__resolveType": "site/sections/Image/BannerText.tsx",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12250/c5957b52-c93c-465e-b537-55f4c4e54368",
+      "width": 1980,
+      "height": 945,
+      "alt": "Empoderando o Futuro da Educação no Rio de Janeiro.",
+      "text": "<p style=\"text-align: justify\"><strong><span style=\"color: rgb(255, 255, 255); font-size: 39pt\">Empoderando </span></strong><span style=\"color: rgb(255, 255, 255); font-size: 39pt\">o</span></p><p style=\"text-align: justify\"><span style=\"color: rgb(255, 255, 255); font-size: 39pt\">Futuro da </span><strong><span style=\"color: rgb(255, 255, 255); font-size: 39pt\">Educação</span></strong></p><p style=\"text-align: justify\"><span style=\"color: rgb(255, 255, 255); font-size: 39pt\">no Rio de Janeiro.</span></p>"
     },
     {
-      "__resolveType": "site/sections/Logos.tsx"
+      "__resolveType": "site/sections/Content/PartnersList.tsx",
+      "partnersList": [
+        {
+          "partnerLogo": {
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12250/094a9ad4-9b0a-4998-805c-a253c268b6d6",
+            "width": 46,
+            "height": 46,
+            "alt": "Deco.cx"
+          },
+          "bgClosed": "#571919",
+          "bgOpened": "#352965",
+          "title": "Deco.cx",
+          "description": "Lorem Ipsum"
+        },
+        {
+          "partnerLogo": {
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12250/094a9ad4-9b0a-4998-805c-a253c268b6d6",
+            "width": 46,
+            "height": 46,
+            "alt": "Deco.cx"
+          },
+          "bgClosed": "#571919",
+          "bgOpened": "#352965",
+          "title": "Deco.cx",
+          "description": "Lorem Ipsum"
+        },
+        {
+          "partnerLogo": {
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12250/094a9ad4-9b0a-4998-805c-a253c268b6d6",
+            "width": 46,
+            "height": 46,
+            "alt": "Deco.cx"
+          },
+          "bgClosed": "#571919",
+          "bgOpened": "#352965",
+          "title": "Deco.cx",
+          "description": "Lorem Ipsum"
+        },
+        {
+          "partnerLogo": {
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12250/094a9ad4-9b0a-4998-805c-a253c268b6d6",
+            "width": 46,
+            "height": 46,
+            "alt": "Deco.cx"
+          },
+          "bgClosed": "#571919",
+          "bgOpened": "#352965",
+          "title": "Deco.cx",
+          "description": "Lorem Ipsum"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Slider/ClassesSlider.tsx",
+      "sliderTitle": "Filantropia inteligente para um futuro brilhante no Rio de Janeiro",
+      "sliderItems": [
+        {
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12250/d71ce2f9-e4fd-4539-ad72-d8628412bc65",
+          "width": 760,
+          "height": 374,
+          "alt": "Turma CEFET",
+          "classTitle": "Turma CEFET"
+        },
+        {
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12250/d71ce2f9-e4fd-4539-ad72-d8628412bc65",
+          "width": 760,
+          "height": 374,
+          "alt": "Turma Ismart",
+          "classTitle": "Turma Ismart"
+        },
+        {
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12250/d71ce2f9-e4fd-4539-ad72-d8628412bc65",
+          "width": 760,
+          "height": 374,
+          "alt": "Turma Consuelo",
+          "classTitle": "Turma Consuelo"
+        }
+      ]
     },
     {
       "__resolveType": "site/sections/ImageWithParagraph.tsx"

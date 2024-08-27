@@ -50,3 +50,14 @@
     display: none;
   }
 }
+
+.partners-list .carousel {
+  scrollbar-color: #191971;
+  scrollbar-width: thin;
+  -ms-overflow-style: auto;
+}
+
+.partners-list .carousel::-webkit-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: #191971;
+}
