@@ -14,7 +14,16 @@ export default {
 				header: "0px 5px 20px 0px #1C1C1E14",
 			},
 			colors: {
-				"blue-100": "#191971"
+				"white-100": "#F9F9F9",
+				"blue-100": "#191971",
+				"blue-200": "#2354CC",
+				"blue-300": "#2251cd",
+				"pink-100": "#C92CC4",
+				"green-100": "#21BCAE",
+				"gray-100": "#C0C3C4"
+			},
+			fontFamily: {
+				poppins: "Poppins, sans-serif"
 			},
 			keyframes: {
 				sliding: {

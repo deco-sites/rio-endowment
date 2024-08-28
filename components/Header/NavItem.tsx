@@ -1,12 +1,6 @@
-/** @title {{navText}} */
-export interface Props {
-	/** @title Nome de Exibição */
-	navText: string;
-	/** @title Link */
-	link: string;
-}
+import type { NavItemProps } from "site/types/NavItemProps.ts"
 
-const NavItem = ({ link, navText }: Props) => (
+const NavItem = ({ link, navText }: NavItemProps) => (
 	<li class="font-medium text-blue-100 text-base leading-snug transition-all hover:font-bold">
 		<a href={link} alt={navText}>{navText}</a>
 	</li>

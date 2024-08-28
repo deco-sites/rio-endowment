@@ -1,5 +1,6 @@
 import { useScript } from "deco/hooks/useScript.ts";
 import type { ComponentChildren, JSX } from "preact";
+import { clx } from "site/sdk/clx.ts";
 
 export interface Props {
   rootId: string;
@@ -205,15 +206,17 @@ function Slider({
   );
 }
 
-function Dot({ index, children }: {
+function Dot({ index, children, additionalClasses }: {
   index: number;
   children: ComponentChildren;
+  additionalClasses: string
 }) {
   return (
     <button
+      value={index}
       data-dot={index}
       aria-label={`go to slider item ${index}`}
-      class="focus:outline-none group"
+      class={clx(additionalClasses, "focus:outline-none group")}
     >
       {children}
     </button>
