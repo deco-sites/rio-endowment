@@ -3,7 +3,7 @@ import { useScript } from "deco/hooks/useScript.ts";
 import { ImageWidget } from "apps/admin/widgets.ts";
 import Image from "apps/website/components/Image.tsx";
 import Navbar from "site/components/Header/Navbar.tsx";
-import type { Props as NavItemsProps } from "site/components/Header/NavItem.tsx"
+import type { NavItemProps } from "site/types/NavItemProps.ts"
 import HeaderCTA from "site/components/Header/HeaderCTA.tsx";
 import type { Props as CTAButtonProps } from "site/components/Header/HeaderCTA.tsx";
 
@@ -30,7 +30,7 @@ export interface Props {
 	/**
 	 * @title Items do Menu
 	 */
-	navItems: NavItemsProps[];
+	navItems: NavItemProps[];
 	/**
 	 * @title Informações do botão
 	 */

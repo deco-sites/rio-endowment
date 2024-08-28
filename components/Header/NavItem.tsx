@@ -1,4 +1,4 @@
-import type { NavItemProps } from "../../types/NavItemProps.ts"
+import type { NavItemProps } from "site/types/NavItemProps.ts"
 
 const NavItem = ({ link, navText }: NavItemProps) => (
 	<li class="font-medium text-blue-100 text-base leading-snug transition-all hover:font-bold">

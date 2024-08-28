@@ -213,6 +213,7 @@ function Dot({ index, children, additionalClasses }: {
 }) {
   return (
     <button
+      value={index}
       data-dot={index}
       aria-label={`go to slider item ${index}`}
       class={clx(additionalClasses, "focus:outline-none group")}
