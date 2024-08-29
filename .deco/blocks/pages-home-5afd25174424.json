@@ -168,6 +168,43 @@
       ]
     },
     {
+      "__resolveType": "site/sections/Content/PartnerSlider.tsx",
+      "titleSection": "Semear hoje para colher um futuro próspero",
+      "bgSection": "#191971",
+      "partners": [
+        {
+          "firmLogo": {
+            "logo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12250/b279d3e9-885d-4bc4-8bd8-76a1fd26c1b4",
+            "name": "Deco.cx",
+            "width": 116,
+            "height": 59
+          },
+          "photo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12250/402c68b2-400e-4e96-b732-d0e4f9ace1ef",
+          "width": 325,
+          "height": 299,
+          "quoteHighlight": "Investindo nos nossos alunos muito além do dinheiro.",
+          "quoteMain": "Muito além do investimento financeiro, o RIO promove o desenvolvimento da carreira dos nossos alunos através de mentorias individuais com mentores cuidadosamente selecionados e qualificados no mercado.",
+          "name": "Guilherme Rodrigues",
+          "position": "Co-Fundador e CEO da Deco.CX"
+        },
+        {
+          "firmLogo": {
+            "logo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12250/f321e211-56ef-4ed7-a4e7-626891b34af2",
+            "name": "Deco.cx",
+            "width": 108,
+            "height": 51
+          },
+          "photo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12250/76ea5f49-6a3a-4a33-ad5f-9421c5467488",
+          "width": 325,
+          "height": 299,
+          "quoteHighlight": "Impacto para as gerações futuras, mente de longo prazo",
+          "quoteMain": "É sobre a semente que plantamos hoje,para colher um futuro brilhante para nossos alunos e para o Rio de Janeiro.",
+          "name": "Luca Castellano",
+          "position": "Co-Fundador do RIO Endowment e Head de Estratégia na deX"
+        }
+      ]
+    },
+    {
       "__resolveType": "site/sections/Content/Reports.tsx",
       "title": "<p style=\"text-align: center\"><strong><span style=\"color: rgb(25, 25, 113)\">Resultados</span></strong><span style=\"color: rgb(25, 25, 113)\"> &amp; Transparência</span></p>",
       "cards": [

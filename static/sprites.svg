@@ -35,4 +35,15 @@
 	<symbol id="ArrowsPointingOut" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3.75 3.75v4.5m0-4.5h4.5m-4.5 0L9 9M3.75 20.25v-4.5m0 4.5h4.5m-4.5 0L9 15M20.25 3.75h-4.5m4.5 0v4.5m0-4.5L15 9m5.25 11.25h-4.5m4.5 0v-4.5m0 4.5L15 15" /></symbol>
 	<symbol id="ArrowLeft" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 8 17" fill="none"><path d="M12 4.0271L10.59 5.4371L16.17 11.0271H4V13.0271H16.17L10.59 18.6171L12 20.0271L20 12.0271L12 4.0271Z" fill="currentColor"/></symbol>
 	<symbol id="ArrowRight" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 8 17" fill="none"><path d="M20 11.0271H7.83L13.42 5.4371L12 4.0271L4 12.0271L12 20.0271L13.41 18.6171L7.83 13.0271H20V11.0271Z" fill="currentColor"/></symbol>
+	<symbol id="Quotes" width="20" height="15" viewBox="0 0 20 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+		<g clip-path="url(#clip0_3618_1083)">
+			<path d="M8.88889 6.44449H3.32176L8.31019 0H5.53819L0 7.16302V15H8.88889V6.44449Z" fill="#1BD8CE"/>
+			<path d="M20.0002 6.41664H14.4331L19.3983 0H16.6264L11.1113 7.1296V14.9721H20.0002V6.41664Z" fill="#1BD8CE"/>
+		</g>
+		<defs>
+			<clipPath id="clip0_3618_1083">
+				<rect width="20" height="15" fill="white"/>
+			</clipPath>
+		</defs>
+	</symbol>
 </svg>
