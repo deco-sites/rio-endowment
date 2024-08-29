@@ -31,7 +31,7 @@ const ClassesSlider = ({ sliderItems, sliderTitle }: Props) => {
     }
 
     return (
-        <main id={id} class="flex flex-col items-center max-w-[1200px] mx-auto mt-36">
+        <main id={id} class="flex flex-col items-center max-w-[1200px] mx-auto mt-36 mb-32">
             <h1 class="font-medium font-poppins text-blue-100 text-3xl mb-14">{sliderTitle}</h1>
 
             <div class="flex gap-8 mb-8">

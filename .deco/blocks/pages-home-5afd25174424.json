@@ -94,21 +94,101 @@
       ]
     },
     {
-      "__resolveType": "site/sections/ImageWithParagraph.tsx"
+      "__resolveType": "site/sections/Image/GridBanner.tsx",
+      "images": [
+        {
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12250/a5839875-7737-40f8-948d-33757d8fb6a1",
+          "alt": "Por que STEM?",
+          "height": 320,
+          "width": 430
+        },
+        {
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12250/346ea11d-114c-409e-8156-7b6148e64ab8",
+          "alt": "3x Maior",
+          "height": 205,
+          "width": 205
+        },
+        {
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12250/47729fc0-7ea3-4ffc-a7ed-e68064f876a0",
+          "alt": "14% de Crescimento",
+          "height": 205,
+          "width": 205
+        }
+      ],
+      "sectionTitle": "O RIO foca em investir em alunos STEM ",
+      "sectionDescription": "Potencial transformador enorme para a nova economia.",
+      "verticalAlign": "end",
+      "lines": [
+        {
+          "images": [
+            {
+              "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12250/a5839875-7737-40f8-948d-33757d8fb6a1",
+              "alt": "Por que STEM?",
+              "height": 320,
+              "width": 430
+            },
+            {
+              "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12250/346ea11d-114c-409e-8156-7b6148e64ab8",
+              "alt": "3x Maior",
+              "height": 205,
+              "width": 205
+            },
+            {
+              "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12250/47729fc0-7ea3-4ffc-a7ed-e68064f876a0",
+              "alt": "14% de Crescimento",
+              "height": 205,
+              "width": 205
+            }
+          ],
+          "verticalAlign": "end"
+        },
+        {
+          "images": [
+            {
+              "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12250/6780ef47-513f-4cde-a870-c0a9d1b6a121",
+              "alt": "20% do Brasil",
+              "height": 205,
+              "width": 205
+            },
+            {
+              "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12250/b27ac6d5-f697-43bc-9280-8910f517d7d2",
+              "alt": "183%",
+              "height": 205,
+              "width": 205
+            },
+            {
+              "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12250/4141d90b-99d7-4e36-a2ec-1323669e22b9",
+              "alt": "89%",
+              "height": 320,
+              "width": 430
+            }
+          ],
+          "verticalAlign": "start"
+        }
+      ]
     },
     {
-      "__resolveType": "site/sections/ImageWithParagraph.tsx",
-      "placement": "right"
+      "__resolveType": "site/sections/Content/Reports.tsx",
+      "title": "<p style=\"text-align: center\"><strong><span style=\"color: rgb(25, 25, 113)\">Resultados</span></strong><span style=\"color: rgb(25, 25, 113)\"> &amp; Transparência</span></p>",
+      "cards": [
+        {
+          "description": "<p><span style=\"color: #191c1f\">Relatório de transparência do </span><strong><span style=\"color: #191c1f\">segundo semestre de 2024.</span></strong></p>",
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12250/786a0446-0590-476d-b5e2-8e973e6a792b",
+          "width": 456,
+          "height": 280,
+          "cardTitle": "2024 - 2"
+        },
+        {
+          "description": "<p><span style=\"color: rgb(25, 28, 31)\">Relatório de transparência do </span><strong><span style=\"color: rgb(25, 28, 31)\">primeiro semestre de 2024.</span></strong></p>",
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12250/d0641f4f-334f-497a-8850-512a16007a21",
+          "width": 456,
+          "height": 280,
+          "cardTitle": "2024 - 1"
+        }
+      ]
     },
     {
-      "__resolveType": "site/sections/BlogPosts.tsx"
-    },
-    {
-      "__resolveType": "site/sections/Testimonials.tsx",
-      "arrows": true
-    },
-    {
-      "__resolveType": "site/sections/Faq.tsx"
+      "__resolveType": "Newsletter"
     },
     {
       "__resolveType": "Footer"
