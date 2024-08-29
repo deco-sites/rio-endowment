@@ -28,7 +28,7 @@ export interface Props {
 }
 
 const BannerText = ({ alt, image, text, height, width }: Props) => (
-    <main class="flex w-screen h-fit relative -z-10">
+    <main class="flex h-fit relative -z-10">
         <Image
             alt={alt}
             src={image}

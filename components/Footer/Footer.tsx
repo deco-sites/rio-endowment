@@ -30,7 +30,7 @@ export interface Props {
 
 export default function Footer({ logo, slogan, social, navItems, copyright }: Props) {
   return (
-    <footer class="w-screen pt-8 px-8 pb-14 bg-white border-t border-white-100 ">
+    <footer class="pt-8 px-8 pb-14 bg-white border-t border-white-100 ">
         <section class="max-w-[1221px] mx-auto">
             <div class="flex justify-between items-center w-full max-w-[90%] mb-11">
                 <Image
