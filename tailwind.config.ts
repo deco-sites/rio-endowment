@@ -12,6 +12,7 @@ export default {
 			},
 			boxShadow: {
 				header: "0px 5px 20px 0px #1C1C1E14",
+				"header-mobile": "0px 5px 20px 0px #00000014"
 			},
 			colors: {
 				"black-100": "#191C1F",

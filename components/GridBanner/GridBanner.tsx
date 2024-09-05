@@ -1,5 +1,6 @@
 import { ImageWidget } from "apps/admin/widgets.ts";
 import Image from "apps/website/components/Image.tsx";
+import { clx } from "site/sdk/clx.ts";
 
 /** @title {{alt}} */
 interface BannerProps {
@@ -56,31 +57,27 @@ export interface Props {
 }
 
 const GridBanner = ({ lines, sectionDescription, sectionTitle }: Props) => (
-    <section class="block mb-32">
-        <h1 class="font-medium text-center text-blue-100 text-3xl leading-relaxed">{sectionTitle}</h1>
-        <p class="text-black-100 text-center text-xl leading-loose mb-14 ">{sectionDescription}</p>
+    <section class="block mb-32 px-4 lg:px-0">
+        <h1 class={clx(
+            "font-medium text-center text-blue-100 text-2xl/7",
+            "lg:text-3xl/relaxed"
+        )}>
+            {sectionTitle}
+        </h1>
+        <p class="text-black-100 text-center text-sm/5 mb-14 lg:text-xl/loose">{sectionDescription}</p>
 
         <div class="flex flex-col gap-5">
             {lines.map(({ images, verticalAlign }) => (
-                <div class="flex gap-5 justify-center" style={{ alignItems: verticalAlign }}>
+                <div class="flex gap-x-2 gap-y-6 justify-center flex-wrap lg:gap-5" style={{ alignItems: verticalAlign }}>
                     {images.map(({ alt, height, image, width, link }) => (
-                        link ? (
-                            <a href={link} alt={alt}>
-                                <Image
-                                    alt={alt}
-                                    src={image}
-                                    width={width}
-                                    height={height}
-                                />
-                            </a>
-                        ) : (
+                        <a href={link} alt={alt}>
                             <Image
                                 alt={alt}
                                 src={image}
                                 width={width}
                                 height={height}
                             />
-                        ) 
+                        </a>
                     ))}
                 </div>
             ))}

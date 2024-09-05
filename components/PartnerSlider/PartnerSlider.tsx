@@ -3,6 +3,8 @@ import Image from "apps/website/components/Image.tsx";
 import Slider from "site/components/ui/Slider.tsx";
 import { useId } from "site/sdk/useId.ts";
 import Icon from "site/components/ui/Icon.tsx";
+import { clx } from "site/sdk/clx.ts";
+import { useDevice } from "deco/hooks/useDevice.ts";
 
 /** @title {{name}} */
 interface FirmLogoProps {
@@ -73,27 +75,54 @@ export interface Props {
 
 const PartnerSlider = ({ bgSection, partners, titleSection }: Props) => {
     const id = useId();
+    const device = useDevice();
 
     return (
-        <main class="flex flex-col gap-14  w-full pt-9 pb-28" style={{ backgroundColor: bgSection }}>
-            <h1 class="font-poppins font-medium text-white text-center text-3xl leading-relaxed">
+        <main
+            id={id}
+            class={clx(
+                "partner-slider relative",
+                "flex flex-col w-full pt-8 px-4 pb-16 gap-20 mb-28",
+                "lg:gap-14 lg:pt-9 lg:pb-28"
+            )}
+            style={{ backgroundColor: bgSection }}
+        >
+            <h1 class={clx(
+                "font-poppins font-medium text-white text-center text-2xl/7",
+                "lg:text-3xl lg:leading-relaxed"
+            )}>
                 {titleSection}
             </h1>
     
             <div class="flex">
-                <Slider class="carousel carousel-center col-span-full row-span-full space-x-14 px-56" rootId={id}>
+                <Slider
+                    class={clx(
+                        "carousel carousel-center gap-6",
+                        "lg:space-x-14 lg:px-56 lg:gap-0"
+                    )}
+                    rootId={id}
+                >
                     {partners.map(({ firmLogo, name, position, quoteHighlight, quoteMain, photo, height, width }, index) => (
-                        <Slider.Item class="classes-slider-item carousel-item" index={index}>
+                        <Slider.Item
+                            class={clx(
+                                "classes-slider-item carousel-item w-fit flex-col-reverse gap-8 px-1.5",
+                                "lg:gap-6 lg:flex-row"
+                            )}
+                            index={index}
+                        >
                             <Image
                                 alt={name}
                                 src={photo}
                                 width={width}
                                 height={height}
+                                class={device !== "desktop" ? "w-full" : ""}
                             />
-                            <div class="flex flex-col justify-between max-w-[491px]">
+                            <div class="flex flex-col gap-6 lg:max-w-[491px] lg:justify-between">
                                 <span class="flex items-start pr-2">
-                                    <Icon id="Quotes" width={20} height={15} class="pt-0.5" />
-                                    <h2 class="font-light font-poppins text-white text-3xl/9 indent-[74px]">
+                                    <div class="block pt-0.5 w-5">
+                                        <Icon id="Quotes" width={20} height={15} />
+                                    </div>
+                                    <h2 class="font-light font-poppins text-white text-right text-[28px]/9 indent-[74px] tracking-tighter lg:text-left">
                                         {quoteHighlight}
                                     </h2>
                                 </span> 
@@ -102,7 +131,7 @@ const PartnerSlider = ({ bgSection, partners, titleSection }: Props) => {
                                     {quoteMain}
                                 </p>
 
-                                <div class="flex justify-between items-center">
+                                <div class="flex justify-between items-center mt-8 lg:mt-0">
                                     {firmLogo.link ? (
                                         <a href={firmLogo.link}>
                                             <Image
@@ -134,6 +163,12 @@ const PartnerSlider = ({ bgSection, partners, titleSection }: Props) => {
                         </Slider.Item>
                     ))}
                 </Slider>
+                <Slider.PrevButton class="absolute top-1/2 left-5 disabled:hidden z-20">
+                    <Icon id="BigLeftArrow" width={21} height={38} />
+                </Slider.PrevButton>
+                <Slider.NextButton class="absolute top-1/2 right-5 disabled:hidden z-20">
+                    <Icon id="BigRightArrow" width={21} height={38} />
+                </Slider.NextButton>
             </div>
         </main>
     )

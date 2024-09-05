@@ -32,7 +32,7 @@ export default function Footer({ logo, slogan, social, navItems, copyright }: Pr
   return (
     <footer class="pt-8 px-8 pb-14 bg-white border-t border-white-100 ">
         <section class="max-w-[1221px] mx-auto">
-            <div class="flex justify-between items-center w-full max-w-[90%] mb-11">
+            <div class="flex flex-col gap-9 w-full max-w-[90%] mb-11 lg:justify-between lg:flex-row lg:items-center">
                 <Image
                     alt={logo?.alt}
                     src={logo?.src}
@@ -41,7 +41,7 @@ export default function Footer({ logo, slogan, social, navItems, copyright }: Pr
                     height={logo?.height}
                 />
 
-                <span class="font-poppins text-xl text-center w-full text-blue-100">{slogan}</span>
+                <span class="font-poppins text-xl w-full text-blue-100 lg:text-center">{slogan}</span>
 
                 <div class="flex gap-3.5">
                     {social?.map(({ alt, height, href, src, width }) => (
@@ -57,14 +57,14 @@ export default function Footer({ logo, slogan, social, navItems, copyright }: Pr
                     ))}
                 </div>
             </div>
-            <div class="flex justify-center gap-6 items-center mb-9">
+            <div class="flex flex-wrap gap-6 items-center mb-9 lg:justify-center">
                 {navItems?.map(({ link, navText }) => (
                     <a class="font-poppins font-medium text-base text-blue-100" href={link} title={navText} >{navText}</a>
                 ))}
             </div>
 
             <span class={clx(
-                "flex w-full max-w-[85%] ml-auto h-0.5 mb-5",
+                "flex w-full ml-auto h-0.5 mb-5 md:max-w-[85%]",
                 "bg-gradient-to-r from-pink-100 from-[8.49%] via-green-100 via-[48.91%] to-blue-200 to-100%"
             )} />
 

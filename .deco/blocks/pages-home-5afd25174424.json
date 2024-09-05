@@ -11,7 +11,28 @@
       "width": 1980,
       "height": 945,
       "alt": "Empoderando o Futuro da Educação no Rio de Janeiro.",
-      "text": "<p style=\"text-align: justify\"><strong><span style=\"color: rgb(255, 255, 255); font-size: 39pt\">Empoderando </span></strong><span style=\"color: rgb(255, 255, 255); font-size: 39pt\">o</span></p><p style=\"text-align: justify\"><span style=\"color: rgb(255, 255, 255); font-size: 39pt\">Futuro da </span><strong><span style=\"color: rgb(255, 255, 255); font-size: 39pt\">Educação</span></strong></p><p style=\"text-align: justify\"><span style=\"color: rgb(255, 255, 255); font-size: 39pt\">no Rio de Janeiro.</span></p>"
+      "text": "<p style=\"text-align: justify\"><strong><span style=\"color: rgb(255, 255, 255); font-size: 39pt\">Empoderando </span></strong><span style=\"color: rgb(255, 255, 255); font-size: 39pt\">o</span></p><p style=\"text-align: justify\"><span style=\"color: rgb(255, 255, 255); font-size: 39pt\">Futuro da </span><strong><span style=\"color: rgb(255, 255, 255); font-size: 39pt\">Educação</span></strong></p><p style=\"text-align: justify\"><span style=\"color: rgb(255, 255, 255); font-size: 39pt\">no Rio de Janeiro.</span></p>",
+      "desktopBanner": {
+        "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12250/c5957b52-c93c-465e-b537-55f4c4e54368",
+        "width": 1920,
+        "height": 633,
+        "alt": "Banner",
+        "text": "<p><strong><span style=\"color: rgb(255, 255, 255); font-size: 39pt\">Empoderando </span></strong><span style=\"color: rgb(255, 255, 255); font-size: 39pt\">o</span></p><p style=\"text-align: justify\"><span style=\"color: rgb(255, 255, 255); font-size: 39pt\">Futuro da </span><strong><span style=\"color: rgb(255, 255, 255); font-size: 39pt\">Educação</span></strong></p><p style=\"text-align: justify\"><span style=\"color: rgb(255, 255, 255); font-size: 39pt\">no Rio de Janeiro.</span></p>"
+      },
+      "tabletBanner": {
+        "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12250/c5957b52-c93c-465e-b537-55f4c4e54368",
+        "width": 1024,
+        "height": 633,
+        "alt": "Banner",
+        "text": "<p><strong><span style=\"color: rgb(255, 255, 255); font-size: 32pt\">Empoderando </span></strong><span style=\"color: rgb(255, 255, 255); font-size: 32pt\">o</span></p><p style=\"text-align: justify\"><span style=\"color: rgb(255, 255, 255); font-size: 32pt\">Futuro da </span><strong><span style=\"color: rgb(255, 255, 255); font-size: 32pt\">Educação</span></strong></p><p style=\"text-align: justify\"><span style=\"color: rgb(255, 255, 255); font-size: 32pt\">no Rio de Janeiro.</span></p>"
+      },
+      "mobileBanner": {
+        "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/40352ada-9a33-454a-9918-7239de52e9ea/imagem_2024-09-04_221712197.png",
+        "width": 475,
+        "height": 633,
+        "alt": "Banner",
+        "text": "<p><strong><span style=\"color: rgb(255, 255, 255); font-size: 28pt\">Empoderando </span></strong><span style=\"color: rgb(255, 255, 255); font-size: 28pt\">o</span></p><p style=\"text-align: justify\"><span style=\"color: rgb(255, 255, 255); font-size: 28pt\">Futuro da </span><strong><span style=\"color: rgb(255, 255, 255); font-size: 28pt\">Educação</span></strong></p><p style=\"text-align: justify\"><span style=\"color: rgb(255, 255, 255); font-size: 28pt\">no Rio de Janeiro.</span></p>"
+      }
     },
     {
       "__resolveType": "site/sections/Content/PartnersList.tsx",
@@ -69,29 +90,107 @@
     {
       "__resolveType": "site/sections/Slider/ClassesSlider.tsx",
       "sliderTitle": "Filantropia inteligente para um futuro brilhante no Rio de Janeiro",
-      "sliderItems": [
-        {
+      "sliderItems": {
+        "0": {
           "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12250/d71ce2f9-e4fd-4539-ad72-d8628412bc65",
           "width": 760,
           "height": 374,
           "alt": "Turma CEFET",
           "classTitle": "Turma CEFET"
         },
-        {
+        "1": {
           "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12250/d71ce2f9-e4fd-4539-ad72-d8628412bc65",
           "width": 760,
           "height": 374,
           "alt": "Turma Ismart",
           "classTitle": "Turma Ismart"
         },
-        {
+        "2": {
           "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12250/d71ce2f9-e4fd-4539-ad72-d8628412bc65",
           "width": 760,
           "height": 374,
           "alt": "Turma Consuelo",
           "classTitle": "Turma Consuelo"
-        }
-      ]
+        },
+        "desktop": [
+          {
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12250/d71ce2f9-e4fd-4539-ad72-d8628412bc65",
+            "width": 760,
+            "height": 374,
+            "alt": "Turma CEFET",
+            "classTitle": "Turma CEFET",
+            "link": "#"
+          },
+          {
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12250/d71ce2f9-e4fd-4539-ad72-d8628412bc65",
+            "width": 760,
+            "height": 374,
+            "alt": "Turma Ismart",
+            "classTitle": "Turma Ismart",
+            "link": "#"
+          },
+          {
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12250/d71ce2f9-e4fd-4539-ad72-d8628412bc65",
+            "width": 760,
+            "height": 374,
+            "alt": "Turma Consuelo",
+            "classTitle": "Turma Consuelo",
+            "link": "#"
+          }
+        ],
+        "tablet": [
+          {
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/3a322903-cd53-49da-bb41-fce6d0618e7d/imagem_2024-09-04_150845925.png",
+            "width": 283,
+            "height": 295,
+            "alt": "Turma CEFET",
+            "classTitle": "Turma CEFET",
+            "link": "#"
+          },
+          {
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/3a322903-cd53-49da-bb41-fce6d0618e7d/imagem_2024-09-04_150845925.png",
+            "width": 283,
+            "height": 295,
+            "alt": "Turma Ismart",
+            "classTitle": "Turma Ismart",
+            "link": "#"
+          },
+          {
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/3a322903-cd53-49da-bb41-fce6d0618e7d/imagem_2024-09-04_150845925.png",
+            "width": 283,
+            "height": 295,
+            "alt": "Turma Consuelo",
+            "classTitle": "Turma Consuelo",
+            "link": "#"
+          }
+        ],
+        "mobile": [
+          {
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/3a322903-cd53-49da-bb41-fce6d0618e7d/imagem_2024-09-04_150845925.png",
+            "width": 283,
+            "height": 295,
+            "alt": "Turma CEFET",
+            "classTitle": "Turma CEFET",
+            "link": "#"
+          },
+          {
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/3a322903-cd53-49da-bb41-fce6d0618e7d/imagem_2024-09-04_150845925.png",
+            "width": 283,
+            "height": 295,
+            "alt": "Turma Ismart",
+            "classTitle": "Turma Ismart",
+            "link": "#"
+          },
+          {
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/3a322903-cd53-49da-bb41-fce6d0618e7d/imagem_2024-09-04_150845925.png",
+            "width": 283,
+            "height": 295,
+            "alt": "Turma Consuelo",
+            "classTitle": "Turma Consuelo",
+            "link": "#"
+          }
+        ]
+      }
     },
     {
       "__resolveType": "site/sections/Image/GridBanner.tsx",
@@ -213,14 +312,16 @@
           "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12250/786a0446-0590-476d-b5e2-8e973e6a792b",
           "width": 456,
           "height": 280,
-          "cardTitle": "2024 - 2"
+          "cardTitle": "2024 - 2",
+          "link": "#"
         },
         {
           "description": "<p><span style=\"color: rgb(25, 28, 31)\">Relatório de transparência do </span><strong><span style=\"color: rgb(25, 28, 31)\">primeiro semestre de 2024.</span></strong></p>",
           "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12250/d0641f4f-334f-497a-8850-512a16007a21",
           "width": 456,
           "height": 280,
-          "cardTitle": "2024 - 1"
+          "cardTitle": "2024 - 1",
+          "link": "#"
         }
       ]
     },
