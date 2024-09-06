@@ -1,0 +1,154 @@
+{
+  "name": "Sobre Nós",
+  "path": "/sobre-nos",
+  "sections": [
+    {
+      "__resolveType": "Header Principal"
+    },
+    {
+      "__resolveType": "site/sections/Image/BannerText.tsx",
+      "mobileBanner": {
+        "alt": "Sobre Nós - Banner - Mobile",
+        "text": "<p><span style=\"color: rgb(255, 255, 255); font-size: 27pt\">O </span><strong><span style=\"color: rgb(255, 255, 255); font-size: 27pt\">Rio<br>Endowment</span></strong></p>",
+        "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/003f5d3a-7be0-4078-9bc2-a09ebf00b3c0/imagem_2024-09-05_002937914.png",
+        "width": 475,
+        "height": 920
+      },
+      "desktopBanner": {
+        "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/34ece060-1bdf-4926-8b97-97add1197c96/imagem_2024-09-05_124759431.png",
+        "width": 1920,
+        "height": 920,
+        "alt": "Sobre Nós - Banner -Desktop",
+        "text": "<p><span style=\"color: #ffffff; font-size: 32pt\">O </span><strong><span style=\"color: #ffffff; font-size: 32pt\">Rio<br>Endowment</span></strong></p>"
+      },
+      "tabletBanner": {
+        "alt": "Sobre Nós - Banner - Tablet",
+        "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/34ece060-1bdf-4926-8b97-97add1197c96/imagem_2024-09-05_124759431.png",
+        "text": "<p><span style=\"color: rgb(255, 255, 255); font-size: 28pt\">O </span><strong><span style=\"color: rgb(255, 255, 255); font-size: 28pt\">Rio<br>Endowment</span></strong></p>",
+        "width": 1024,
+        "height": 920
+      }
+    },
+    {
+      "__resolveType": "site/sections/Content/ColoredInfoCard.tsx",
+      "title": "<p><span style=\"color: rgb(25, 25, 113); font-size: 30pt\">Desbloquear o </span><strong><span style=\"color: rgb(25, 25, 113); font-size: 30pt\">potencial latente</span></strong><span style=\"color: rgb(25, 25, 113); font-size: 30pt\">,</span></p><p><span style=\"color: rgb(25, 25, 113); font-size: 30pt\">expandir horizontes,</span></p><p><span style=\"color: rgb(25, 25, 113); font-size: 30pt\">e oferecer novas </span><strong><span style=\"color: rgb(25, 25, 113); font-size: 30pt\">perspectivas</span></strong></p>",
+      "description": "<p><span style=\"color: #ffffff\">O RIO Endowment existe para cumprir o papel que se espera de uma sociedade verdadeiramente construtiva: promover a mudança.</span></p><p><span style=\"color: #ffffff\">Empoderamos o futuro da educação no Rio de Janeiro, impactando não apenas os alunos, mas também suas famílias e comunidades. O RIO é sinônimo de mudança, futuro e presença ativa.</span></p><p><strong><span style=\"color: #ffffff\">Nosso objetivo é despertar o potencial adormecido dos alunos, transformando suas vidas e criando um legado duradouro.</span></strong></p>",
+      "desktopImage": {
+        "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/b5ade2b0-bc88-4b73-b7dc-38a80eccf868/imagem_2024-09-05_131022700.png",
+        "alt": "Banner",
+        "height": 519,
+        "width": 686
+      },
+      "tabletImage": {
+        "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/594532de-3736-4d13-ae2e-231996692b00/imagem_2024-09-05_131048511.png",
+        "alt": "Banner",
+        "height": 469,
+        "width": 636
+      },
+      "mobileImage": {
+        "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/a5db8bd3-2803-4089-87e0-b3749cf5b03f/imagem_2024-09-05_131157892.png",
+        "alt": "Banner",
+        "height": 422,
+        "width": 475
+      }
+    },
+    {
+      "__resolveType": "site/sections/Content/AnimatedInfoCard.tsx",
+      "title": "Filantropia inteligente para um futuro brilhante no Rio de Janeiro.",
+      "description": "<p><span style=\"color: #191c1f\">O RIO Endowment é um fundo patrimonial dedicado a desbloquear o potencial dos alunos STEM no Rio de Janeiro. Por meio das doações que recebemos, </span><strong><span style=\"color: #191c1f\">o RIO seleciona estudantes brilhantes que necessitam de apoio financeiro e não financeiro</span></strong><span style=\"color: #191c1f\">, investindo em seu desenvolvimento para ampliar horizontes e criar oportunidades para um futuro mais promissor.<br><br>Através de </span><strong><span style=\"color: #191c1f\">bolsas de estudo, cursos profissionalizantes e programas de mentoria</span></strong><span style=\"color: #191c1f\">, o RIO transforma a vida dos nossos alunos, proporcionando-lhes as ferramentas e o suporte necessários para alcançar o sucesso acadêmico e profissional.</span></p>",
+      "desktopImage": {
+        "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/30290c87-dba8-441d-b1c8-296c6cbfe10c/imagem_2024-09-06_003520658.png",
+        "alt": "Cristo",
+        "height": 622,
+        "width": 470
+      },
+      "tabletImage": {
+        "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/874e788a-93ec-40ae-8f9d-489855215679/An-image-of-the-Christ-the-Redeemer-statue-and-Sugarloaf-Mountain-in-Rio-de-Janeiro-Brazil.",
+        "height": 1024,
+        "width": 1024,
+        "alt": "Cristo"
+      },
+      "mobileImage": {
+        "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/3b177fb3-75b8-4aee-9795-387efff0fb61/imagem_2024-09-06_003525838.png",
+        "alt": "Cristo",
+        "height": 473,
+        "width": 343
+      }
+    },
+    {
+      "__resolveType": "site/sections/Image/Parallax.tsx",
+      "text": "Conheça mais sobre nosso trabalho e junte-se a nós nesta missão de transformar vidas e construir um futuro melhor.",
+      "ctaText": "Confira",
+      "ctaLink": "#",
+      "bgImage": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/e551c445-806a-42b6-bc38-821cfeaf8a99/empty-college-classroom-in-gray-scale"
+    },
+    {
+      "__resolveType": "site/sections/Content/BiographySlider.tsx",
+      "titleSection": "Propósito de Verdade ",
+      "bgSection": "#191971",
+      "biographies": [
+        {
+          "socialMediaLogos": [
+            {
+              "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/2a68f1ed-7438-4722-b513-e850a83012ba/imagem_2024-09-06_020718130.png",
+              "name": "Linkedin",
+              "width": 18,
+              "height": 18,
+              "link": "#"
+            }
+          ],
+          "photo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/46d5125c-18f9-4969-a097-cd4328461389/imagem_2024-09-06_020326224.png",
+          "width": 576,
+          "height": 344,
+          "firstName": "Thomas",
+          "lastName": "Ramirez",
+          "position": "Co-fundador",
+          "biography": "nasceu na Colômbia nos anos 90. Ainda muito jovem, chegou ao Rio de Janeiro como refugiado da ONU, fugindo dos conflitos armados causados pelo narcotráfico colombiano que assolavam sua região. \n<br /><br />\nNo Rio de Janeiro, aprendeu a ler e escrever através de uma televisão que ele e sua mãe receberam como doação para a casa onde viviam. Desde então, Thomas tem sido profundamente conectado com causas sociais e busca retribuir o apoio que recebeu ao longo de sua jornada.\n<br /><br />\nEngenheiro pelo CEFET-RJ, Thomas co-fundou o Endowment em 2022."
+        },
+        {
+          "socialMediaLogos": [
+            {
+              "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/2a68f1ed-7438-4722-b513-e850a83012ba/imagem_2024-09-06_020718130.png",
+              "name": "Linkedin",
+              "width": 18,
+              "height": 18,
+              "link": "#"
+            }
+          ],
+          "photo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/b9e62f9c-f62c-4714-aba3-764b8ff40280/imagem_2024-09-06_021115534.png",
+          "width": 576,
+          "height": 344,
+          "firstName": "Luca",
+          "lastName": "Castellano",
+          "position": "Co-fundador",
+          "biography": "O único não carioca do grupo, nasceu em São Paulo, mas sempre teve uma forte conexão com o Rio de Janeiro. Bolsista pelo Ibmec, Luca sempre foi engajado em causas sociais, influenciado por sua mãe, que sempre contribuiu com serviços comunitários. No passado, Luca cofundou diversas iniciativas, como a Food4Good durante a pandemia de Covid-19, que ajudou mais de 2.000 famílias em vários estados do Brasil. \n<br> <br>\nEm busca de gerar um impacto duradouro e perpétuo, Luca conheceu o modelo de Endowments em 2022, quando cofundou o RIO Endowment ao lado de Thomas e João. Luca é bacharel em Direito pelo Ibmec."
+        },
+        {
+          "socialMediaLogos": [
+            {
+              "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/2a68f1ed-7438-4722-b513-e850a83012ba/imagem_2024-09-06_020718130.png",
+              "name": "Linkedin",
+              "width": 18,
+              "height": 18,
+              "link": "#"
+            }
+          ],
+          "photo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/5d449041-20dd-45a6-beca-a0f00cc2eef0/imagem_2024-09-06_021219531.png",
+          "width": 576,
+          "height": 344,
+          "firstName": "João",
+          "lastName": "Pedro de Abreu",
+          "position": "Co-fundador",
+          "biography": "27 anos, nasceu em Niterói e a educação sempre teve um papel significativo em sua história. Avô e avó maternos, bem como mãe e tias, são todos professores. Do lado paterno, foi o primeiro da família a se formar em uma universidade.\n<br><br>\nJoão se graduou em Direito pela UERJ em 2022. Inspirado pela dedicação de sua família à educação e motivado por devolver parte daquilo que recebeu ao longo de sua vida, cofundou o RIO Endowment em 2022."
+        }
+      ]
+    },
+    {
+      "__resolveType": "Relatórios"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}
