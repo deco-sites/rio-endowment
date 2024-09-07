@@ -267,7 +267,7 @@
       ]
     },
     {
-      "__resolveType": "site/sections/Content/PartnerSlider.tsx",
+      "__resolveType": "site/sections/Slider/PartnerSlider.tsx",
       "titleSection": "Semear hoje para colher um futuro próspero",
       "bgSection": "#191971",
       "partners": [

@@ -29,7 +29,9 @@ export default {
 				"green-200": "#B2FCF8",
 				"green-300": "#8CFBF5",
 				"gray-100": "#C0C3C4",
-				"gray-200": "#8D969E"
+				"gray-200": "#8D969E",
+				"gray-300": "#6E685E",
+				"gray-400": "#DFDDDA"
 			},
 			fontFamily: {
 				poppins: "Poppins, sans-serif"
