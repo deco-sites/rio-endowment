@@ -44,8 +44,8 @@
             "height": 46,
             "alt": "Deco.cx"
           },
-          "bgClosed": "#571919",
-          "bgOpened": "#352965",
+          "bgClosed": "#f00000",
+          "bgOpened": "#73ff00",
           "title": "Deco.cx",
           "description": "Lorem Ipsum"
         },
@@ -267,7 +267,7 @@
       ]
     },
     {
-      "__resolveType": "site/sections/Content/PartnerSlider.tsx",
+      "__resolveType": "site/sections/Slider/PartnerSlider.tsx",
       "titleSection": "Semear hoje para colher um futuro próspero",
       "bgSection": "#191971",
       "partners": [
@@ -281,7 +281,7 @@
           "photo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12250/402c68b2-400e-4e96-b732-d0e4f9ace1ef",
           "width": 325,
           "height": 299,
-          "quoteHighlight": "Investindo nos nossos alunos muito além do dinheiro.",
+          "quoteHighlight": "Investindo no futuro dos nossos alunos.",
           "quoteMain": "Muito além do investimento financeiro, o RIO promove o desenvolvimento da carreira dos nossos alunos através de mentorias individuais com mentores cuidadosamente selecionados e qualificados no mercado.",
           "name": "Guilherme Rodrigues",
           "position": "Co-Fundador e CEO da Deco.CX"
@@ -304,26 +304,7 @@
       ]
     },
     {
-      "__resolveType": "site/sections/Content/Reports.tsx",
-      "title": "<p style=\"text-align: center\"><strong><span style=\"color: rgb(25, 25, 113)\">Resultados</span></strong><span style=\"color: rgb(25, 25, 113)\"> &amp; Transparência</span></p>",
-      "cards": [
-        {
-          "description": "<p><span style=\"color: #191c1f\">Relatório de transparência do </span><strong><span style=\"color: #191c1f\">segundo semestre de 2024.</span></strong></p>",
-          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12250/786a0446-0590-476d-b5e2-8e973e6a792b",
-          "width": 456,
-          "height": 280,
-          "cardTitle": "2024 - 2",
-          "link": "#"
-        },
-        {
-          "description": "<p><span style=\"color: rgb(25, 28, 31)\">Relatório de transparência do </span><strong><span style=\"color: rgb(25, 28, 31)\">primeiro semestre de 2024.</span></strong></p>",
-          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12250/d0641f4f-334f-497a-8850-512a16007a21",
-          "width": 456,
-          "height": 280,
-          "cardTitle": "2024 - 1",
-          "link": "#"
-        }
-      ]
+      "__resolveType": "Relatórios"
     },
     {
       "__resolveType": "Newsletter"

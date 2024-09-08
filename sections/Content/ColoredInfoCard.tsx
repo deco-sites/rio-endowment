@@ -1,0 +1,1 @@
+export { default } from "site/components/ColoredInfoCard/ColoredInfoCard.tsx";
