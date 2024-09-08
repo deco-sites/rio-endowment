@@ -6,21 +6,56 @@ import { useScript } from "deco/hooks/useScript.ts";
 import { useDevice } from "deco/hooks/useDevice.ts";
 import { clx } from "site/sdk/clx.ts";
 
+/** @title {{classTitle}} */
 interface ClassesSliderProps {
-    image: ImageWidget;
-    width: number;
-    height: number;
-    alt: string;
-    link: string;
+    /**
+     * @title Nome da turma
+     */
     classTitle: string;
+    /**
+     * @title Imagem
+     */
+    image: ImageWidget;
+    /**
+     * @title Largura
+     */
+    width: number;
+    /**
+     * @title Altura
+     */
+    height: number;
+    /**
+     * @title Texto alternativo
+     */
+    alt: string;
+    /**
+     * @title Link da Turma
+     */
+    link: string;
 }
 
+/** @title Turmas */
 export interface Props {
+    /**
+     * @title Título
+     */
     sliderTitle: string;
+    /**
+     * @title Turmas
+     */
     sliderItems: {
-        desktop: ClassesSliderProps[]
-        tablet: ClassesSliderProps[]
-        mobile: ClassesSliderProps[]
+        /**
+         * @title Turmas - Desktop
+         */
+        desktop: ClassesSliderProps[];
+        /**
+         * @title Turmas - Tablet
+         */
+        tablet: ClassesSliderProps[];
+        /**
+         * @title Turmas - Mobile
+         */
+        mobile: ClassesSliderProps[];
     };
 }
 

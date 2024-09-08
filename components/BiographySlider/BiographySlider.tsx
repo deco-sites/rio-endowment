@@ -70,7 +70,7 @@ export interface Props {
     titleSection: string;
     bgSection: Color;
     biographies: PartnerProps[];
-}
+} 
 
 const BiographySlider = ({ bgSection, biographies, titleSection }: Props) => {
     const id = useId();
@@ -82,8 +82,8 @@ const BiographySlider = ({ bgSection, biographies, titleSection }: Props) => {
         >
             <div class="flex gap-8 ml-6 lg:ml-28 lg:h-[54px]">
                 <h1 class={clx(
-                    "max-w-52 font-poppins font-medium text-blue-100 text-2xl/7",
-                    "lg:text-3xl/none lg:max-w-none"
+                    "font-poppins font-medium text-blue-100 text-2xl/7 mb-8 sm:mb-8",
+                    "lg:text-3xl/none"
                 )}>
                     {titleSection}
                 </h1>
@@ -92,7 +92,7 @@ const BiographySlider = ({ bgSection, biographies, titleSection }: Props) => {
                         <Slider.Dot
                             additionalClasses={clx(
                                 "hidden sm:block font-semibold font-poppins text-gray-100 group w-24 pb-5",
-                                "disabled:block disabled:text-blue-300 disabled:border-b-2 disabled:border-pink-200"
+                                "disabled:text-blue-300 disabled:border-b-2 disabled:border-pink-200"
                             )}
                             index={index}
                         >

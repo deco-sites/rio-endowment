@@ -44,8 +44,8 @@
             "height": 46,
             "alt": "Deco.cx"
           },
-          "bgClosed": "#571919",
-          "bgOpened": "#352965",
+          "bgClosed": "#f00000",
+          "bgOpened": "#73ff00",
           "title": "Deco.cx",
           "description": "Lorem Ipsum"
         },
@@ -281,7 +281,7 @@
           "photo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12250/402c68b2-400e-4e96-b732-d0e4f9ace1ef",
           "width": 325,
           "height": 299,
-          "quoteHighlight": "Investindo nos nossos alunos muito além do dinheiro.",
+          "quoteHighlight": "Investindo no futuro dos nossos alunos.",
           "quoteMain": "Muito além do investimento financeiro, o RIO promove o desenvolvimento da carreira dos nossos alunos através de mentorias individuais com mentores cuidadosamente selecionados e qualificados no mercado.",
           "name": "Guilherme Rodrigues",
           "position": "Co-Fundador e CEO da Deco.CX"

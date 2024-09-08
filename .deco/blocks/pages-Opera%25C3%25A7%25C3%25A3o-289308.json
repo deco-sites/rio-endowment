@@ -1,0 +1,378 @@
+{
+  "name": "Operação",
+  "path": "/operacao",
+  "sections": [
+    {
+      "__resolveType": "Header Principal"
+    },
+    {
+      "__resolveType": "site/sections/Image/BannerText.tsx",
+      "mobileBanner": {
+        "text": "<p><span style=\"color: #ffffff; font-size: 27pt\">Como funciona</span></p><p><span style=\"color: #ffffff; font-size: 27pt\"> o </span><strong><span style=\"color: #ffffff; font-size: 27pt\">RIO</span></strong><span style=\"color: #ffffff; font-size: 27pt\"><br></span></p>",
+        "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/b5fcbcb0-facc-44ea-b93d-0f959eeb26ac/imagem_2024-09-07_180506493.png",
+        "width": 475,
+        "height": 633,
+        "alt": "Operação"
+      },
+      "desktopBanner": {
+        "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/1280ae70-7bef-4481-a038-4c84e30e6361/imagem_2024-09-07_180222267.png",
+        "width": 1920,
+        "height": 1080,
+        "alt": "Operação",
+        "text": "<p><span style=\"color: #ffffff; font-size: 30pt\">Como funciona</span></p><p><span style=\"color: #ffffff; font-size: 30pt\"> o </span><strong><span style=\"color: #ffffff; font-size: 30pt\">RIO</span></strong><span style=\"color: #ffffff; font-size: 30pt\"><br></span></p>"
+      },
+      "tabletBanner": {
+        "text": "<p><span style=\"color: rgb(255, 255, 255); font-size: 30pt\">Como funciona</span></p><p><span style=\"color: rgb(255, 255, 255); font-size: 30pt\"> o </span><strong><span style=\"color: rgb(255, 255, 255); font-size: 30pt\">RIO</span></strong><span style=\"color: rgb(255, 255, 255); font-size: 30pt\"><br></span></p>",
+        "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/1280ae70-7bef-4481-a038-4c84e30e6361/imagem_2024-09-07_180222267.png",
+        "width": 1024,
+        "height": 506,
+        "alt": "Operação"
+      }
+    },
+    {
+      "__resolveType": "site/sections/Slider/SliderInfoCard.tsx",
+      "title": "<p><span style=\"color: rgb(25, 25, 113); font-size: 30pt\">Investimos em </span><strong><span style=\"color: rgb(25, 25, 113); font-size: 30pt\">mentes brilhantes</span></strong><span style=\"color: rgb(25, 25, 113); font-size: 30pt\"> no Rio</span></p><p><span style=\"color: rgb(25, 25, 113); font-size: 30pt\">de Janeiro, </span><strong><span style=\"color: rgb(25, 25, 113); font-size: 30pt\">destravando potencial</span></strong></p><p><span style=\"color: rgb(25, 25, 113); font-size: 30pt\">de alunos em STEM</span></p>",
+      "infoCards": [
+        {
+          "imageMobile": {
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/c8d0c0f2-8939-4e36-ada8-5c647e5eff16/imagem_2024-09-07_193244015.png",
+            "width": 475,
+            "height": 274,
+            "alt": "Pedro Torresan"
+          },
+          "imageDesktop": {
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/fa85ded1-6688-4f1b-acca-0b54bd18171f/imagem_2024-09-07_193404681.png",
+            "width": 426,
+            "height": 500,
+            "alt": "Pedro Torresan"
+          },
+          "text": {
+            "__resolveType": "site/sections/Text/Quote.tsx",
+            "quoteMain": "“Uma longa caminhada começa com um pequeno passo. Estruturamos o Programa de Mentoria como forma de materializar o impacto que pretendemos gerar ao longo de nossa história”",
+            "name": "Pedro Torresan",
+            "position": "Arquiteto do Programa de Mentoria do RIO Endowment"
+          }
+        },
+        {
+          "imageMobile": {
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/6de962ac-c9b7-4ebf-8717-55bf23cf1b20/imagem_2024-09-07_203643148.png",
+            "width": 475,
+            "height": 274,
+            "alt": "Banner"
+          },
+          "imageDesktop": {
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/38de401d-52ef-4c41-9505-6767c5919511/imagem_2024-09-07_203707081.png",
+            "width": 426,
+            "height": 500,
+            "alt": "Banner"
+          },
+          "text": {
+            "__resolveType": "site/sections/Text/QuantityHighlight.tsx",
+            "highlights": [
+              {
+                "quantity": "+R$250,000",
+                "text": "Montante total doado até setembro de 2024"
+              },
+              {
+                "quantity": "+120h",
+                "text": "De mentoria total aos nossos alunos"
+              },
+              {
+                "quantity": "15",
+                "text": "Alunos passaram pelo processo completo de mentoria do RIO"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Text/TextCard.tsx",
+      "title": "<p><strong><span style=\"color: #191971; font-size: 30pt\">Seleção de </span></strong></p><p><strong><span style=\"color: #191971; font-size: 30pt\">alunos</span></strong></p>",
+      "text": "<p><span style=\"color: #191c1f; font-size: 16pt\">O RIO, por meio de parcerias estratégicas com players de mercado,</span><span style=\"color: rgb(25, 25, 113); font-size: 16pt\"> </span><strong><span style=\"color: rgb(25, 25, 113); font-size: 16pt\">identifica e seleciona alunos em condições financeiras e/ou sociais desfavoráveis</span></strong><span style=\"color: rgb(25, 25, 113); font-size: 16pt\">, </span><span style=\"color: #191c1f; font-size: 16pt\">focados em carreiras da nova economia. A partir dessa seleção, um grupo específico de estudantes é escolhido para iniciar a próxima turma.</span></p>",
+      "cards": [
+        {
+          "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/1eb5e8f3-6a14-4a3e-b815-c0a956d92dfe/imagem_2024-09-07_215552865.png",
+          "width": 50,
+          "height": 45,
+          "cardTitle": "Parceria com instituições",
+          "cardText": "Buscamos estudantes de destaque em instituições renomadas"
+        },
+        {
+          "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/6bbad4d2-7f71-44be-8d41-11c38f89fe57/imagem_2024-09-08_002045466.png",
+          "width": 55,
+          "height": 45,
+          "cardTitle": "Estudantes STEM",
+          "cardText": "Alunos devem cursar ciências, tecnologia, engenharia ou matemática"
+        },
+        {
+          "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/28712d35-c4a5-49de-a9d6-611266e528f5/imagem_2024-09-08_002943042.png",
+          "width": 35,
+          "height": 50,
+          "cardTitle": "Rio de Janeiro",
+          "cardText": "Para serem elegíveis, os alunos devem estar matriculados em universidades no Rio de Janeiro"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Text/MentoringDisclaimer.tsx",
+      "title": "Programa de mentoria",
+      "description": "Mentores individuais cuidadosamente selecionados de forma personalizada, por um período de 4 meses. ",
+      "topics": [
+        {
+          "topicTitle": "Realização de match"
+        },
+        {
+          "topicTitle": "Organização das sessões"
+        },
+        {
+          "topicTitle": "Avaliações periódicas"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Content/MentorExplanation.tsx",
+      "bgMentor": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/e65e4cd0-9538-47ce-a22c-d39c72a2a806/imagem_2024-09-08_135845123.png",
+      "people": [
+        {
+          "photo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/d4c3a43b-2581-44be-a55d-0fa2537f83cd/imagem_2024-09-08_134808445.png",
+          "width": 128,
+          "height": 128,
+          "firstName": "Luis",
+          "lastName": "Wolf"
+        },
+        {
+          "photo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/adfc313c-7e92-414c-b85e-7d3a4693e209/imagem_2024-09-08_134901506.png",
+          "width": 128,
+          "height": 128,
+          "firstName": "Gustavo",
+          "lastName": "Bayum"
+        },
+        {
+          "photo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/805556cc-a810-4dff-84a6-b144fd41e67b/imagem_2024-09-08_135439563.png",
+          "width": 128,
+          "height": 128,
+          "firstName": "David",
+          "lastName": "Lejudice"
+        },
+        {
+          "photo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/648d92f1-6339-4413-ba61-82e4cb1f9daf/imagem_2024-09-08_135513848.png",
+          "width": 128,
+          "height": 128,
+          "firstName": "Cristine",
+          "lastName": "Busato"
+        },
+        {
+          "photo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/4e6d90b0-d197-43cf-a764-2a7de6e067a4/imagem_2024-09-08_135535908.png",
+          "width": 128,
+          "height": 128,
+          "firstName": "Pedro",
+          "lastName": "Berto"
+        },
+        {
+          "photo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/57f1d10a-e6ec-4d63-8eed-c14c737c110f/imagem_2024-09-08_135557448.png",
+          "width": 128,
+          "height": 128,
+          "firstName": "Carolina",
+          "lastName": "Riseto"
+        },
+        {
+          "photo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/c90bbc43-85e8-4f55-8c30-1f64b60d9854/imagem_2024-09-08_135613793.png",
+          "width": 128,
+          "height": 128,
+          "firstName": "Ana Laura",
+          "lastName": "Dutra"
+        },
+        {
+          "photo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/76414b05-8ad2-4f08-84a8-eb020917f0c6/imagem_2024-09-08_135644824.png",
+          "width": 128,
+          "height": 128,
+          "firstName": "Mariana",
+          "lastName": "Rodeio"
+        },
+        {
+          "photo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/39f74d8a-49d2-4a3b-84df-2e3a07882934/imagem_2024-09-08_135705964.png",
+          "width": 128,
+          "height": 128,
+          "firstName": "Lucca",
+          "lastName": "Freire"
+        }
+      ],
+      "trajectories": {
+        "text": "Nossos mentores são profissionais experientes e altamente qualificados, trabalhando em empresas como:",
+        "images": [
+          {
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/19ba37e9-49e9-4475-a048-9011d7116c1c/imagem_2024-09-08_142234342.png",
+            "width": 49,
+            "height": 36,
+            "name": "KPMG"
+          },
+          {
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/e7c7bd75-7613-4dac-a989-16f20afbd3c0/imagem_2024-09-08_142648637.png",
+            "width": 61,
+            "height": 17,
+            "name": "VORTX"
+          },
+          {
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/f64a55f7-c1b9-4abc-80e7-3476f08d7564/imagem_2024-09-08_142714202.png",
+            "width": 50,
+            "height": 17,
+            "name": "edp"
+          },
+          {
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/d4d10ab5-96ea-479d-ace5-62561b8a0539/imagem_2024-09-08_142734246.png",
+            "width": 67,
+            "height": 17,
+            "name": "stone"
+          },
+          {
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/aa2288f4-3014-4463-beb0-35f4c74ab098/imagem_2024-09-08_142759431.png",
+            "width": 70,
+            "height": 19,
+            "name": "DEME"
+          },
+          {
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/56533373-d06b-427a-a68e-1614da4bf607/imagem_2024-09-08_142820090.png",
+            "width": 51,
+            "height": 23,
+            "name": "BAT BRASIL"
+          }
+        ]
+      },
+      "customization": "As mentorias são conduzidas de forma individual e personalizada, onde cada aluno é acompanhado por um único mentor. Estes são cuidadosamente selecionados pela nossa equipe e atribuídos a alunos com quem têm maior afinidade, garantindo um acompanhamento alinhado às necessidades e objetivos de cada estudante.",
+      "sessions": "As sessões são organizadas previamente pela nossa equipe e repassadas aos mentores, otimizando o tempo deles e garantindo o sucesso do programa."
+    },
+    {
+      "__resolveType": "site/sections/Content/MentorReview.tsx",
+      "title": "O que os mentores estão falando",
+      "ctaText": "Quero ser mentor",
+      "ctaLink": "#",
+      "cards": [
+        {
+          "photo": {
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/9f1f7250-03f8-4690-b034-572b73d9a5cc/imagem_2024-09-08_152201152.png",
+            "width": 94,
+            "height": 94
+          },
+          "quote": "O programa favoreceu o desenvolvimento de muitos processos como ampliação de consciência e do autoconhecimento, busca por propósito, plano de carreira até a criação de um plano de ação para implementação do que foi identificado.",
+          "name": "Cristine Busato",
+          "position": "Mentora da Turma Ismart"
+        },
+        {
+          "photo": {
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/022ba2a4-31c2-4506-8a18-f56e463172fb/imagem_2024-09-08_152302820.png",
+            "width": 94,
+            "height": 94
+          },
+          "quote": "O mentorado chegou ao final do programa com mais definição e clareza de seus objetivos, conseguindo concatenar ideias e projetos que se alinhem a tal ideia de destino.",
+          "name": "Gustavo Bayum de Paiva",
+          "position": "Mentor da Turma Ismart"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Text/Investment.tsx",
+      "text": "Investimento",
+      "description": "<p style=\"text-align: center\"><span style=\"color: #191c1f; font-size: 18pt\">Os editais são abertos exclusivamente para os alunos que concluíram nosso programa de mentoria, tornando-os os únicos elegíveis para receber bolsas. O investimento será realizado com um valor acordado, e o </span><strong><span style=\"color: #191971; font-size: 18pt\">aluno receberá acompanhamento durante os meses em que estiver sendo beneficiado.</span></strong></p>",
+      "cards": [
+        {
+          "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/2d493704-30d8-478f-83a5-b845e24c699f/imagem_2024-09-08_172404697.png",
+          "width": 110,
+          "height": 110,
+          "cardTitle": "Escolha",
+          "cardText": "Após a conclusão do programa de mentoria, somente os alunos que passaram por ele tornam-se elegíveis para receber o auxílio do RIO Endowment."
+        },
+        {
+          "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/d3ae9506-7a60-4aca-92bb-93770250021f/imagem_2024-09-08_172524164.png",
+          "width": 110,
+          "height": 110,
+          "cardTitle": "Seleção",
+          "cardText": "Os alunos serão selecionados para diferentes editais, nos quais poderão competir por uma bolsa. Os editais permitem a concessão de bolsas para cursos profissionalizantes ou auxílio-vida."
+        },
+        {
+          "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/ee3ea814-d1e3-4985-ae94-98738f565f13/imagem_2024-09-08_172600991.png",
+          "width": 110,
+          "height": 110,
+          "cardTitle": "Acompanhamento",
+          "cardText": "Após a aprovação do conselho, os alunos vencedores dos editais, recebem o investimento. Os alunos prestam contas que são reportados nos relatórios de transparência."
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Content/StudentReview.tsx",
+      "title": "Depoimento dos alunos",
+      "cards": [
+        {
+          "photo": {
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/3a103c7b-2c46-41f3-a3fa-cd08593da142/imagem_2024-09-08_181119183.png",
+            "width": 94,
+            "height": 94
+          },
+          "quote": "Por aqui está tudo ótimo, a mentoria que fiz com vocês trouxe muitos frutos, me ajudou principalmente a ter mais confiança nas minhas entrevistas para ingressar na L'Oréal. Gratidão. Sucesso para vocês e que continuem voando!",
+          "name": "Tatiane Andrade",
+          "position": "Turma CEFET RJ"
+        },
+        {
+          "photo": {
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/748c79bd-c29d-439c-aa60-63bc6af91b32/imagem_2024-09-08_193314849.png",
+            "width": 94,
+            "height": 94
+          },
+          "quote": "Minha organização e com a responsabilidade em\nrelação ao processo de crescimento que estou passando ao tomar escolhas\nmais conscientes. Não tenho nada a dizer, só agradecer.”",
+          "name": "Iago Oliveira",
+          "position": "Turma Ismart"
+        },
+        {
+          "photo": {
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/da84a6ec-3091-4985-aa36-4a875b5c9ab6/imagem_2024-09-08_193120067.png",
+            "width": 94,
+            "height": 94
+          },
+          "quote": "Durante as sessões, tive a sensação de não me sentir mais impostora, de conseguir ver tudo que eu já conquistei, e a minha capacidade de conquistar ainda mais. Ver como tudo que estou fazendo faz sentido com meu sonho, acabei chorando.",
+          "name": "Myrella Graciano",
+          "position": "Turma Ismart"
+        },
+        {
+          "photo": {
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/b4d53054-446c-4202-90be-bda15508bb5c/imagem_2024-09-08_193353294.png",
+            "width": 94,
+            "height": 94
+          },
+          "quote": "Eu gostei bastante da experiência, foi muito importante para que eu identificasse o que eu realmente quero atuar e o que eu posso fazer para me desenvolver ainda mais.",
+          "name": "Ana Vitória Castro",
+          "position": "Turma Ismart"
+        },
+        {
+          "photo": {
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/4c936da3-0ba5-48fd-94a2-a965aa02f109/imagem_2024-09-08_193243375.png",
+            "width": 94,
+            "height": 94
+          },
+          "quote": "Esse foi um período enriquecedor e muito importante para o meu\ndesenvolvimento pessoal e profissional, além de me despertar novos\nobjetivos para trilhar um caminho visando uma realização profissional.",
+          "name": "Larissa Saviani",
+          "position": "Turma Ismart"
+        },
+        {
+          "photo": {
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/37a41d31-f49e-4b27-8613-3c7a961d8887/imagem_2024-09-08_193427313.png",
+            "width": 94,
+            "height": 94
+          },
+          "quote": "O programa de mentoria foi uma experiência incrível. Acho que me impactou bastante, me trazendo novas visões sobre o mercado de trabalho e minha carreira acadêmica e profissional.",
+          "name": "Nicolas Gonçalves",
+          "position": "Turma Ismart"
+        }
+      ]
+    },
+    {
+      "__resolveType": "Newsletter"
+    },
+    {
+      "__resolveType": "Footer"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

@@ -115,13 +115,13 @@
               "link": "#"
             }
           ],
-          "photo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/b9e62f9c-f62c-4714-aba3-764b8ff40280/imagem_2024-09-06_021115534.png",
+          "photo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/5d449041-20dd-45a6-beca-a0f00cc2eef0/imagem_2024-09-06_021219531.png",
           "width": 576,
           "height": 344,
-          "firstName": "Luca",
-          "lastName": "Castellano",
+          "firstName": "João",
+          "lastName": "Pedro de Abreu",
           "position": "Co-fundador",
-          "biography": "O único não carioca do grupo, nasceu em São Paulo, mas sempre teve uma forte conexão com o Rio de Janeiro. Bolsista pelo Ibmec, Luca sempre foi engajado em causas sociais, influenciado por sua mãe, que sempre contribuiu com serviços comunitários. No passado, Luca cofundou diversas iniciativas, como a Food4Good durante a pandemia de Covid-19, que ajudou mais de 2.000 famílias em vários estados do Brasil. \n<br> <br>\nEm busca de gerar um impacto duradouro e perpétuo, Luca conheceu o modelo de Endowments em 2022, quando cofundou o RIO Endowment ao lado de Thomas e João. Luca é bacharel em Direito pelo Ibmec."
+          "biography": "27 anos, nasceu em Niterói e a educação sempre teve um papel significativo em sua história. Avô e avó maternos, bem como mãe e tias, são todos professores. Do lado paterno, foi o primeiro da família a se formar em uma universidade.\n<br><br>\nJoão se graduou em Direito pela UERJ em 2022. Inspirado pela dedicação de sua família à educação e motivado por devolver parte daquilo que recebeu ao longo de sua vida, cofundou o RIO Endowment em 2022."
         },
         {
           "socialMediaLogos": [
@@ -133,13 +133,13 @@
               "link": "#"
             }
           ],
-          "photo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/5d449041-20dd-45a6-beca-a0f00cc2eef0/imagem_2024-09-06_021219531.png",
+          "photo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/b9e62f9c-f62c-4714-aba3-764b8ff40280/imagem_2024-09-06_021115534.png",
           "width": 576,
           "height": 344,
-          "firstName": "João",
-          "lastName": "Pedro de Abreu",
+          "firstName": "Luca",
+          "lastName": "Castellano",
           "position": "Co-fundador",
-          "biography": "27 anos, nasceu em Niterói e a educação sempre teve um papel significativo em sua história. Avô e avó maternos, bem como mãe e tias, são todos professores. Do lado paterno, foi o primeiro da família a se formar em uma universidade.\n<br><br>\nJoão se graduou em Direito pela UERJ em 2022. Inspirado pela dedicação de sua família à educação e motivado por devolver parte daquilo que recebeu ao longo de sua vida, cofundou o RIO Endowment em 2022."
+          "biography": "O único não carioca do grupo, nasceu em São Paulo, mas sempre teve uma forte conexão com o Rio de Janeiro. Bolsista pelo Ibmec, Luca sempre foi engajado em causas sociais, influenciado por sua mãe, que sempre contribuiu com serviços comunitários. No passado, Luca cofundou diversas iniciativas, como a Food4Good durante a pandemia de Covid-19, que ajudou mais de 2.000 famílias em vários estados do Brasil. \n<br> <br>\nEm busca de gerar um impacto duradouro e perpétuo, Luca conheceu o modelo de Endowments em 2022, quando cofundou o RIO Endowment ao lado de Thomas e João. Luca é bacharel em Direito pelo Ibmec."
         }
       ]
     },
@@ -179,6 +179,9 @@
     },
     {
       "__resolveType": "Relatórios"
+    },
+    {
+      "__resolveType": "Newsletter"
     }
   ],
   "seo": {
