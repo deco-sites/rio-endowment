@@ -13,7 +13,8 @@ export default {
 			boxShadow: {
 				header: "0px 5px 20px 0px #1C1C1E14",
 				"header-mobile": "0px 5px 20px 0px #00000014",
-				"infocard-hover": "10px 9px 11.1px 0px #00000040"
+				"infocard-hover": "10px 9px 11.1px 0px #00000040",
+				"card": "0px 0px 0px 1px #DFDDDA"
 			},
 			colors: {
 				"black-100": "#191C1F",
@@ -38,7 +39,8 @@ export default {
 				"gray-500": "#E2E8F0",
 				"gray-600": "#727272",
 				"gray-700": "#787A7D",
-				"gray-800": "#64748B"
+				"gray-800": "#64748B",
+				"gray-900": "#3D3D3D"
 			},
 			fontFamily: {
 				poppins: "Poppins, sans-serif"

@@ -1,0 +1,147 @@
+{
+  "name": "Time",
+  "path": "/time",
+  "sections": [
+    {
+      "__resolveType": "Header Principal"
+    },
+    {
+      "__resolveType": "site/sections/Image/BannerText.tsx",
+      "mobileBanner": {
+        "text": "<p><span style=\"color: rgb(255, 255, 255); font-size: 27pt\">Nosso </span><strong><span style=\"color: rgb(255, 255, 255); font-size: 27pt\">time</span></strong></p>",
+        "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/0ec12e31-898f-44cb-ad8f-293a6cca1c39/imagem_2024-09-08_223416433.png",
+        "width": 475,
+        "height": 600,
+        "alt": "Banner - time - Mobile"
+      },
+      "desktopBanner": {
+        "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/0ec12e31-898f-44cb-ad8f-293a6cca1c39/imagem_2024-09-08_223416433.png",
+        "width": 1920,
+        "height": 1080,
+        "alt": "Banner - Time - Desktop ",
+        "text": "<p><span style=\"color: rgb(255, 255, 255); font-size: 39pt\">Nosso </span><strong><span style=\"color: rgb(255, 255, 255); font-size: 39pt\">time</span></strong></p>"
+      },
+      "tabletBanner": {
+        "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/0ec12e31-898f-44cb-ad8f-293a6cca1c39/imagem_2024-09-08_223416433.png",
+        "width": 1024,
+        "height": 768,
+        "alt": "Banner - Time - Tablet",
+        "text": "<p><span style=\"color: rgb(255, 255, 255); font-size: 30pt\">Nosso </span><strong><span style=\"color: rgb(255, 255, 255); font-size: 30pt\">time</span></strong></p>"
+      }
+    },
+    {
+      "__resolveType": "site/sections/Content/Accordion.tsx",
+      "title": "Diretoria",
+      "cardFormat": "image-highlight",
+      "cards": [
+        {
+          "photo": {
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/dd91fea6-e009-41ad-a890-65f97e684dcb/imagem_2024-09-08_215612490.png",
+            "width": 312,
+            "height": 188
+          },
+          "socialMedias": [
+            {
+              "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/3fdd52fe-fd60-4f8e-8d16-af8c28238386/imagem_2024-09-08_212137679.png",
+              "name": "Linkedin",
+              "width": 16,
+              "height": 18,
+              "link": "#"
+            }
+          ],
+          "position": "<p><span>Co-Fundador &amp; CEO da Deco.</span></p>",
+          "name": "Guilherme Rodrigues"
+        }
+      ],
+      "initOpen": false
+    },
+    {
+      "__resolveType": "site/sections/Content/Accordion.tsx",
+      "title": "Liderança",
+      "cardFormat": "simple",
+      "cards": [
+        {
+          "photo": {
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/b86e6f13-7154-4473-9075-ec74bca63f57/imagem_2024-09-08_211917621.png",
+            "width": 64,
+            "height": 64
+          },
+          "socialMedias": [
+            {
+              "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/3fdd52fe-fd60-4f8e-8d16-af8c28238386/imagem_2024-09-08_212137679.png",
+              "name": "Linkedin",
+              "width": 16,
+              "height": 18,
+              "link": "#"
+            }
+          ],
+          "position": "<p><span>Autor, ex-Sócio KPMG.</span></p>",
+          "name": "Luis Wolf"
+        }
+      ],
+      "initOpen": false
+    },
+    {
+      "__resolveType": "site/sections/Content/Accordion.tsx",
+      "title": "Conselho Administrativo",
+      "cardFormat": "simple",
+      "cards": [
+        {
+          "photo": {
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/b86e6f13-7154-4473-9075-ec74bca63f57/imagem_2024-09-08_211917621.png",
+            "width": 64,
+            "height": 64
+          },
+          "socialMedias": [
+            {
+              "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/3fdd52fe-fd60-4f8e-8d16-af8c28238386/imagem_2024-09-08_212137679.png",
+              "name": "Linkedin",
+              "width": 16,
+              "height": 18,
+              "link": "#"
+            }
+          ],
+          "position": "<p><span>Autor, ex-Sócio KPMG.</span></p>",
+          "name": "Luis Wolf"
+        }
+      ],
+      "initOpen": false
+    },
+    {
+      "__resolveType": "site/sections/Content/Accordion.tsx",
+      "title": "Conselho Consultivo",
+      "cardFormat": "simple",
+      "cards": [
+        {
+          "photo": {
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/b86e6f13-7154-4473-9075-ec74bca63f57/imagem_2024-09-08_211917621.png",
+            "width": 64,
+            "height": 64
+          },
+          "socialMedias": [
+            {
+              "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/3fdd52fe-fd60-4f8e-8d16-af8c28238386/imagem_2024-09-08_212137679.png",
+              "name": "Linkedin",
+              "width": 16,
+              "height": 18,
+              "link": "#"
+            }
+          ],
+          "position": "<p><span>Autor, ex-Sócio KPMG.</span></p>",
+          "name": "Luis Wolf"
+        }
+      ],
+      "initOpen": false
+    },
+    {
+      "__resolveType": "Newsletter"
+    },
+    {
+      "__resolveType": "Footer"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}
