@@ -9,6 +9,7 @@ export default {
 		extend: {
 			animation: {
 				sliding: "sliding 30s linear infinite",
+				"fade-up": "fadeUp .55s ease-out"
 			},
 			boxShadow: {
 				header: "0px 5px 20px 0px #1C1C1E14",
@@ -50,6 +51,10 @@ export default {
 					"0%": { transform: "translateX(0)" },
 					"100%": { transform: "translateX(-50%)" },
 				},
+				fadeUp: {
+					'0%': { opacity: '0', transform: 'translateY(64px)'  },
+					'100%': { opacity: '1', transform: 'translateY(0)'  },
+				}
 			},
 		},
 	},
