@@ -116,7 +116,7 @@
       "cards": [
         {
           "photo": {
-            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/b86e6f13-7154-4473-9075-ec74bca63f57/imagem_2024-09-08_211917621.png",
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/4c91c8ba-e043-4191-8f87-3c8fc5e50e93/bia.jpeg",
             "width": 64,
             "height": 64
           },
@@ -126,11 +126,47 @@
               "name": "Linkedin",
               "width": 16,
               "height": 18,
-              "link": "#"
+              "link": "https://www.linkedin.com/in/beatrizagalvao/"
             }
           ],
-          "position": "<p><span>Autor, ex-Sócio KPMG.</span></p>",
-          "name": "Luis Wolf"
+          "position": "<p>Líder Financeiro.</p>",
+          "name": "Beatriz Galvão"
+        },
+        {
+          "photo": {
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/b98ba2cf-c9d7-44ff-8d98-fd73039aefb5/torresan.jpeg",
+            "width": 64,
+            "height": 64
+          },
+          "socialMedias": [
+            {
+              "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/3fdd52fe-fd60-4f8e-8d16-af8c28238386/imagem_2024-09-08_212137679.png",
+              "name": "Linkedin",
+              "width": 16,
+              "height": 18,
+              "link": "https://www.linkedin.com/in/pedrotorresan/"
+            }
+          ],
+          "position": "<p>Líder de Produtos.</p>",
+          "name": "Pedro Torresan"
+        },
+        {
+          "photo": {
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/699c2384-944d-4a27-918f-25c07577b922/avyman.jpeg",
+            "width": 64,
+            "height": 64
+          },
+          "socialMedias": [
+            {
+              "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/3fdd52fe-fd60-4f8e-8d16-af8c28238386/imagem_2024-09-08_212137679.png",
+              "name": "Linkedin",
+              "width": 16,
+              "height": 18,
+              "link": "https://www.linkedin.com/in/avy-pinto-7092a8132/"
+            }
+          ],
+          "position": "<p>Líder de Captação.</p>",
+          "name": "Avy Pinto"
         }
       ],
       "initOpen": false
