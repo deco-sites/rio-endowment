@@ -9,19 +9,19 @@
   "navItems": [
     {
       "navText": "Sobre",
-      "link": "#"
+      "link": "/sobre-nos"
     },
     {
       "navText": "Doadores",
-      "link": "#"
+      "link": "/doadores"
     },
     {
       "navText": "Operação",
-      "link": "#"
+      "link": "/operacao"
     },
     {
       "navText": "Time",
-      "link": "#"
+      "link": "/time"
     },
     {
       "navText": "Turmas",

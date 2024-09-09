@@ -28,19 +28,19 @@
   "navItems": [
     {
       "navText": "Sobre",
-      "link": "#"
+      "link": "/sobre-nos"
     },
     {
       "navText": "Time",
-      "link": "#"
+      "link": "/time"
     },
     {
       "navText": "Doadores",
-      "link": "#"
+      "link": "/doadores"
     },
     {
       "navText": "Operação",
-      "link": "#"
+      "link": "/operacao"
     },
     {
       "navText": "Turmas",
