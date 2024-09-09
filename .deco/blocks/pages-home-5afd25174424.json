@@ -35,55 +35,125 @@
       }
     },
     {
-      "__resolveType": "site/sections/Content/PartnersList.tsx",
-      "partnersList": [
+      "__resolveType": "website/flags/multivariate/section.ts",
+      "variants": [
         {
-          "partnerLogo": {
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12250/094a9ad4-9b0a-4998-805c-a253c268b6d6",
-            "width": 46,
-            "height": 46,
-            "alt": "Deco.cx"
+          "value": {
+            "__resolveType": "site/sections/Slider/PartnersListMobile.tsx",
+            "partnersList": [
+              {
+                "partnerLogo": {
+                  "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12250/094a9ad4-9b0a-4998-805c-a253c268b6d6",
+                  "width": 46,
+                  "height": 46,
+                  "alt": "Deco.cx"
+                },
+                "bgClosed": "#f00000",
+                "bgOpened": "#73ff00",
+                "title": "Deco.cx",
+                "description": "Lorem Ipsum"
+              },
+              {
+                "partnerLogo": {
+                  "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12250/094a9ad4-9b0a-4998-805c-a253c268b6d6",
+                  "width": 46,
+                  "height": 46,
+                  "alt": "Deco.cx"
+                },
+                "bgClosed": "#571919",
+                "bgOpened": "#352965",
+                "title": "Deco.cx",
+                "description": "Lorem Ipsum"
+              },
+              {
+                "partnerLogo": {
+                  "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12250/094a9ad4-9b0a-4998-805c-a253c268b6d6",
+                  "width": 46,
+                  "height": 46,
+                  "alt": "Deco.cx"
+                },
+                "bgClosed": "#571919",
+                "bgOpened": "#352965",
+                "title": "Deco.cx",
+                "description": "Lorem Ipsum"
+              },
+              {
+                "partnerLogo": {
+                  "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12250/094a9ad4-9b0a-4998-805c-a253c268b6d6",
+                  "width": 46,
+                  "height": 46,
+                  "alt": "Deco.cx"
+                },
+                "bgClosed": "#571919",
+                "bgOpened": "#352965",
+                "title": "Deco.cx",
+                "description": "Lorem Ipsum"
+              }
+            ]
           },
-          "bgClosed": "#f00000",
-          "bgOpened": "#73ff00",
-          "title": "Deco.cx",
-          "description": "Lorem Ipsum"
+          "rule": {
+            "__resolveType": "website/matchers/device.ts",
+            "mobile": true,
+            "tablet": true
+          }
         },
         {
-          "partnerLogo": {
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12250/094a9ad4-9b0a-4998-805c-a253c268b6d6",
-            "width": 46,
-            "height": 46,
-            "alt": "Deco.cx"
+          "value": {
+            "__resolveType": "site/sections/Content/PartnersList.tsx",
+            "partnersList": [
+              {
+                "partnerLogo": {
+                  "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12250/094a9ad4-9b0a-4998-805c-a253c268b6d6",
+                  "width": 46,
+                  "height": 46,
+                  "alt": "Deco.cx"
+                },
+                "bgClosed": "#f00000",
+                "bgOpened": "#73ff00",
+                "title": "Deco.cx",
+                "description": "Lorem Ipsum"
+              },
+              {
+                "partnerLogo": {
+                  "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12250/094a9ad4-9b0a-4998-805c-a253c268b6d6",
+                  "width": 46,
+                  "height": 46,
+                  "alt": "Deco.cx"
+                },
+                "bgClosed": "#571919",
+                "bgOpened": "#352965",
+                "title": "Deco.cx",
+                "description": "Lorem Ipsum"
+              },
+              {
+                "partnerLogo": {
+                  "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12250/094a9ad4-9b0a-4998-805c-a253c268b6d6",
+                  "width": 46,
+                  "height": 46,
+                  "alt": "Deco.cx"
+                },
+                "bgClosed": "#571919",
+                "bgOpened": "#352965",
+                "title": "Deco.cx",
+                "description": "Lorem Ipsum"
+              },
+              {
+                "partnerLogo": {
+                  "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12250/094a9ad4-9b0a-4998-805c-a253c268b6d6",
+                  "width": 46,
+                  "height": 46,
+                  "alt": "Deco.cx"
+                },
+                "bgClosed": "#571919",
+                "bgOpened": "#352965",
+                "title": "Deco.cx",
+                "description": "Lorem Ipsum"
+              }
+            ]
           },
-          "bgClosed": "#571919",
-          "bgOpened": "#352965",
-          "title": "Deco.cx",
-          "description": "Lorem Ipsum"
-        },
-        {
-          "partnerLogo": {
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12250/094a9ad4-9b0a-4998-805c-a253c268b6d6",
-            "width": 46,
-            "height": 46,
-            "alt": "Deco.cx"
-          },
-          "bgClosed": "#571919",
-          "bgOpened": "#352965",
-          "title": "Deco.cx",
-          "description": "Lorem Ipsum"
-        },
-        {
-          "partnerLogo": {
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12250/094a9ad4-9b0a-4998-805c-a253c268b6d6",
-            "width": 46,
-            "height": 46,
-            "alt": "Deco.cx"
-          },
-          "bgClosed": "#571919",
-          "bgOpened": "#352965",
-          "title": "Deco.cx",
-          "description": "Lorem Ipsum"
+          "rule": {
+            "__resolveType": "Desktop"
+          }
         }
       ]
     },
