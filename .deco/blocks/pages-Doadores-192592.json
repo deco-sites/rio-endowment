@@ -1,0 +1,101 @@
+{
+  "name": "Doadores",
+  "path": "/doadores",
+  "sections": [
+    {
+      "__resolveType": "Header Principal"
+    },
+    {
+      "__resolveType": "site/sections/Image/BannerText.tsx",
+      "mobileBanner": {
+        "text": "<p><span style=\"color: rgb(255, 255, 255); font-size: 27pt\">Nossos</span></p><p><strong><span style=\"color: rgb(255, 255, 255); font-size: 27pt\">Doadores</span></strong></p>",
+        "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/f41afa75-48d8-4727-b793-205dd25764bd/imagem_2024-09-08_202549321.png",
+        "width": 475,
+        "height": 600,
+        "alt": "Banner - Doadores - Mobile"
+      },
+      "desktopBanner": {
+        "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/f85ef9ff-bf76-4d91-af18-3c85d84dae47/imagem_2024-09-08_202401417.png",
+        "width": 1920,
+        "height": 1080,
+        "alt": "Banner - Doadores - Desktop ",
+        "text": "<p><span style=\"color: rgb(255, 255, 255); font-size: 39pt\">Nossos</span></p><p><strong><span style=\"color: rgb(255, 255, 255); font-size: 39pt\">Doadores</span></strong></p>"
+      },
+      "tabletBanner": {
+        "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/f41afa75-48d8-4727-b793-205dd25764bd/imagem_2024-09-08_202549321.png",
+        "width": 1024,
+        "height": 768,
+        "alt": "Banner - Doadores - Tablet",
+        "text": "<p><span style=\"color: rgb(255, 255, 255); font-size: 30pt\">Nossos</span></p><p><strong><span style=\"color: rgb(255, 255, 255); font-size: 30pt\">Doadores</span></strong></p>"
+      }
+    },
+    {
+      "__resolveType": "site/sections/Content/Accordion.tsx",
+      "title": "Doadores RIO",
+      "description": "Eternizados na história do RIO Endowment pelas suas contribuições.",
+      "cardFormat": "image-highlight",
+      "cards": [
+        {
+          "photo": {
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/dd91fea6-e009-41ad-a890-65f97e684dcb/imagem_2024-09-08_215612490.png",
+            "width": 312,
+            "height": 188
+          },
+          "socialMedias": [
+            {
+              "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/3fdd52fe-fd60-4f8e-8d16-af8c28238386/imagem_2024-09-08_212137679.png",
+              "name": "Linkedin",
+              "width": 16,
+              "height": 18,
+              "link": "#"
+            }
+          ],
+          "position": "<p><span>Co-Fundador &amp; CEO da Deco.</span></p>",
+          "name": "Guilherme Rodrigues"
+        }
+      ],
+      "initOpen": true
+    },
+    {
+      "__resolveType": "site/sections/Content/Accordion.tsx",
+      "title": "Doadores Fundadores",
+      "description": "Primeiros contribuidores da história do nosso fundo - ajudando nossos alunos desde o dia zero.",
+      "cardFormat": "simple",
+      "cards": [
+        {
+          "photo": {
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/b86e6f13-7154-4473-9075-ec74bca63f57/imagem_2024-09-08_211917621.png",
+            "width": 64,
+            "height": 64
+          },
+          "socialMedias": [
+            {
+              "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/3fdd52fe-fd60-4f8e-8d16-af8c28238386/imagem_2024-09-08_212137679.png",
+              "name": "Linkedin",
+              "width": 16,
+              "height": 18,
+              "link": "#"
+            }
+          ],
+          "position": "<p><span>Autor, ex-Sócio KPMG.</span></p>",
+          "name": "Luis Wolf"
+        }
+      ],
+      "initOpen": true
+    },
+    {
+      "__resolveType": "site/sections/Text/DonateDisclaimer.tsx",
+      "description": "<p><span style=\"color: #3d3d3d; font-size: 21pt\">Nossa comunidade é feita de doadores, voluntários, líderes e conselho de administração. Todos os membros possuem </span><strong><span style=\"color: #191971; font-size: 21pt\">impacto significativo</span></strong><span style=\"color: #3d3d3d; font-size: 21pt\"> na vida dos estudantes do Rio de Janeiro.</span></p><pre><code> </code></pre><p><span style=\"color: #3d3d3d; font-size: 21pt\">Apoiadores do RIO podem contribuir com cotas a partir de </span><strong><span style=\"color: #191971; font-size: 21pt\">R$5K</span></strong><span style=\"color: #3d3d3d; font-size: 21pt\">.</span></p>",
+      "title": "<p><span style=\"color: #191971; font-size: 48pt\">Seja nosso </span><strong><span style=\"color: #191971; font-size: 48pt\">próximo doador</span></strong></p>",
+      "ctaText": "Quero contribuir",
+      "ctaLink": "#"
+    },
+    {
+      "__resolveType": "Footer"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

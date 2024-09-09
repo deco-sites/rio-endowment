@@ -5,32 +5,80 @@
 import * as $$$$$$$$$$$0 from "./apps/decohub.ts";
 import * as $$$$$$$$$$$1 from "./apps/site.ts";
 import * as $$$$$$0 from "./sections/BlogPosts.tsx";
-import * as $$$$$$1 from "./sections/Faq.tsx";
-import * as $$$$$$2 from "./sections/Footer.tsx";
-import * as $$$$$$3 from "./sections/Header.tsx";
-import * as $$$$$$9 from "./sections/hero-1.tsx";
-import * as $$$$$$10 from "./sections/hero-2.tsx";
-import * as $$$$$$4 from "./sections/Hero.tsx";
-import * as $$$$$$11 from "./sections/hero2.tsx";
-import * as $$$$$$5 from "./sections/ImageWithParagraph.tsx";
-import * as $$$$$$6 from "./sections/Logos.tsx";
-import * as $$$$$$7 from "./sections/Testimonials.tsx";
-import * as $$$$$$8 from "./sections/Theme/Theme.tsx";
+import * as $$$$$$1 from "./sections/Content/Accordion.tsx";
+import * as $$$$$$2 from "./sections/Content/AnimatedInfoCard.tsx";
+import * as $$$$$$3 from "./sections/Content/ColoredInfoCard.tsx";
+import * as $$$$$$4 from "./sections/Content/MentorExplanation.tsx";
+import * as $$$$$$5 from "./sections/Content/MentorReview.tsx";
+import * as $$$$$$6 from "./sections/Content/Newsletter.tsx";
+import * as $$$$$$7 from "./sections/Content/PartnersList.tsx";
+import * as $$$$$$8 from "./sections/Content/Reports.tsx";
+import * as $$$$$$9 from "./sections/Content/StudentReview.tsx";
+import * as $$$$$$10 from "./sections/Faq.tsx";
+import * as $$$$$$11 from "./sections/Footer.tsx";
+import * as $$$$$$12 from "./sections/Header.tsx";
+import * as $$$$$$33 from "./sections/hero-1.tsx";
+import * as $$$$$$34 from "./sections/hero-2.tsx";
+import * as $$$$$$13 from "./sections/Hero.tsx";
+import * as $$$$$$35 from "./sections/hero2.tsx";
+import * as $$$$$$15 from "./sections/Image/BannerText.tsx";
+import * as $$$$$$16 from "./sections/Image/GridBanner.tsx";
+import * as $$$$$$17 from "./sections/Image/Media.tsx";
+import * as $$$$$$18 from "./sections/Image/Parallax.tsx";
+import * as $$$$$$14 from "./sections/ImageWithParagraph.tsx";
+import * as $$$$$$19 from "./sections/Logos.tsx";
+import * as $$$$$$20 from "./sections/Slider/BiographySlider.tsx";
+import * as $$$$$$21 from "./sections/Slider/ClassesSlider.tsx";
+import * as $$$$$$22 from "./sections/Slider/PartnerSlider.tsx";
+import * as $$$$$$23 from "./sections/Slider/SliderInfoCard.tsx";
+import * as $$$$$$24 from "./sections/Testimonials.tsx";
+import * as $$$$$$25 from "./sections/Text/DonateDisclaimer.tsx";
+import * as $$$$$$26 from "./sections/Text/Investment.tsx";
+import * as $$$$$$27 from "./sections/Text/MentoringDisclaimer.tsx";
+import * as $$$$$$28 from "./sections/Text/QuantityHighlight.tsx";
+import * as $$$$$$29 from "./sections/Text/Quote.tsx";
+import * as $$$$$$30 from "./sections/Text/RichText.tsx";
+import * as $$$$$$31 from "./sections/Text/TextCard.tsx";
+import * as $$$$$$32 from "./sections/Theme/Theme.tsx";
 
 const manifest = {
   "sections": {
     "site/sections/BlogPosts.tsx": $$$$$$0,
-    "site/sections/Faq.tsx": $$$$$$1,
-    "site/sections/Footer.tsx": $$$$$$2,
-    "site/sections/Header.tsx": $$$$$$3,
-    "site/sections/hero-1.tsx": $$$$$$9,
-    "site/sections/hero-2.tsx": $$$$$$10,
-    "site/sections/Hero.tsx": $$$$$$4,
-    "site/sections/hero2.tsx": $$$$$$11,
-    "site/sections/ImageWithParagraph.tsx": $$$$$$5,
-    "site/sections/Logos.tsx": $$$$$$6,
-    "site/sections/Testimonials.tsx": $$$$$$7,
-    "site/sections/Theme/Theme.tsx": $$$$$$8,
+    "site/sections/Content/Accordion.tsx": $$$$$$1,
+    "site/sections/Content/AnimatedInfoCard.tsx": $$$$$$2,
+    "site/sections/Content/ColoredInfoCard.tsx": $$$$$$3,
+    "site/sections/Content/MentorExplanation.tsx": $$$$$$4,
+    "site/sections/Content/MentorReview.tsx": $$$$$$5,
+    "site/sections/Content/Newsletter.tsx": $$$$$$6,
+    "site/sections/Content/PartnersList.tsx": $$$$$$7,
+    "site/sections/Content/Reports.tsx": $$$$$$8,
+    "site/sections/Content/StudentReview.tsx": $$$$$$9,
+    "site/sections/Faq.tsx": $$$$$$10,
+    "site/sections/Footer.tsx": $$$$$$11,
+    "site/sections/Header.tsx": $$$$$$12,
+    "site/sections/hero-1.tsx": $$$$$$33,
+    "site/sections/hero-2.tsx": $$$$$$34,
+    "site/sections/Hero.tsx": $$$$$$13,
+    "site/sections/hero2.tsx": $$$$$$35,
+    "site/sections/Image/BannerText.tsx": $$$$$$15,
+    "site/sections/Image/GridBanner.tsx": $$$$$$16,
+    "site/sections/Image/Media.tsx": $$$$$$17,
+    "site/sections/Image/Parallax.tsx": $$$$$$18,
+    "site/sections/ImageWithParagraph.tsx": $$$$$$14,
+    "site/sections/Logos.tsx": $$$$$$19,
+    "site/sections/Slider/BiographySlider.tsx": $$$$$$20,
+    "site/sections/Slider/ClassesSlider.tsx": $$$$$$21,
+    "site/sections/Slider/PartnerSlider.tsx": $$$$$$22,
+    "site/sections/Slider/SliderInfoCard.tsx": $$$$$$23,
+    "site/sections/Testimonials.tsx": $$$$$$24,
+    "site/sections/Text/DonateDisclaimer.tsx": $$$$$$25,
+    "site/sections/Text/Investment.tsx": $$$$$$26,
+    "site/sections/Text/MentoringDisclaimer.tsx": $$$$$$27,
+    "site/sections/Text/QuantityHighlight.tsx": $$$$$$28,
+    "site/sections/Text/Quote.tsx": $$$$$$29,
+    "site/sections/Text/RichText.tsx": $$$$$$30,
+    "site/sections/Text/TextCard.tsx": $$$$$$31,
+    "site/sections/Theme/Theme.tsx": $$$$$$32,
   },
   "apps": {
     "site/apps/decohub.ts": $$$$$$$$$$$0,

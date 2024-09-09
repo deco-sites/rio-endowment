@@ -1,0 +1,52 @@
+{
+  "__resolveType": "site/sections/Header.tsx",
+  "logo": {
+    "alt": "Logo | Rio Endowment",
+    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12250/258f7fb4-1149-4c9a-90ad-0928a47915ed",
+    "width": 129,
+    "height": 50
+  },
+  "navItems": [
+    {
+      "navText": "Sobre",
+      "link": "#"
+    },
+    {
+      "navText": "Doadores",
+      "link": "#"
+    },
+    {
+      "navText": "Operação",
+      "link": "#"
+    },
+    {
+      "navText": "Time",
+      "link": "#"
+    },
+    {
+      "navText": "Turmas",
+      "link": "#"
+    },
+    {
+      "navText": "Transparência",
+      "link": "#"
+    }
+  ],
+  "ctaButton": {
+    "isExternal": false,
+    "ctaText": "Doe Agora",
+    "link": "#"
+  },
+  "logoDesktop": {
+    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12250/258f7fb4-1149-4c9a-90ad-0928a47915ed",
+    "alt": "Rio Endowment - Desktop",
+    "width": 129,
+    "height": 50
+  },
+  "logoMobile": {
+    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12250/258f7fb4-1149-4c9a-90ad-0928a47915ed",
+    "alt": "Rio Endowment - Mobile",
+    "width": 129,
+    "height": 48
+  }
+}
