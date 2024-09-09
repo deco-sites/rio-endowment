@@ -99,6 +99,7 @@ const PartnerSlider = ({ bgSection, partners, titleSection }: Props) => {
             <main
                 id={id}
                 style={{ backgroundColor: bgSection }}
+                class="max-w-[1920px] mx-auto"
             >
                 <div
                     class={clx(
@@ -120,7 +121,9 @@ const PartnerSlider = ({ bgSection, partners, titleSection }: Props) => {
                             class={clx(
                                 "scroll-animate",
                                 "carousel carousel-center gap-6",
-                                "lg:space-x-14 lg:px-96 lg:gap-32"
+                                "lg:space-x-14 lg:px-28 lg:gap-32",
+                                "xl:px-40",
+                                "2xl:px-[352px]"
                             )}
                             rootId={id}
                         >
@@ -137,7 +140,7 @@ const PartnerSlider = ({ bgSection, partners, titleSection }: Props) => {
                                         src={photo}
                                         width={width}
                                         height={height}
-                                        class={device !== "desktop" ? "w-full" : ""}
+                                        class={device !== "desktop" ? "w-full max-w-[325px]" : "" + " rounded-lg"}
                                     />
                                     <div class="flex flex-col gap-6 lg:max-w-[491px] lg:justify-between">
                                         <span class="flex items-start pr-2">

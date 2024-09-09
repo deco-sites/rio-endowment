@@ -19,13 +19,14 @@ const PartnerItem = ({ bgClosed, bgOpened, description, partnerLogo, title }: Pa
     return (
         <div
             class={clx(
-                "px-7 py-2.5 h-[430px]",
+                "px-7 py-2.5 h-[430px] bg-fixed bg-no-repeat bg-cover",
                 "transition-all duration-[600ms] overflow-hidden"
             )}
             onClick={handleClick}
             style={{
-                backgroundColor: isOpen ? hexToRgba(bgOpened, 100) : hexToRgba(bgClosed, 85),
-                width: isOpen ? 466 : 155
+                // backgroundColor: isOpen ? hexToRgba(bgOpened, 100) : hexToRgba(bgClosed, 85),
+                width: isOpen ? 466 : 155,
+                backgroundImage: `url(https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/715325a6-c71e-47c0-89ff-2ec3e1304ffe/imagem_2024-09-09_130722876.png)`
             }}
         >
             <Image 
@@ -50,11 +51,11 @@ const PartnersList = ({ partnersList }: Props) => {
     return (
         <main class={clx(
             "-mt-52 w-full flex justify-center relative",
-            "sm:-mt-16 lg:partners-list lg:justify-end lg:h-[300px] lg:mt-0"
+            "sm:-mt-16 lg:partners-list lg:justify-center lg:h-[300px] lg:mt-0"
         )}>
             <section id={id} class={clx(
-                "hidden max-w-[90%] pb-2 w-full mx-auto relative",
-                "lg:absolute lg:-top-32 lg:carousel lg:overflow-auto lg:whitespace-nowrap"
+                "hidden w-fit max-w-[90%] pb-2 mx-auto relative justify-start",
+                "lg:absolute lg:-top-32 carousel lg:flex lg:overflow-auto lg:whitespace-nowrap"
             )}>
                 <div class="hidden gap-5 lg:flex">
                     {partnersList.map(({ bgClosed, bgOpened, description, partnerLogo, title }) => (
