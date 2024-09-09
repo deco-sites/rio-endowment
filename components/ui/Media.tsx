@@ -1,4 +1,5 @@
 import { ImageWidget } from "apps/admin/widgets.ts";
+import { useScript } from "deco/hooks/useScript.ts";
 import { clx } from "site/sdk/clx.ts";
 
 /** @title {{name}} */
@@ -39,20 +40,51 @@ export interface Props {
     images: MediaProps[];
 }
 
-const Media = ({ images, title }: Props) => (
-    <main class="px-10 mx-auto mb-20 ">
-        <h1 class="font-poppins text-center text-xs/10 text-gray-300 mb-8 sm:text-sm lg:text-base">{title}</h1>
-        <div class={clx(
-            "grid grid-cols-2 items-center justify-center gap-y-9",
-            "sm:grid-cols-3 lg:grid-cols-4"
-        )}>
-            {images.map(({ image, link, name, height, width }) => (
-                <a class="w-fit mx-auto h-fit max-h-full" href={link} title={name} target="_blank">
-                    <img width={width} height={height} class="max-h-full" src={image} alt={name} />
-                </a>
-            ))}
-        </div>        
-    </main>
+const Media = ({ images, title }: Props) => {
+    function setup () {
+        const observer = new IntersectionObserver(
+            (entries) => {
+                entries.forEach((entry) => {
+                    const element = entry.target;
+                    if (entry.isIntersecting) {
+                        element.classList.add('move-right');
+                    } else {
+                        element.classList.remove('move-right');
+                    }
+                });
+            },
+            { threshold: [0.45] }
+        );
+        
+        const elementsR = document.querySelectorAll('.move-initial-r');
+        elementsR.forEach((el) => observer.observe(el));
+
+        return () => observer.disconnect();
+    }
+
+    return (
+        <>
+            <main class="px-10 mx-auto mb-20 ">
+                <h1 class="move-initial-r font-poppins text-center text-xs/10 text-gray-300 mb-8 sm:text-sm lg:text-base">{title}</h1>
+                <div class={clx(
+                    "grid grid-cols-2 items-center justify-center gap-y-9",
+                    "sm:grid-cols-3 lg:grid-cols-4"
+                )}>
+                    {images.map(({ image, link, name, height, width }) => (
+                        <a class="move-initial-r w-fit mx-auto h-fit max-h-full" href={link} title={name} target="_blank">
+                            <img width={width} height={height} class="max-h-full" src={image} alt={name} />
+                        </a>
+                    ))}
+                </div>        
+            </main>
+            <script
+                type="module"
+                dangerouslySetInnerHTML={{
+                    __html: useScript(setup)
+                }}
+            />
+        </>
 );
+}
 
 export default Media;
