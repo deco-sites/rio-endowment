@@ -240,7 +240,7 @@
       "cards": [
         {
           "photo": {
-            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/b86e6f13-7154-4473-9075-ec74bca63f57/imagem_2024-09-08_211917621.png",
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/35cc135e-7d8c-45b3-8c09-3796432b9deb/julia.jpeg",
             "width": 64,
             "height": 64
           },
@@ -250,11 +250,29 @@
               "name": "Linkedin",
               "width": 16,
               "height": 18,
-              "link": "#"
+              "link": "https://www.linkedin.com/in/julia-de-luca-3343162a/"
             }
           ],
-          "position": "<p><span>Autor, ex-Sócio KPMG.</span></p>",
-          "name": "Luis Wolf"
+          "position": "<p><span>Investment Banking Tech no </span><strong><span>Itaú BBA</span></strong><span>, Fundadora do LatAm Tech Weekly.</span></p>",
+          "name": "Julia de Luca"
+        },
+        {
+          "photo": {
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/483b8d51-2b16-45c8-a307-30827f63353c/maria-pia.jpeg",
+            "width": 64,
+            "height": 64
+          },
+          "socialMedias": [
+            {
+              "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/3fdd52fe-fd60-4f8e-8d16-af8c28238386/imagem_2024-09-08_212137679.png",
+              "name": "Linkedin",
+              "width": 16,
+              "height": 18,
+              "link": "https://www.linkedin.com/in/mariapiabastostigrebuchheim/"
+            }
+          ],
+          "position": "<p>Advogada e Conselheira de Administração.</p>",
+          "name": "Maria Pia Tigre Buchheim"
         }
       ],
       "initOpen": false
