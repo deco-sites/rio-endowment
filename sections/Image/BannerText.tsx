@@ -2,6 +2,7 @@ import Image from "apps/website/components/Image.tsx";
 import { ImageWidget, HTMLWidget } from "apps/admin/widgets.ts";
 import { clx } from "site/sdk/clx.ts";
 import { useDevice } from "deco/hooks/useDevice.ts";
+import { useScript } from "deco/hooks/useScript.ts";
 
 /** @title {{alt}} */
 interface Banner {
@@ -47,65 +48,95 @@ export interface Props {
 const BannerText = ({ desktopBanner, mobileBanner, tabletBanner }: Props) => {
     const device = useDevice();
 
+    function setup () {
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach((entry) => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animate-fade-up');
+                } else {
+                    entry.target.classList.remove('animate-fade-up');
+                }
+            });
+        });
+
+        document.querySelectorAll('.scroll-animate').forEach((el) => observer.observe(el));
+
+        return () => observer.disconnect();
+    }
+
     return (
-        <main class="flex h-fit relative -z-10 mt-20 lg:mt-0">
-            {device === "desktop" && (
-                <>
-                    <Image
-                        alt={desktopBanner.alt}
-                        src={desktopBanner.image}
-                        width={desktopBanner.width}
-                        height={desktopBanner.height}
-                        class="block mx-auto"
-                    />
-                    <div
-                        class={clx(
-                            "w-full absolute -translate-y-1/2 top-1/2 px-[72px]",
-                            "[&_strong]:font-semibold font-poppins font-light leading-tight"
-                        )}
-                        dangerouslySetInnerHTML={{ __html: desktopBanner.text }}
-                    />
-                </>
-            )}
-            
-            {device === "tablet" && (
-                <>
-                    <Image
-                        alt={tabletBanner.alt}
-                        src={tabletBanner.image}
-                        width={tabletBanner.width}
-                        height={tabletBanner.height}
-                        class="block mx-auto"
-                    />
-                    <div
-                        class={clx(
-                            "w-full px-6 absolute top-28",
-                            "[&_strong]:font-semibold font-poppins font-light leading-tight"
-                        )}
-                        dangerouslySetInnerHTML={{ __html: tabletBanner.text }}
-                    />
-                </>
-            )}
-            
-            {device === "mobile" && (
-                <>
-                    <Image
-                        alt={mobileBanner.alt}
-                        src={mobileBanner.image}
-                        width={mobileBanner.width}
-                        height={mobileBanner.height}
-                        class="block mx-auto"
-                    />
-                    <div
-                        class={clx(
-                            "w-full px-6 absolute top-28",
-                            "[&_strong]:font-semibold font-poppins font-light leading-tight"
-                        )}
-                        dangerouslySetInnerHTML={{ __html: mobileBanner.text }}
-                    />
-                </>
-            )}
-        </main>
+        <>
+            <main class="flex h-fit relative -z-10 mt-20 lg:mt-0">
+                {device === "desktop" && (
+                    <>
+                        <Image
+                            alt={desktopBanner.alt}
+                            src={desktopBanner.image}
+                            width={desktopBanner.width}
+                            height={desktopBanner.height}
+                            class="block mx-auto"
+                        />
+                        <div
+                            id="fade-up-element"
+                            class={clx(
+                                "scroll-animate",
+                                "w-full absolute -translate-y-1/2 top-1/2 px-[72px]",
+                                "[&_strong]:font-semibold font-poppins font-light leading-tight"
+                            )}
+                            dangerouslySetInnerHTML={{ __html: desktopBanner.text }}
+                        />
+                    </>
+                )}
+                
+                {device === "tablet" && (
+                    <>
+                        <Image
+                            alt={tabletBanner.alt}
+                            src={tabletBanner.image}
+                            width={tabletBanner.width}
+                            height={tabletBanner.height}
+                            class="block mx-auto"
+                        />
+                        <div
+                            id="fade-up-element"
+                            class={clx(
+                                "scroll-animate",
+                                "w-full px-6 absolute top-28",
+                                "[&_strong]:font-semibold font-poppins font-light leading-tight"
+                            )}
+                            dangerouslySetInnerHTML={{ __html: tabletBanner.text }}
+                        />
+                    </>
+                )}
+                
+                {device === "mobile" && (
+                    <>
+                        <Image
+                            alt={mobileBanner.alt}
+                            src={mobileBanner.image}
+                            width={mobileBanner.width}
+                            height={mobileBanner.height}
+                            class="block mx-auto"
+                        />
+                        <div
+                            id="fade-up-element"
+                            class={clx(
+                                "scroll-animate",
+                                "w-full px-6 absolute top-28",
+                                "[&_strong]:font-semibold font-poppins font-light leading-tight"
+                            )}
+                            dangerouslySetInnerHTML={{ __html: mobileBanner.text }}
+                        />
+                    </>
+                )}
+            </main>
+            <script
+                type="module"
+                dangerouslySetInnerHTML={{
+                    __html: useScript(setup)
+                }}
+            />
+        </>
     )
 };
 
