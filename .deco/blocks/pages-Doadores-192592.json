@@ -64,6 +64,24 @@
       "cards": [
         {
           "photo": {
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/f3541421-7238-4484-906c-5daabd097c0c/viana.jpeg",
+            "width": 64,
+            "height": 64
+          },
+          "socialMedias": [
+            {
+              "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/3fdd52fe-fd60-4f8e-8d16-af8c28238386/imagem_2024-09-08_212137679.png",
+              "name": "Linkedin",
+              "width": 16,
+              "height": 18,
+              "link": "#"
+            }
+          ],
+          "position": "<p>Arquiteto de Soluções Sênior <strong>VTEX</strong>.</p>",
+          "name": "Daniel Viana"
+        },
+        {
+          "photo": {
             "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/b86e6f13-7154-4473-9075-ec74bca63f57/imagem_2024-09-08_211917621.png",
             "width": 64,
             "height": 64
@@ -77,8 +95,152 @@
               "link": "#"
             }
           ],
-          "position": "<p><span>Autor, ex-Sócio KPMG.</span></p>",
+          "position": "<p>Autor, ex-Sócio <strong>KPMG</strong>.</p>",
           "name": "Luis Wolf"
+        },
+        {
+          "photo": {
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/eea9bc56-ff1e-4894-b9ba-603066be5c06/tulio.jpeg",
+            "width": 64,
+            "height": 64
+          },
+          "socialMedias": [
+            {
+              "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/3fdd52fe-fd60-4f8e-8d16-af8c28238386/imagem_2024-09-08_212137679.png",
+              "name": "Linkedin",
+              "width": 16,
+              "height": 18,
+              "link": "#"
+            }
+          ],
+          "position": "<p>Sócio Diretor <strong>Lanx Capital</strong>.</p>",
+          "name": "Túlio Ribeiro"
+        },
+        {
+          "photo": {
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/841da686-f2bc-46cc-b4f0-902de67e2fd5/arnon.jpeg",
+            "width": 64,
+            "height": 64
+          },
+          "socialMedias": [
+            {
+              "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/3fdd52fe-fd60-4f8e-8d16-af8c28238386/imagem_2024-09-08_212137679.png",
+              "name": "Linkedin",
+              "width": 16,
+              "height": 18,
+              "link": "#"
+            }
+          ],
+          "position": "<p>Vice-Presidente LatAm <strong>NBA</strong>.</p>",
+          "name": "Túlio Ribeiro"
+        },
+        {
+          "photo": {
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/740d5597-8d6e-4bf8-a31b-8572f2609e8b/pedro-rodrigues.jpeg",
+            "width": 64,
+            "height": 64
+          },
+          "socialMedias": [
+            {
+              "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/3fdd52fe-fd60-4f8e-8d16-af8c28238386/imagem_2024-09-08_212137679.png",
+              "name": "Linkedin",
+              "width": 16,
+              "height": 18,
+              "link": "#"
+            }
+          ],
+          "position": "<p>Sócio e Diretor <strong>Bridge One</strong>.</p>",
+          "name": "Pedro Rodrigues"
+        },
+        {
+          "photo": {
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/f4977b6d-6df2-458a-89b3-68dfb1a1ad01/faim.jpeg",
+            "width": 64,
+            "height": 64
+          },
+          "socialMedias": [
+            {
+              "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/3fdd52fe-fd60-4f8e-8d16-af8c28238386/imagem_2024-09-08_212137679.png",
+              "name": "Linkedin",
+              "width": 16,
+              "height": 18,
+              "link": "#"
+            }
+          ],
+          "position": "<p>M&amp;A de Bem-Estar &amp; Educação <strong>Nello Investimentos</strong>.</p>",
+          "name": "André Faim"
+        },
+        {
+          "photo": {
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/60acb54e-a21b-4cdc-990f-a193a3897129/arthur.jpeg",
+            "width": 64,
+            "height": 64
+          },
+          "socialMedias": [
+            {
+              "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/3fdd52fe-fd60-4f8e-8d16-af8c28238386/imagem_2024-09-08_212137679.png",
+              "name": "Linkedin",
+              "width": 16,
+              "height": 18,
+              "link": "#"
+            }
+          ],
+          "position": "<p>Private Equity na <strong>Kamaroopin.</strong></p>",
+          "name": "Arthur Rocha"
+        },
+        {
+          "photo": {
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/8d1a9c8f-a28d-4f46-b35e-6aa241c47067/gilvan.jpeg",
+            "width": 64,
+            "height": 64
+          },
+          "socialMedias": [
+            {
+              "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/3fdd52fe-fd60-4f8e-8d16-af8c28238386/imagem_2024-09-08_212137679.png",
+              "name": "Linkedin",
+              "width": 16,
+              "height": 18,
+              "link": "#"
+            }
+          ],
+          "position": "<p>Autor, Palestrante e CEO <strong>Financier Educação</strong>.</p>",
+          "name": "Gilvan Bueno"
+        },
+        {
+          "photo": {
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/5b4c8c59-f58e-484d-9a83-d7f0537edd97/ph.jpeg",
+            "width": 64,
+            "height": 64
+          },
+          "socialMedias": [
+            {
+              "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/3fdd52fe-fd60-4f8e-8d16-af8c28238386/imagem_2024-09-08_212137679.png",
+              "name": "Linkedin",
+              "width": 16,
+              "height": 18,
+              "link": "#"
+            }
+          ],
+          "position": "<p>General Manager SMB <strong>Deco.cx</strong></p>",
+          "name": "Pedro Oliveira"
+        },
+        {
+          "photo": {
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/63a81aad-5c18-4685-8dc8-046fe7764fef/beltrami.jpeg",
+            "width": 64,
+            "height": 64
+          },
+          "socialMedias": [
+            {
+              "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/3fdd52fe-fd60-4f8e-8d16-af8c28238386/imagem_2024-09-08_212137679.png",
+              "name": "Linkedin",
+              "width": 16,
+              "height": 18,
+              "link": "#"
+            }
+          ],
+          "position": "<p>CEO <strong>deX Labs</strong>.</p>",
+          "name": "Pedro Oliveira"
         }
       ],
       "initOpen": true
