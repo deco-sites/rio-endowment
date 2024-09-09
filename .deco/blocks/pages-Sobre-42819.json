@@ -94,7 +94,7 @@
               "name": "Linkedin",
               "width": 18,
               "height": 18,
-              "link": "#"
+              "link": "https://www.linkedin.com/in/thomas-ramirez/"
             }
           ],
           "photo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/46d5125c-18f9-4969-a097-cd4328461389/imagem_2024-09-06_020326224.png",
@@ -112,7 +112,7 @@
               "name": "Linkedin",
               "width": 18,
               "height": 18,
-              "link": "#"
+              "link": "https://www.linkedin.com/in/joaopdeabreu/"
             }
           ],
           "photo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/5d449041-20dd-45a6-beca-a0f00cc2eef0/imagem_2024-09-06_021219531.png",
@@ -140,6 +140,24 @@
           "lastName": "Castellano",
           "position": "Co-fundador",
           "biography": "O único não carioca do grupo, nasceu em São Paulo, mas sempre teve uma forte conexão com o Rio de Janeiro. Bolsista pelo Ibmec, Luca sempre foi engajado em causas sociais, influenciado por sua mãe, que sempre contribuiu com serviços comunitários. No passado, Luca cofundou diversas iniciativas, como a Food4Good durante a pandemia de Covid-19, que ajudou mais de 2.000 famílias em vários estados do Brasil. \n<br> <br>\nEm busca de gerar um impacto duradouro e perpétuo, Luca conheceu o modelo de Endowments em 2022, quando cofundou o RIO Endowment ao lado de Thomas e João. Luca é bacharel em Direito pelo Ibmec."
+        },
+        {
+          "socialMediaLogos": [
+            {
+              "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/2a68f1ed-7438-4722-b513-e850a83012ba/imagem_2024-09-06_020718130.png",
+              "name": "Linkedin",
+              "width": 18,
+              "height": 18,
+              "link": "https://www.linkedin.com/in/alan-vaisman-826b4a140/"
+            }
+          ],
+          "photo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/bb69c315-76ff-43a5-b07d-a7e70de6024e/alan.jpeg",
+          "width": 576,
+          "height": 344,
+          "firstName": "Alan",
+          "lastName": "Vaisman",
+          "position": "Diretor",
+          "biography": "Carioca, apaixonado pelo Rio de Janeiro e atuante no mercado financeiro, Alan se juntou para contribuir com a missão do RIO Endowment como Diretor meses depois de sua criação. \n<br> <br>\nCFO na Investtools, Alan é bacharel em Administração de Empresas pela PUC-RJ, e MBA em Finanças Corporativas pela FGV."
         }
       ]
     },

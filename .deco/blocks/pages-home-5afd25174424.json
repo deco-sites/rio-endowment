@@ -31,7 +31,7 @@
         "width": 475,
         "height": 633,
         "alt": "Banner",
-        "text": "<p><strong><span style=\"color: rgb(255, 255, 255); font-size: 28pt\">Empoderando </span></strong><span style=\"color: rgb(255, 255, 255); font-size: 28pt\">o</span></p><p style=\"text-align: justify\"><span style=\"color: rgb(255, 255, 255); font-size: 28pt\">Futuro da </span><strong><span style=\"color: rgb(255, 255, 255); font-size: 28pt\">Educação</span></strong></p><p style=\"text-align: justify\"><span style=\"color: rgb(255, 255, 255); font-size: 28pt\">no Rio de Janeiro.</span></p>"
+        "text": "<p><strong><span style=\"color: rgb(255, 255, 255); font-size: 28pt\">Empoderando </span></strong><span style=\"color: rgb(255, 255, 255); font-size: 28pt\">o</span></p><p><span style=\"color: rgb(255, 255, 255); font-size: 28pt\">Futuro da </span><strong><span style=\"color: rgb(255, 255, 255); font-size: 28pt\">Educação</span></strong></p><p><span style=\"color: rgb(255, 255, 255); font-size: 28pt\">no Rio de Janeiro.</span></p>"
       }
     },
     {
@@ -39,55 +39,41 @@
       "variants": [
         {
           "value": {
+            "__resolveType": "site/sections/Content/PartnersList.tsx",
+            "partnersList": [
+              {
+                "partnerLogo": {
+                  "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/d0ace1cc-ef7e-444c-a1f8-16e341adae76/imagem_2024-09-09_121511570.png",
+                  "width": 100,
+                  "height": 53,
+                  "alt": "IT"
+                },
+                "bgClosed": "#ffffff",
+                "bgOpened": "#000000",
+                "title": "Lorem Ipsum",
+                "description": "Dolor sit amet"
+              }
+            ]
+          },
+          "rule": {
+            "__resolveType": "Desktop"
+          }
+        },
+        {
+          "value": {
             "__resolveType": "site/sections/Slider/PartnersListMobile.tsx",
             "partnersList": [
               {
                 "partnerLogo": {
-                  "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12250/094a9ad4-9b0a-4998-805c-a253c268b6d6",
-                  "width": 46,
-                  "height": 46,
-                  "alt": "Deco.cx"
+                  "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/8219383e-c857-4bee-8e26-7b38c4275e13/imagem_2024-09-09_121643843.png",
+                  "width": 100,
+                  "height": 53,
+                  "alt": "IT"
                 },
-                "bgClosed": "#f00000",
-                "bgOpened": "#73ff00",
-                "title": "Deco.cx",
-                "description": "Lorem Ipsum"
-              },
-              {
-                "partnerLogo": {
-                  "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12250/094a9ad4-9b0a-4998-805c-a253c268b6d6",
-                  "width": 46,
-                  "height": 46,
-                  "alt": "Deco.cx"
-                },
-                "bgClosed": "#571919",
-                "bgOpened": "#352965",
-                "title": "Deco.cx",
-                "description": "Lorem Ipsum"
-              },
-              {
-                "partnerLogo": {
-                  "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12250/094a9ad4-9b0a-4998-805c-a253c268b6d6",
-                  "width": 46,
-                  "height": 46,
-                  "alt": "Deco.cx"
-                },
-                "bgClosed": "#571919",
-                "bgOpened": "#352965",
-                "title": "Deco.cx",
-                "description": "Lorem Ipsum"
-              },
-              {
-                "partnerLogo": {
-                  "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12250/094a9ad4-9b0a-4998-805c-a253c268b6d6",
-                  "width": 46,
-                  "height": 46,
-                  "alt": "Deco.cx"
-                },
-                "bgClosed": "#571919",
-                "bgOpened": "#352965",
-                "title": "Deco.cx",
-                "description": "Lorem Ipsum"
+                "bgClosed": "#000000",
+                "bgOpened": "#000000",
+                "title": "Lorem Ipsum",
+                "description": "Dolor sit Amet."
               }
             ]
           },
@@ -95,64 +81,6 @@
             "__resolveType": "website/matchers/device.ts",
             "mobile": true,
             "tablet": true
-          }
-        },
-        {
-          "value": {
-            "__resolveType": "site/sections/Content/PartnersList.tsx",
-            "partnersList": [
-              {
-                "partnerLogo": {
-                  "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12250/094a9ad4-9b0a-4998-805c-a253c268b6d6",
-                  "width": 46,
-                  "height": 46,
-                  "alt": "Deco.cx"
-                },
-                "bgClosed": "#f00000",
-                "bgOpened": "#73ff00",
-                "title": "Deco.cx",
-                "description": "Lorem Ipsum"
-              },
-              {
-                "partnerLogo": {
-                  "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12250/094a9ad4-9b0a-4998-805c-a253c268b6d6",
-                  "width": 46,
-                  "height": 46,
-                  "alt": "Deco.cx"
-                },
-                "bgClosed": "#571919",
-                "bgOpened": "#352965",
-                "title": "Deco.cx",
-                "description": "Lorem Ipsum"
-              },
-              {
-                "partnerLogo": {
-                  "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12250/094a9ad4-9b0a-4998-805c-a253c268b6d6",
-                  "width": 46,
-                  "height": 46,
-                  "alt": "Deco.cx"
-                },
-                "bgClosed": "#571919",
-                "bgOpened": "#352965",
-                "title": "Deco.cx",
-                "description": "Lorem Ipsum"
-              },
-              {
-                "partnerLogo": {
-                  "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12250/094a9ad4-9b0a-4998-805c-a253c268b6d6",
-                  "width": 46,
-                  "height": 46,
-                  "alt": "Deco.cx"
-                },
-                "bgClosed": "#571919",
-                "bgOpened": "#352965",
-                "title": "Deco.cx",
-                "description": "Lorem Ipsum"
-              }
-            ]
-          },
-          "rule": {
-            "__resolveType": "Desktop"
           }
         }
       ]
