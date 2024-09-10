@@ -77,7 +77,7 @@
               "link": "#"
             }
           ],
-          "position": "<p>Arquiteto de Soluções Sênior <strong>VTEX</strong>.</p>",
+          "position": "<p>VP de Solution Engineering da <strong>VTEX</strong>.</p>",
           "name": "Daniel Viana"
         },
         {
@@ -132,7 +132,7 @@
             }
           ],
           "position": "<p>Vice-Presidente LatAm <strong>NBA</strong>.</p>",
-          "name": "Túlio Ribeiro"
+          "name": "Arnon de Mello"
         },
         {
           "photo": {
@@ -151,6 +151,24 @@
           ],
           "position": "<p>Sócio e Diretor <strong>Bridge One</strong>.</p>",
           "name": "Pedro Rodrigues"
+        },
+        {
+          "photo": {
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/3ef697e2-b9ba-4619-b154-12016de134df/camila-maia.jpeg",
+            "width": 64,
+            "height": 64
+          },
+          "socialMedias": [
+            {
+              "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/3fdd52fe-fd60-4f8e-8d16-af8c28238386/imagem_2024-09-08_212137679.png",
+              "name": "Linkedin",
+              "width": 16,
+              "height": 18,
+              "link": "#"
+            }
+          ],
+          "position": "<p>Diretora de Operações na <strong>Plan International Brasil</strong>.</p>",
+          "name": "Camila Maia"
         },
         {
           "photo": {
@@ -240,7 +258,7 @@
             }
           ],
           "position": "<p>CEO <strong>deX Labs</strong>.</p>",
-          "name": "Pedro Oliveira"
+          "name": "Gustavo Beltrami"
         }
       ],
       "initOpen": true
