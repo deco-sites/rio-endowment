@@ -75,7 +75,7 @@
                 "name": "Play9",
                 "bgImage": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/349cacf2-4126-48cc-9634-886fa6a133e4/imagem_2024-09-09_204850906.png",
                 "title": "<p></p>",
-                "description": "<p><span style=\"font-size: var(--artdeco-reset-base-font-size-hundred-percent)\">Mediatech especializada no desenvolvimento de narrativas</span></p><p><span style=\"font-size: var(--artdeco-reset-base-font-size-hundred-percent)\"> e soluções para expansão de audiência e</span> <span style=\"font-size: var(--artdeco-reset-base-font-size-hundred-percent)\">resultados de </span></p><p><span style=\"font-size: var(--artdeco-reset-base-font-size-hundred-percent)\">marcas e influenciadores. </span></p><p><strong><span style=\"font-size: var(--artdeco-reset-base-font-size-hundred-percent)\">São parceiros do RIO Endowment</span></strong><span style=\"font-size: var(--artdeco-reset-base-font-size-hundred-percent)\">.</span></p><p></p>"
+                "description": "<p><span style=\"font-size: var(--artdeco-reset-base-font-size-hundred-percent)\">Mediatech especializada no desenvolvimento de narrativas</span></p><p><span style=\"font-size: var(--artdeco-reset-base-font-size-hundred-percent)\">e soluções para expansão de audiência e</span> <span style=\"font-size: var(--artdeco-reset-base-font-size-hundred-percent)\">resultados de</span></p><p><span style=\"font-size: var(--artdeco-reset-base-font-size-hundred-percent)\">marcas e influenciadores.</span></p><p><strong><span style=\"font-size: var(--artdeco-reset-base-font-size-hundred-percent)\">São parceiros do RIO Endowment</span></strong><span style=\"font-size: var(--artdeco-reset-base-font-size-hundred-percent)\">.</span></p><p></p>"
               },
               {
                 "partnerLogo": {
@@ -86,7 +86,7 @@
                 "bgImage": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/f7ed830f-7443-40a7-8a31-76e6da1e41f7/imagem_2024-09-09_214847596.png",
                 "name": "Ismart",
                 "title": "<p></p>",
-                "description": "<p>O Ismart é uma entidade privada, que identifica</p><p> jovens talentos de baixa renda e</p><p>os apoia com bolsas de estudo em escolas particulares</p><p>de excelência - do ensino fundamental ao médio.</p><p><strong>São parceiros do RIO Endowment</strong>.</p>"
+                "description": "<p>O Ismart é uma entidade privada, que identifica</p><p>jovens talentos de baixa renda e</p><p>os apoia com bolsas de estudo em escolas particulares</p><p>de excelência - do ensino fundamental ao médio.</p><p><strong>São parceiros do RIO Endowment</strong>.</p>"
               },
               {
                 "partnerLogo": {
@@ -131,8 +131,8 @@
                 },
                 "bgImage": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/349cacf2-4126-48cc-9634-886fa6a133e4/imagem_2024-09-09_204850906.png",
                 "name": "Play9",
-                "title": "<p>Lorem Ipsum</p>",
-                "description": "<p>Lorem Ipsum</p>"
+                "title": "<p></p>",
+                "description": "<p>Mediatech especializada no desenvolvimento de narrativas</p><p>e soluções para expansão de audiência e resultados de</p><p>marcas e influenciadores.</p><p><strong>São parceiros do RIO Endowment</strong>.</p>"
               },
               {
                 "partnerLogo": {
@@ -142,8 +142,8 @@
                 },
                 "bgImage": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/a68cc5da-2cf3-400b-8336-a61a31dba214/imagem_2024-09-09_214606387.png",
                 "name": "deco.cx",
-                "description": "<p>Lorem Ipsum</p>",
-                "title": "<p>Lorem Ipsum</p>"
+                "description": "<p>A <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"http://deco.cx\">deco.cx</a> é um CMS universal baseado em Git para</p><p>construir sites e aplicativos de alta performance</p><p>usando Deno, HTMX, JSX e Tailwind.</p><p><strong>São parceiros do RIO Endowment</strong>.</p>",
+                "title": "<p></p>"
               },
               {
                 "partnerLogo": {
@@ -151,10 +151,10 @@
                   "width": 100,
                   "height": 53
                 },
-                "description": "<p>Lorem Ipsum</p>",
+                "description": "<p>O Ismart é uma entidade privada, que identifica</p><p>jovens talentos de baixa renda e</p><p>os apoia com bolsas de estudo em escolas particulares</p><p>de excelência - do ensino fundamental ao médio.</p><p><strong>São parceiros do RIO Endowment</strong>.</p>",
                 "bgImage": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/f7ed830f-7443-40a7-8a31-76e6da1e41f7/imagem_2024-09-09_214847596.png",
-                "name": "Ismat",
-                "title": "<p>Lorem Ipsum</p>"
+                "name": "Ismart",
+                "title": "<p></p>"
               },
               {
                 "partnerLogo": {
@@ -162,10 +162,10 @@
                   "width": 100,
                   "height": 52
                 },
-                "description": "<p>Lorem Ipsum</p>",
+                "description": "<p>A deX é uma plataforma unificada de engenharia de dados,</p><p>analytics e AI. É uma startup em estágio seed.</p><p><strong>São parceiros do RIO Endowment</strong>.</p>",
                 "bgImage": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/fc606e1d-6988-4c85-a20e-33175f9994f6/imagem_2024-09-09_215009142.png",
                 "name": "deX",
-                "title": "<p>Lorem Ipsum</p>"
+                "title": "<p></p>"
               }
             ]
           },
