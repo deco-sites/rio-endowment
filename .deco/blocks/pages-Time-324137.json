@@ -111,68 +111,6 @@
     },
     {
       "__resolveType": "site/sections/Content/Accordion.tsx",
-      "title": "Liderança",
-      "cardFormat": "simple",
-      "cards": [
-        {
-          "photo": {
-            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/4c91c8ba-e043-4191-8f87-3c8fc5e50e93/bia.jpeg",
-            "width": 64,
-            "height": 64
-          },
-          "socialMedias": [
-            {
-              "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/3fdd52fe-fd60-4f8e-8d16-af8c28238386/imagem_2024-09-08_212137679.png",
-              "name": "Linkedin",
-              "width": 16,
-              "height": 18,
-              "link": "https://www.linkedin.com/in/beatrizagalvao/"
-            }
-          ],
-          "position": "<p>Líder Financeiro.</p>",
-          "name": "Beatriz Galvão"
-        },
-        {
-          "photo": {
-            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/b98ba2cf-c9d7-44ff-8d98-fd73039aefb5/torresan.jpeg",
-            "width": 64,
-            "height": 64
-          },
-          "socialMedias": [
-            {
-              "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/3fdd52fe-fd60-4f8e-8d16-af8c28238386/imagem_2024-09-08_212137679.png",
-              "name": "Linkedin",
-              "width": 16,
-              "height": 18,
-              "link": "https://www.linkedin.com/in/pedrotorresan/"
-            }
-          ],
-          "position": "<p>Líder de Produtos.</p>",
-          "name": "Pedro Torresan"
-        },
-        {
-          "photo": {
-            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/699c2384-944d-4a27-918f-25c07577b922/avyman.jpeg",
-            "width": 64,
-            "height": 64
-          },
-          "socialMedias": [
-            {
-              "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/3fdd52fe-fd60-4f8e-8d16-af8c28238386/imagem_2024-09-08_212137679.png",
-              "name": "Linkedin",
-              "width": 16,
-              "height": 18,
-              "link": "https://www.linkedin.com/in/avy-pinto-7092a8132/"
-            }
-          ],
-          "position": "<p>Líder de Captação.</p>",
-          "name": "Avy Pinto"
-        }
-      ],
-      "initOpen": false
-    },
-    {
-      "__resolveType": "site/sections/Content/Accordion.tsx",
       "title": "Conselho Administrativo",
       "cardFormat": "simple",
       "cards": [
@@ -229,6 +167,130 @@
           ],
           "position": "<p>Conselheiro.</p>",
           "name": "Gilvan Bueno"
+        }
+      ],
+      "initOpen": false
+    },
+    {
+      "__resolveType": "site/sections/Content/Accordion.tsx",
+      "title": "Diretoria",
+      "cardFormat": "image-highlight",
+      "cards": [
+        {
+          "photo": {
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/606603e7-7287-40b2-a74b-641ca2e90a6d/mv.jpeg",
+            "width": 312,
+            "height": 188
+          },
+          "socialMedias": [
+            {
+              "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/3fdd52fe-fd60-4f8e-8d16-af8c28238386/imagem_2024-09-08_212137679.png",
+              "name": "Linkedin",
+              "width": 16,
+              "height": 18,
+              "link": "https://www.linkedin.com/in/marcus-vinicius-freire-oly-3a5b8b111/"
+            }
+          ],
+          "position": "<p>Conselheiro.</p>",
+          "name": "Marcus Vinicius Freire OLY"
+        },
+        {
+          "photo": {
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/cd907b83-d8ef-41c2-b8c4-53949c9c6c5a/pedro-rodrigues.jpeg",
+            "width": 312,
+            "height": 188
+          },
+          "socialMedias": [
+            {
+              "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/3fdd52fe-fd60-4f8e-8d16-af8c28238386/imagem_2024-09-08_212137679.png",
+              "name": "Linkedin",
+              "width": 16,
+              "height": 18,
+              "link": "https://www.linkedin.com/in/pedrohenriquefr/"
+            }
+          ],
+          "position": "<p>Conselheiro.</p>",
+          "name": "Pedro Rodrigues"
+        },
+        {
+          "photo": {
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/9f3d1cfa-4c92-416d-bbc8-fe361c91bc37/gilvan.jpeg",
+            "width": 312,
+            "height": 188
+          },
+          "socialMedias": [
+            {
+              "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/3fdd52fe-fd60-4f8e-8d16-af8c28238386/imagem_2024-09-08_212137679.png",
+              "name": "Linkedin",
+              "width": 16,
+              "height": 18,
+              "link": "https://www.linkedin.com/in/gilvanbueno/"
+            }
+          ],
+          "position": "<p>Conselheiro.</p>",
+          "name": "Gilvan Bueno"
+        }
+      ],
+      "initOpen": false
+    },
+    {
+      "__resolveType": "site/sections/Content/Accordion.tsx",
+      "title": "Liderança",
+      "cardFormat": "simple",
+      "cards": [
+        {
+          "photo": {
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/4c91c8ba-e043-4191-8f87-3c8fc5e50e93/bia.jpeg",
+            "width": 64,
+            "height": 64
+          },
+          "socialMedias": [
+            {
+              "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/3fdd52fe-fd60-4f8e-8d16-af8c28238386/imagem_2024-09-08_212137679.png",
+              "name": "Linkedin",
+              "width": 16,
+              "height": 18,
+              "link": "https://www.linkedin.com/in/beatrizagalvao/"
+            }
+          ],
+          "position": "<p>Líder Financeiro.</p>",
+          "name": "Beatriz Galvão"
+        },
+        {
+          "photo": {
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/b98ba2cf-c9d7-44ff-8d98-fd73039aefb5/torresan.jpeg",
+            "width": 64,
+            "height": 64
+          },
+          "socialMedias": [
+            {
+              "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/3fdd52fe-fd60-4f8e-8d16-af8c28238386/imagem_2024-09-08_212137679.png",
+              "name": "Linkedin",
+              "width": 16,
+              "height": 18,
+              "link": "https://www.linkedin.com/in/pedrotorresan/"
+            }
+          ],
+          "position": "<p>Líder de Produtos.</p>",
+          "name": "Pedro Torresan"
+        },
+        {
+          "photo": {
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/699c2384-944d-4a27-918f-25c07577b922/avyman.jpeg",
+            "width": 64,
+            "height": 64
+          },
+          "socialMedias": [
+            {
+              "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/3fdd52fe-fd60-4f8e-8d16-af8c28238386/imagem_2024-09-08_212137679.png",
+              "name": "Linkedin",
+              "width": 16,
+              "height": 18,
+              "link": "https://www.linkedin.com/in/avy-pinto-7092a8132/"
+            }
+          ],
+          "position": "<p>Líder de Captação.</p>",
+          "name": "Avy Pinto"
         }
       ],
       "initOpen": false
