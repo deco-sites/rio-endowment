@@ -63,8 +63,8 @@
                 },
                 "bgImage": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/a68cc5da-2cf3-400b-8336-a61a31dba214/imagem_2024-09-09_214606387.png",
                 "name": "deco.cx",
-                "title": "<p></p>",
-                "description": "<p>A <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"http://deco.cx\"><strong>deco.cx</strong></a> é um CMS universal baseado em Git para</p><p>construir sites e aplicativos de alta performance.</p><p><strong>São parceiros do RIO Endowment.</strong></p>"
+                "title": "<p><span style=\"color: #f6efef; font-size: 20pt\">Deco.cx</span></p>",
+                "description": "<p><span style=\"color: #f6efef; font-size: 10pt\">A </span><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"http://deco.cx\"><strong><span style=\"color: #f6efef; font-size: 10pt\">deco.cx</span></strong></a><span style=\"color: #f6efef; font-size: 10pt\"> é um CMS universal baseado em Git para</span></p><p><span style=\"color: #f6efef; font-size: 10pt\">construir sites e aplicativos de alta performance.</span></p>"
               },
               {
                 "partnerLogo": {
