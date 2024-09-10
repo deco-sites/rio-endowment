@@ -111,69 +111,7 @@
     },
     {
       "__resolveType": "site/sections/Content/Accordion.tsx",
-      "title": "Conselho Administrativo",
-      "cardFormat": "simple",
-      "cards": [
-        {
-          "photo": {
-            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/0d3741ec-69b2-4671-9cb0-223b536dc6ec/mv.jpeg",
-            "width": 64,
-            "height": 64
-          },
-          "socialMedias": [
-            {
-              "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/3fdd52fe-fd60-4f8e-8d16-af8c28238386/imagem_2024-09-08_212137679.png",
-              "name": "Linkedin",
-              "width": 16,
-              "height": 18,
-              "link": "https://www.linkedin.com/in/marcus-vinicius-freire-oly-3a5b8b111/"
-            }
-          ],
-          "position": "<p>Conselheiro.</p>",
-          "name": "Marcus Vinicius Freire"
-        },
-        {
-          "photo": {
-            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/27c9dfb7-e943-4483-a06e-e6fe6f5f3fed/pedro-rodrigues.jpeg",
-            "width": 64,
-            "height": 64
-          },
-          "socialMedias": [
-            {
-              "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/3fdd52fe-fd60-4f8e-8d16-af8c28238386/imagem_2024-09-08_212137679.png",
-              "name": "Linkedin",
-              "width": 16,
-              "height": 18,
-              "link": "https://www.linkedin.com/in/pedrohenriquefr/"
-            }
-          ],
-          "position": "<p>Conselheiro.</p>",
-          "name": "Pedro Rodrigues"
-        },
-        {
-          "photo": {
-            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/e42f083c-497f-49b1-9adc-30a786bf6dd8/gilvan.jpeg",
-            "width": 64,
-            "height": 64
-          },
-          "socialMedias": [
-            {
-              "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/3fdd52fe-fd60-4f8e-8d16-af8c28238386/imagem_2024-09-08_212137679.png",
-              "name": "Linkedin",
-              "width": 16,
-              "height": 18,
-              "link": "https://www.linkedin.com/in/gilvanbueno/"
-            }
-          ],
-          "position": "<p>Conselheiro.</p>",
-          "name": "Gilvan Bueno"
-        }
-      ],
-      "initOpen": false
-    },
-    {
-      "__resolveType": "site/sections/Content/Accordion.tsx",
-      "title": "Diretoria",
+      "title": "Conselho de Administração",
       "cardFormat": "image-highlight",
       "cards": [
         {
