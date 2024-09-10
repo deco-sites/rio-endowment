@@ -51,7 +51,7 @@
                 "bgClosed": "#ffffff",
                 "bgOpened": "#000000",
                 "title": "<p></p>",
-                "description": "<p>A Investtools é uma empresa sediada no Rio de Janeiro com mais de 15 anos de know-how no desenvolvimento de tecnologias para mercado financeiro. São parceiros do RIO Endowment.</p>",
+                "description": "<p>A Investtools é uma empresa sediada no Rio de Janeiro </p><p>com mais de 15 anos de know-how no desenvolvimento </p><p>de tecnologias para mercado financeiro. </p><p><strong>São parceiros do RIO Endowment</strong>.</p>",
                 "bgImage": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/760f825d-dfd7-42ef-9492-6edb3451a71c/imagem_2024-09-09_213527108.png",
                 "name": "Investtools"
               },
