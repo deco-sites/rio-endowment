@@ -48,8 +48,8 @@
                   "height": 53,
                   "alt": "IT"
                 },
-                "title": "<p></p>",
-                "description": "<p>A <strong>Investtools</strong> é uma empresa com mais de 15 anos</p><p>de know-how no desenvolvimento de tecnologias </p><p>para mercado financeiro.</p><p><strong>São parceiros do RIO Endowment</strong>.</p>",
+                "title": "<p><span style=\"font-size: 16pt\">Investtools</span></p>",
+                "description": "<p><span style=\"font-size: 10pt\">A </span><strong><span style=\"font-size: 10pt\">Investtools</span></strong><span style=\"font-size: 10pt\"> é uma empresa com mais de 15 anos</span></p><p><span style=\"font-size: 10pt\">de know-how no desenvolvimento de tecnologias</span></p><p><span style=\"font-size: 10pt\">para mercado financeiro.</span></p><p><strong><span style=\"font-size: 10pt\">São parceiros do RIO Endowment</span></strong><span style=\"font-size: 10pt\">.</span></p>",
                 "bgImage": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/760f825d-dfd7-42ef-9492-6edb3451a71c/imagem_2024-09-09_213527108.png",
                 "name": "Investtools",
                 "bgClosed": "#ffffff",
