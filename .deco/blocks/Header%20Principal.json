@@ -22,14 +22,6 @@
     {
       "navText": "Time",
       "link": "/time"
-    },
-    {
-      "navText": "Turmas",
-      "link": "#"
-    },
-    {
-      "navText": "Transparência",
-      "link": "#"
     }
   ],
   "ctaButton": {
