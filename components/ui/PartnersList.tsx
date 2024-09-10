@@ -32,7 +32,7 @@ const PartnerItem = ({ bgImage, description, partnerLogo, title, name }: Partner
                 src={partnerLogo.image}
                 width={partnerLogo.width}
                 height={partnerLogo.height}
-                class="block mx-auto"
+                class="block mr-auto"
             />
 
             <div class="transition-opacity duration-700 mt-32" style={{ opacity: isOpen ? 100 : 0 }}>
@@ -53,7 +53,7 @@ const PartnersList = ({ partnersList }: Props) => {
         )}>
             <section id={id} class={clx(
                 "hidden w-fit max-w-[90%] pb-2 mx-auto relative justify-start",
-                "lg:absolute lg:-top-32 carousel lg:flex lg:overflow-auto lg:whitespace-nowrap"
+                "lg:absolute lg:-top-20 carousel lg:flex lg:overflow-auto lg:whitespace-nowrap"
             )}>
                 <div class="hidden gap-5 lg:flex">
                     {partnersList.map(({ bgImage, description, partnerLogo, title, name }) => (
