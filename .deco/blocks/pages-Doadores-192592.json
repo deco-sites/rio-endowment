@@ -265,10 +265,10 @@
     },
     {
       "__resolveType": "site/sections/Text/DonateDisclaimer.tsx",
-      "description": "<p><span style=\"color: #3d3d3d; font-size: 21pt\">Nossa comunidade é feita de doadores, voluntários, líderes e conselho de administração. Todos os membros possuem </span><strong><span style=\"color: #191971; font-size: 21pt\">impacto significativo</span></strong><span style=\"color: #3d3d3d; font-size: 21pt\"> na vida dos estudantes do Rio de Janeiro.</span></p><pre><code> </code></pre><p><span style=\"color: #3d3d3d; font-size: 21pt\">Apoiadores do RIO podem contribuir com cotas a partir de </span><strong><span style=\"color: #191971; font-size: 21pt\">R$5K</span></strong><span style=\"color: #3d3d3d; font-size: 21pt\">.</span></p>",
+      "description": "<p><span style=\"color: rgb(61, 61, 61); font-size: 21pt\">Nossa comunidade é feita de doadores, voluntários, líderes e conselho de administração. Todos os membros possuem </span><strong><span style=\"color: rgb(25, 25, 113); font-size: 21pt\">impacto significativo</span></strong><span style=\"color: rgb(61, 61, 61); font-size: 21pt\"> na vida dos estudantes do Rio de Janeiro.</span></p><pre><code> </code></pre><p><span style=\"color: rgb(61, 61, 61); font-size: 21pt\">Apoiadores do RIO podem contribuir com cotas a partir de </span><strong><span style=\"color: rgb(25, 25, 113); font-size: 21pt\">R$10K</span></strong><span style=\"color: rgb(61, 61, 61); font-size: 21pt\">.</span></p>",
       "title": "<p><span style=\"color: #191971; font-size: 48pt\">Seja nosso </span><strong><span style=\"color: #191971; font-size: 48pt\">próximo doador</span></strong></p>",
       "ctaText": "Quero contribuir",
-      "ctaLink": "#"
+      "ctaLink": "https://tally.so/r/mVVV4E"
     },
     {
       "__resolveType": "Footer"
