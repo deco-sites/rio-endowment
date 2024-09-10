@@ -103,7 +103,7 @@
           "firstName": "Thomas",
           "lastName": "Ramirez",
           "position": "Co-fundador",
-          "biography": "nasceu na Colômbia nos anos 90. Ainda muito jovem, chegou ao Rio de Janeiro como refugiado da ONU, fugindo dos conflitos armados causados pelo narcotráfico colombiano que assolavam sua região. \n<br /><br />\nNo Rio de Janeiro, aprendeu a ler e escrever através de uma televisão que ele e sua mãe receberam como doação para a casa onde viviam. Desde então, Thomas tem sido profundamente conectado com causas sociais e busca retribuir o apoio que recebeu ao longo de sua jornada.\n<br /><br />\nEngenheiro pelo CEFET-RJ, Thomas co-fundou o Endowment em 2022."
+          "biography": "Nasceu na Colômbia nos anos 90. Ainda muito jovem, chegou ao Rio de Janeiro como refugiado da ONU, fugindo dos conflitos armados causados pelo narcotráfico colombiano que assolavam sua região. \n<br /><br />\nNo Rio de Janeiro, aprendeu a ler e escrever através de uma televisão que ele e sua mãe receberam como doação para a casa onde viviam. Desde então, Thomas tem sido profundamente conectado com causas sociais e busca retribuir o apoio que recebeu ao longo de sua jornada.\n<br /><br />\nEngenheiro pelo CEFET-RJ, Thomas co-fundou o Endowment em 2022."
         },
         {
           "socialMediaLogos": [
@@ -151,13 +151,13 @@
               "link": "https://www.linkedin.com/in/alan-vaisman-826b4a140/"
             }
           ],
-          "photo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/bb69c315-76ff-43a5-b07d-a7e70de6024e/alan.jpeg",
+          "photo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/55de14b6-a4cb-407b-a128-c66c6fc4f9a9/WhatsApp-Image-2024-09-09-at-15.34.14.jpeg",
           "width": 576,
           "height": 344,
           "firstName": "Alan",
           "lastName": "Vaisman",
           "position": "Diretor",
-          "biography": "Carioca, apaixonado pelo Rio de Janeiro e atuante no mercado financeiro, Alan se juntou para contribuir com a missão do RIO Endowment como Diretor meses depois de sua criação. \n<br> <br>\nCFO na Investtools, Alan é bacharel em Administração de Empresas pela PUC-RJ, e MBA em Finanças Corporativas pela FGV."
+          "biography": "Carioca, apaixonado pelo Rio de Janeiro e atuante no mercado financeiro há mais de 6 anos, Alan se juntou para contribuir com a missão do RIO Endowment como Diretor meses depois de sua criação e tem sido fundamental desde então.\n<br> <br>\nCFO na Investtools, Alan é bacharel em Administração de Empresas pela PUC-RJ, e faz MBA em Finanças Corporativas pela FGV."
         }
       ]
     },
@@ -200,6 +200,9 @@
     },
     {
       "__resolveType": "Newsletter"
+    },
+    {
+      "__resolveType": "Footer"
     }
   ],
   "seo": {

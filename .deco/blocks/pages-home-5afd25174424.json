@@ -50,8 +50,54 @@
                 },
                 "bgClosed": "#ffffff",
                 "bgOpened": "#000000",
-                "title": "Lorem Ipsum",
-                "description": "Dolor sit amet"
+                "title": "<p>Lorem Ipsum</p>",
+                "description": "Dolor sit amet",
+                "bgImage": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/760f825d-dfd7-42ef-9492-6edb3451a71c/imagem_2024-09-09_213527108.png",
+                "name": "Investtools"
+              },
+              {
+                "partnerLogo": {
+                  "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/b07c37e3-cc52-4fe6-b312-6708e461e4b0/imagem_2024-09-09_214500714.png",
+                  "width": 100,
+                  "height": 59
+                },
+                "bgImage": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/349cacf2-4126-48cc-9634-886fa6a133e4/imagem_2024-09-09_204850906.png",
+                "name": "Play9",
+                "title": "<p>Lorem Ipsum</p>",
+                "description": "<p>Lorem Ipsum</p>"
+              },
+              {
+                "partnerLogo": {
+                  "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/c9aec179-5b88-499d-9453-834e50527652/deco.svg",
+                  "width": 100,
+                  "height": 53
+                },
+                "name": "deco.cx",
+                "bgImage": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/a68cc5da-2cf3-400b-8336-a61a31dba214/imagem_2024-09-09_214606387.png",
+                "title": "<p>Lorem Ipsum</p>",
+                "description": "<p>Lorem Ipsum</p>"
+              },
+              {
+                "partnerLogo": {
+                  "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/a5f2d90f-8265-46b7-86e1-5ab3e7b3fbfa/imagem_2024-09-09_214830945.png",
+                  "width": 100,
+                  "height": 53
+                },
+                "bgImage": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/f7ed830f-7443-40a7-8a31-76e6da1e41f7/imagem_2024-09-09_214847596.png",
+                "name": "Ismat",
+                "title": "<p>Lorem Ipsum</p>",
+                "description": "<p>Lorem Ipsum</p>"
+              },
+              {
+                "partnerLogo": {
+                  "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/5b9d4c5a-cd2f-44ba-b847-1699a0de7efb/imagem_2024-09-09_214949526.png",
+                  "width": 100,
+                  "height": 52
+                },
+                "bgImage": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/fc606e1d-6988-4c85-a20e-33175f9994f6/imagem_2024-09-09_215009142.png",
+                "name": "deX",
+                "title": "<p>Lorem Ipsum</p>",
+                "description": "<p>Lorem Ipsum</p>"
               }
             ]
           },
@@ -65,15 +111,61 @@
             "partnersList": [
               {
                 "partnerLogo": {
-                  "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/8219383e-c857-4bee-8e26-7b38c4275e13/imagem_2024-09-09_121643843.png",
+                  "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/d0ace1cc-ef7e-444c-a1f8-16e341adae76/imagem_2024-09-09_121511570.png",
                   "width": 100,
                   "height": 53,
                   "alt": "IT"
                 },
-                "bgClosed": "#000000",
+                "bgClosed": "#ffffff",
                 "bgOpened": "#000000",
-                "title": "Lorem Ipsum",
-                "description": "Dolor sit Amet."
+                "title": "<p>Lorem Ipsum</p>",
+                "description": "Dolor sit amet",
+                "bgImage": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/760f825d-dfd7-42ef-9492-6edb3451a71c/imagem_2024-09-09_213527108.png",
+                "name": "Investtools"
+              },
+              {
+                "partnerLogo": {
+                  "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/b07c37e3-cc52-4fe6-b312-6708e461e4b0/imagem_2024-09-09_214500714.png",
+                  "width": 100,
+                  "height": 53
+                },
+                "bgImage": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/349cacf2-4126-48cc-9634-886fa6a133e4/imagem_2024-09-09_204850906.png",
+                "name": "Play9",
+                "title": "<p>Lorem Ipsum</p>",
+                "description": "<p>Lorem Ipsum</p>"
+              },
+              {
+                "partnerLogo": {
+                  "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/c9aec179-5b88-499d-9453-834e50527652/deco.svg",
+                  "width": 100,
+                  "height": 53
+                },
+                "bgImage": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/a68cc5da-2cf3-400b-8336-a61a31dba214/imagem_2024-09-09_214606387.png",
+                "name": "deco.cx",
+                "description": "<p>Lorem Ipsum</p>",
+                "title": "<p>Lorem Ipsum</p>"
+              },
+              {
+                "partnerLogo": {
+                  "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/a5f2d90f-8265-46b7-86e1-5ab3e7b3fbfa/imagem_2024-09-09_214830945.png",
+                  "width": 100,
+                  "height": 53
+                },
+                "description": "<p>Lorem Ipsum</p>",
+                "bgImage": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/f7ed830f-7443-40a7-8a31-76e6da1e41f7/imagem_2024-09-09_214847596.png",
+                "name": "Ismat",
+                "title": "<p>Lorem Ipsum</p>"
+              },
+              {
+                "partnerLogo": {
+                  "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/5b9d4c5a-cd2f-44ba-b847-1699a0de7efb/imagem_2024-09-09_214949526.png",
+                  "width": 100,
+                  "height": 52
+                },
+                "description": "<p>Lorem Ipsum</p>",
+                "bgImage": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/fc606e1d-6988-4c85-a20e-33175f9994f6/imagem_2024-09-09_215009142.png",
+                "name": "deX",
+                "title": "<p>Lorem Ipsum</p>"
               }
             ]
           },
@@ -120,7 +212,7 @@
             "link": "#"
           },
           {
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12250/d71ce2f9-e4fd-4539-ad72-d8628412bc65",
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/9dfe4364-6e31-46a4-a26d-c0f509803130/imagem_2024-09-09_215305959.png",
             "width": 760,
             "height": 374,
             "alt": "Turma Ismart",
@@ -128,7 +220,7 @@
             "link": "#"
           },
           {
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12250/d71ce2f9-e4fd-4539-ad72-d8628412bc65",
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/3dbd56ce-88ef-458e-bd72-8451bb7891af/imagem_2024-09-09_215318306.png",
             "width": 760,
             "height": 374,
             "alt": "Turma Consuelo",
@@ -280,7 +372,7 @@
           "width": 325,
           "height": 299,
           "quoteHighlight": "Investindo no futuro dos nossos alunos.",
-          "quoteMain": "Muito além do investimento financeiro, o RIO promove o desenvolvimento da carreira dos nossos alunos através de mentorias individuais com mentores cuidadosamente selecionados e qualificados no mercado.",
+          "quoteMain": "Investir em jovens de alto potencial tem um retorno exponencial. É, definitivamente, o caminho mais efetivo para rapidamente gerar inclusão e protagonismo, que é tudo que o Rio de Janeiro precisa neste momento.",
           "name": "Guilherme Rodrigues",
           "position": "Co-Fundador e CEO da Deco.CX"
         },

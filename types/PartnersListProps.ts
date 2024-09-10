@@ -1,6 +1,6 @@
-import { Color, ImageWidget } from "apps/admin/widgets.ts";
+import { ImageWidget, RichText } from "apps/admin/widgets.ts";
 
-/** @title {{title}} */
+/** @title {{name}} */
 export interface PartnersListProps {
     /**
      * @title Logo do Parceiro
@@ -18,25 +18,21 @@ export interface PartnersListProps {
          * @title Altura
          */
         height: number;
-        /**
-         * @title Texto alternativo
-         */
-        alt: string
     }
     /**
-     * @title Cor de fundo para quando o card estiver fechado
+     * @title Imagem de fundo
      */
-    bgClosed: Color;
+    bgImage: ImageWidget;
     /**
-     * @title Cor de fundo para quando o card estiver aberto
+     * @title Nome da empresa
      */
-    bgOpened: Color;
+    name: string;
     /**
      * @title Título
      */
-    title: string;
+    title: RichText;
     /**
      * @title Descrição
      */
-    description: string;
+    description: RichText;
 }
