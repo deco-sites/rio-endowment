@@ -33,9 +33,9 @@
     }
   ],
   "ctaButton": {
-    "isExternal": false,
+    "isExternal": true,
     "ctaText": "Doe Agora",
-    "link": "#"
+    "link": "https://tally.so/r/mVVV4E"
   },
   "logoDesktop": {
     "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12250/258f7fb4-1149-4c9a-90ad-0928a47915ed",

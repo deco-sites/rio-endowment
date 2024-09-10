@@ -79,8 +79,8 @@
       "__resolveType": "site/sections/Image/Parallax.tsx",
       "text": "Conheça mais sobre nosso trabalho e junte-se a nós nesta missão de transformar vidas e construir um futuro melhor.",
       "ctaText": "Confira",
-      "ctaLink": "#",
-      "bgImage": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/e551c445-806a-42b6-bc38-821cfeaf8a99/empty-college-classroom-in-gray-scale"
+      "bgImage": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/e551c445-806a-42b6-bc38-821cfeaf8a99/empty-college-classroom-in-gray-scale",
+      "ctaLink": "https://rio-endowment.deco.site/operacao"
     },
     {
       "__resolveType": "site/sections/Slider/BiographySlider.tsx",
