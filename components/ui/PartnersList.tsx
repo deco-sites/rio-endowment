@@ -2,14 +2,13 @@ import Image from "apps/website/components/Image.tsx";
 import { useState } from "preact/hooks";
 import { PartnersListProps } from "site/types/PartnersListProps.ts";
 import { clx } from "site/sdk/clx.ts";
-import { hexToRgba } from "site/utils/hexToRgba.ts";
 import { useId } from "site/sdk/useId.ts";
 
 export interface Props {
     partnersList: PartnersListProps[];
 }
 
-const PartnerItem = ({ bgClosed, bgOpened, description, partnerLogo, title }: PartnersListProps) => {
+const PartnerItem = ({ bgImage, description, partnerLogo, title, name }: PartnersListProps) => {
     const [isOpen, setIsOpen] = useState(false);
     
     const handleClick = () => {        
@@ -19,18 +18,17 @@ const PartnerItem = ({ bgClosed, bgOpened, description, partnerLogo, title }: Pa
     return (
         <div
             class={clx(
-                "px-7 py-2.5 h-[430px] bg-fixed bg-no-repeat bg-cover",
+                "px-7 py-2.5 h-[430px] bg-center bg-no-repeat bg-cover",
                 "transition-all duration-[600ms] overflow-hidden"
             )}
             onClick={handleClick}
             style={{
-                // backgroundColor: isOpen ? hexToRgba(bgOpened, 100) : hexToRgba(bgClosed, 85),
                 width: isOpen ? 466 : 155,
-                backgroundImage: `url(https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/715325a6-c71e-47c0-89ff-2ec3e1304ffe/imagem_2024-09-09_130722876.png)`
+                backgroundImage: `url(${bgImage})`
             }}
         >
             <Image 
-                alt={partnerLogo.alt}
+                alt={name}
                 src={partnerLogo.image}
                 width={partnerLogo.width}
                 height={partnerLogo.height}
@@ -38,8 +36,8 @@ const PartnerItem = ({ bgClosed, bgOpened, description, partnerLogo, title }: Pa
             />
 
             <div class="transition-opacity duration-700 mt-32" style={{ opacity: isOpen ? 100 : 0 }}>
-                <h4 class="text-white text-[32px] leading-relaxed">{title}</h4>
-                <p class="text-white text-base">{description}</p>
+                <div class="leading-relaxed" dangerouslySetInnerHTML={{ __html: title }} />
+                <div dangerouslySetInnerHTML={{ __html: description }} />
             </div>
         </div>
     )
@@ -58,13 +56,13 @@ const PartnersList = ({ partnersList }: Props) => {
                 "lg:absolute lg:-top-32 carousel lg:flex lg:overflow-auto lg:whitespace-nowrap"
             )}>
                 <div class="hidden gap-5 lg:flex">
-                    {partnersList.map(({ bgClosed, bgOpened, description, partnerLogo, title }) => (
+                    {partnersList.map(({ bgImage, description, partnerLogo, title, name }) => (
                         <PartnerItem
-                            bgClosed={bgClosed}
-                            bgOpened={bgOpened}
+                            bgImage={bgImage}
                             description={description}
                             partnerLogo={partnerLogo}
                             title={title}
+                            name={name}
                         />
                     ))}
                 </div>

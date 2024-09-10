@@ -63,27 +63,6 @@ const ClassesSlider = ({ sliderItems, sliderTitle }: Props) => {
     const id = useId();
     const device = useDevice();
 
-    // function scale() {
-    //   const observer = new IntersectionObserver(
-    //     (entries) => {
-    //       entries.forEach((entry) => {
-    //         const imgElement = entry.target;
-    //         if (entry.intersectionRatio >= 0.8) {
-    //           imgElement.classList.add('scale-up');
-    //         } else {
-    //           imgElement.classList.remove('scale-up');
-    //         }
-    //       });
-    //     },
-    //     { threshold: [0.8] }
-    //   );
-    
-    //   const images = document.querySelectorAll('.scale-in');
-    //   images.forEach((img) => observer.observe(img));
-    
-    //   return () => observer.disconnect();
-    // }
-
     return (
         <>
             <main id={id} class={clx(

@@ -76,17 +76,20 @@ export interface Props {
 const BiographySlider = ({ bgSection, biographies, titleSection }: Props) => {
     const id = useId();
     function setup () {
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach((entry) => {
-                if (entry.isIntersecting) {
-                    entry.target.classList.add('animate-fade-up');
-                } else {
-                    entry.target.classList.remove('animate-fade-up');
-                }
-            });
-        });
+        const observer = new IntersectionObserver(
+            (entries) => {
+                entries.forEach((entry) => {
+                    const element = entry.target;
+                    if (entry.isIntersecting) {
+                        element.classList.add("animate-fade-up");
+                    }
+                });
+            },
+            { threshold: 0.1 }
+        );
 
-        document.querySelectorAll('.scroll-animate').forEach((el) => observer.observe(el));
+        const elements = document.querySelectorAll(".scroll-animate");
+        elements.forEach((el) => observer.observe(el));
 
         return () => observer.disconnect();
     }

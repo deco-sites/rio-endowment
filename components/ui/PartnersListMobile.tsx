@@ -1,7 +1,6 @@
 import Image from "apps/website/components/Image.tsx";
 import { PartnersListProps } from "site/types/PartnersListProps.ts";
 import { clx } from "site/sdk/clx.ts";
-import { hexToRgba } from "site/utils/hexToRgba.ts";
 import Slider from "site/components/ui/Slider.tsx";
 import { useId } from "site/sdk/useId.ts";
 import Icon from "site/components/ui/Icon.tsx";
@@ -15,20 +14,23 @@ const PartnersList = ({ partnersList }: Props) => {
     const id = useId();
 
     function setup () {
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach((entry) => {
-                if (entry.isIntersecting) {
-                    entry.target.classList.add('animate-fade-up');
-                } else {
-                    entry.target.classList.remove('animate-fade-up');
-                }
-            });
-        });
+        const observer = new IntersectionObserver(
+            (entries) => {
+                entries.forEach((entry) => {
+                    const element = entry.target;
+                    if (entry.isIntersecting) {
+                        element.classList.add("animate-fade-up");
+                    }
+                });
+            },
+            { threshold: 0.1 }
+        );
 
-        document.querySelectorAll('.scroll-animate').forEach((el) => observer.observe(el));
+        const elements = document.querySelectorAll(".scroll-animate");
+        elements.forEach((el) => observer.observe(el));
 
         return () => observer.disconnect();
-    }
+    };
 
     return (
         <>
@@ -43,22 +45,22 @@ const PartnersList = ({ partnersList }: Props) => {
                 )}>
                     <div class="max-w-[90%] pb-2 w-full mx-auto flex relative lg:hidden">
                         <Slider class="carousel carousel-center w-full" rootId={id}>
-                            {partnersList.map(({ bgOpened, description, partnerLogo, title }, index) => (
+                            {partnersList.map(({ bgImage, description, partnerLogo, title, name }, index) => (
                                 <Slider.Item class="carousel-item carousel-center w-full" index={index}>
                                     <div
                                         class="flex flex-col justify-between px-9 py-8 h-[345px] w-full"
-                                        style={{ backgroundColor: hexToRgba(bgOpened, 100) }}
+                                        style={{ backgroundImage: `url(${bgImage})` }}
                                     >
                                         <Image 
-                                            alt={partnerLogo.alt}
+                                            alt={name}
                                             src={partnerLogo.image}
                                             width={partnerLogo.width}
                                             height={partnerLogo.height}
                                         />
 
-                                        <div class="">
-                                            <h4 class="font-poppins text-white text-[32px] leading-relaxed">{title}</h4>
-                                            <p class="font-poppins text-white text-base">{description}</p>
+                                        <div>
+                                            <div class="leading-relaxed" dangerouslySetInnerHTML={{ __html: title }} />
+                                            <div dangerouslySetInnerHTML={{ __html: description }} />
                                         </div>
                                     </div>
                                 </Slider.Item>
