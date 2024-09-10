@@ -261,7 +261,7 @@
           "name": "Gustavo Beltrami"
         }
       ],
-      "initOpen": true
+      "initOpen": false
     },
     {
       "__resolveType": "site/sections/Text/DonateDisclaimer.tsx",
