@@ -230,25 +230,25 @@
         ],
         "tablet": [
           {
-            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/3a322903-cd53-49da-bb41-fce6d0618e7d/imagem_2024-09-04_150845925.png",
-            "width": 283,
-            "height": 295,
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12250/d71ce2f9-e4fd-4539-ad72-d8628412bc65",
+            "width": 600,
+            "height": 287,
             "alt": "Turma CEFET",
             "classTitle": "Turma CEFET",
             "link": "#"
           },
           {
-            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/3a322903-cd53-49da-bb41-fce6d0618e7d/imagem_2024-09-04_150845925.png",
-            "width": 283,
-            "height": 295,
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/9dfe4364-6e31-46a4-a26d-c0f509803130/imagem_2024-09-09_215305959.png",
+            "width": 600,
+            "height": 287,
             "alt": "Turma Ismart",
             "classTitle": "Turma Ismart",
             "link": "#"
           },
           {
-            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/3a322903-cd53-49da-bb41-fce6d0618e7d/imagem_2024-09-04_150845925.png",
-            "width": 283,
-            "height": 295,
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/3dbd56ce-88ef-458e-bd72-8451bb7891af/imagem_2024-09-09_215318306.png",
+            "width": 600,
+            "height": 287,
             "alt": "Turma Consuelo",
             "classTitle": "Turma Consuelo",
             "link": "#"
@@ -264,7 +264,7 @@
             "link": "#"
           },
           {
-            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/3a322903-cd53-49da-bb41-fce6d0618e7d/imagem_2024-09-04_150845925.png",
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/2c0d6a08-4acc-4187-b2c4-cb2897be8cab/imagem_2024-09-09_225502499.png",
             "width": 283,
             "height": 295,
             "alt": "Turma Ismart",
@@ -272,7 +272,7 @@
             "link": "#"
           },
           {
-            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/3a322903-cd53-49da-bb41-fce6d0618e7d/imagem_2024-09-04_150845925.png",
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/71a332df-43d9-48ed-9dd8-bf15045e6901/imagem_2024-09-09_225517497.png",
             "width": 283,
             "height": 295,
             "alt": "Turma Consuelo",
