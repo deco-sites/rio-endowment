@@ -3,6 +3,14 @@
   "path": "/sobre-nos",
   "sections": [
     {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "website/sections/Seo/SeoV2.tsx",
+        "title": "Sobre Nós",
+        "favicon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/045f26cc-d00e-4217-bc14-ff4a563e7e77/imagem_2024-09-11_104231459.png"
+      }
+    },
+    {
       "__resolveType": "Header Principal"
     },
     {
@@ -41,9 +49,9 @@
       },
       "tabletImage": {
         "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/594532de-3736-4d13-ae2e-231996692b00/imagem_2024-09-05_131048511.png",
-        "alt": "Banner",
         "height": 469,
-        "width": 636
+        "width": 636,
+        "alt": "Banner"
       },
       "mobileImage": {
         "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/a5db8bd3-2803-4089-87e0-b3749cf5b03f/imagem_2024-09-05_131157892.png",
@@ -103,7 +111,7 @@
           "firstName": "Thomas",
           "lastName": "Ramirez",
           "position": "Co-fundador",
-          "biography": "Nasceu na Colômbia nos anos 90. Ainda muito jovem, chegou ao Rio de Janeiro como refugiado da ONU, fugindo dos conflitos armados causados pelo narcotráfico colombiano que assolavam sua região. \n<br /><br />\nNo Rio de Janeiro, aprendeu a ler e escrever através de uma televisão que ele e sua mãe receberam como doação para a casa onde viviam. Desde então, Thomas tem sido profundamente conectado com causas sociais e busca retribuir o apoio que recebeu ao longo de sua jornada.\n<br /><br />\nEngenheiro pelo CEFET-RJ, Thomas co-fundou o Endowment em 2022."
+          "biography": "Nasceu na Colômbia nos anos 90. Ainda muito jovem, chegou ao Rio de Janeiro como refugiado da ONU, fugindo dos conflitos na região.\n<br /><br />\nNo Rio de Janeiro, aprendeu a ler e escrever através de uma televisão que ele e sua mãe receberam como doação. Desde então, Thomas tem sido profundamente conectado com causas sociais e busca retribuir o apoio que recebeu ao longo de sua jornada.\n<br /><br />\nEngenheiro pelo CEFET-RJ, Thomas co-fundou o Endowment em 2022."
         },
         {
           "socialMediaLogos": [
