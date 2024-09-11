@@ -1,0 +1,30 @@
+{
+  "name": "404",
+  "path": "/404",
+  "sections": [
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Header Principal"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Page404/Page404.tsx",
+        "title": "<p style=\"text-align: center\"><strong><span style=\"color: rgb(25, 25, 113); font-size: 25pt\">Opa!</span></strong></p><p style=\"text-align: center\"><span style=\"color: rgb(25, 28, 31); font-size: 25pt\">Acho que perdemos o foco</span></p>",
+        "description": "<p style=\"text-align: center\"><span style=\"font-size: 22pt\">Esta página não foi encontrada</span></p>"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Footer"
+      }
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}
