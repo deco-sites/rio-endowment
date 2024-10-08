@@ -3,12 +3,9 @@
   "path": "/",
   "sections": [
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "website/sections/Seo/SeoV2.tsx",
-        "title": "Inicio",
-        "favicon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/045f26cc-d00e-4217-bc14-ff4a563e7e77/imagem_2024-09-11_104231459.png"
-      }
+      "__resolveType": "website/sections/Seo/SeoV2.tsx",
+      "title": "Inicio",
+      "favicon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/045f26cc-d00e-4217-bc14-ff4a563e7e77/imagem_2024-09-11_104231459.png"
     },
     {
       "__resolveType": "Header Principal"
