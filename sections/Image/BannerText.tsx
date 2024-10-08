@@ -69,7 +69,7 @@ const BannerText = ({ desktopBanner, mobileBanner, tabletBanner }: Props) => {
 
     return (
         <>
-            <main class="flex h-fit relative -z-10 mt-20 lg:mt-0">
+            <main class="flex h-fit relative -z-10 mt-20 lg:mt-0 lg:max-w-[1920px] lg:mx-auto">
                 {device === "desktop" && (
                     <>
                         <Image

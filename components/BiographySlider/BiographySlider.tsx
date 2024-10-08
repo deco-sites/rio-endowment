@@ -98,7 +98,7 @@ const BiographySlider = ({ bgSection, biographies, titleSection }: Props) => {
         <>
             <main
                 id={id}
-                class="relative w-full mb-28"
+                class="relative w-full mb-28 lg:max-w-[1920px] lg:mx-auto"
             >
                 <div class="scroll-animate flex gap-8 ml-6 lg:ml-28 lg:h-[54px]">
                     <h1 class={clx(
