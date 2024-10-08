@@ -64,7 +64,7 @@ const Media = ({ images, title }: Props) => {
 
     return (
         <>
-            <main class="px-10 mx-auto mb-20 ">
+            <main class="px-10 mx-auto mb-20 lg:max-w-[1920px] lg:mx-auto">
                 <h1 class="move-initial-r font-poppins text-center text-xs/10 text-gray-300 mb-8 sm:text-sm lg:text-base">{title}</h1>
                 <div class={clx(
                     "grid grid-cols-2 items-center justify-center gap-y-9",
