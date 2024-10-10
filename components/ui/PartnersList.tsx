@@ -1,8 +1,45 @@
 import Image from "apps/website/components/Image.tsx";
 import { useState } from "preact/hooks";
-import { PartnersListProps } from "site/types/PartnersListProps.ts";
 import { clx } from "site/sdk/clx.ts";
 import { useId } from "site/sdk/useId.ts";
+import { ImageWidget, RichText, TextArea } from "apps/admin/widgets.ts";
+
+/** @title {{name}} */
+export interface PartnersListProps {
+    /**
+     * @title Logo do Parceiro
+     */
+    partnerLogo: {
+        /**
+         * @title Imagem
+         */
+        image: ImageWidget;
+        /**
+         * @title Largura
+         */
+        width: number;
+        /**
+         * @title Altura
+         */
+        height: number;
+    }
+    /**
+     * @title Imagem de fundo
+     */
+    bgImage: ImageWidget;
+    /**
+     * @title Nome da empresa
+     */
+    name: string;
+    /**
+     * @title Título
+     */
+    title: string;
+    /**
+     * @title Descrição
+     */
+    description: TextArea;
+}
 
 export interface Props {
     partnersList: PartnersListProps[];
@@ -36,8 +73,8 @@ const PartnerItem = ({ bgImage, description, partnerLogo, title, name }: Partner
             />
 
             <div class="transition-opacity duration-700 mt-32" style={{ opacity: isOpen ? 100 : 0 }}>
-                <div class="leading-relaxed" dangerouslySetInnerHTML={{ __html: title }} />
-                <div dangerouslySetInnerHTML={{ __html: description }} />
+                <div class="text-white text-3xl/relaxed whitespace-break-spaces">{title}</div>
+                <div class="text-white text-base/snug whitespace-break-spaces">{description}</div>
             </div>
         </div>
     )

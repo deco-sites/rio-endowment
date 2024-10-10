@@ -1,10 +1,47 @@
 import Image from "apps/website/components/Image.tsx";
-import { PartnersListProps } from "site/types/PartnersListProps.ts";
 import { clx } from "site/sdk/clx.ts";
 import Slider from "site/components/ui/Slider.tsx";
 import { useId } from "site/sdk/useId.ts";
 import Icon from "site/components/ui/Icon.tsx";
-import { useScript } from "deco/hooks/useScript.ts";
+import { useScript } from "@deco/deco/hooks";
+import { ImageWidget, TextArea } from "apps/admin/widgets.ts";
+
+/** @title {{name}} */
+export interface PartnersListProps {
+    /**
+     * @title Logo do Parceiro
+     */
+    partnerLogo: {
+        /**
+         * @title Imagem
+         */
+        image: ImageWidget;
+        /**
+         * @title Largura
+         */
+        width: number;
+        /**
+         * @title Altura
+         */
+        height: number;
+    }
+    /**
+     * @title Imagem de fundo
+     */
+    bgImage: ImageWidget;
+    /**
+     * @title Nome da empresa
+     */
+    name: string;
+    /**
+     * @title Título
+     */
+    title: string;
+    /**
+     * @title Descrição
+     */
+    description: TextArea;
+}
 
 export interface Props {
     partnersList: PartnersListProps[];
@@ -36,8 +73,8 @@ const PartnersList = ({ partnersList }: Props) => {
         <>
             <main class={clx(
                 "scroll-animate",
-                "-mt-52 w-full flex justify-center relative",
-                "sm:-mt-16 lg:partners-list lg:justify-end lg:h-[300px] lg:mt-0"
+                "mt-9 w-full flex justify-center relative",
+                "sm:mt-12 lg:partners-list lg:justify-end lg:h-[300px] lg:mt-0"
             )}>
                 <section id={id} class={clx(
                     "max-w-[90%] pb-2 w-full mx-auto relative",
@@ -45,10 +82,10 @@ const PartnersList = ({ partnersList }: Props) => {
                 )}>
                     <div class="max-w-[90%] pb-2 w-full mx-auto flex relative lg:hidden">
                         <Slider class="carousel carousel-center w-full" rootId={id}>
-                            {partnersList.map(({ bgImage, description, partnerLogo, title, name }, index) => (
+                            {partnersList.map(({ bgImage, partnerLogo, name, title, description }, index) => (
                                 <Slider.Item class="carousel-item carousel-center w-full" index={index}>
                                     <div
-                                        class="flex flex-col justify-between px-9 py-8 h-[345px] w-full"
+                                        class="flex flex-col justify-between px-9 py-8 h-[345px] w-full bg-cover"
                                         style={{ backgroundImage: `url(${bgImage})` }}
                                     >
                                         <Image 
@@ -59,8 +96,8 @@ const PartnersList = ({ partnersList }: Props) => {
                                         />
 
                                         <div>
-                                            <div class="leading-relaxed" dangerouslySetInnerHTML={{ __html: title }} />
-                                            <div dangerouslySetInnerHTML={{ __html: description }} />
+                                            <div class="text-white text-3xl/relaxed">{title}</div>
+                                            <div class="text-white text-base/snug">{description}</div>
                                         </div>
                                     </div>
                                 </Slider.Item>

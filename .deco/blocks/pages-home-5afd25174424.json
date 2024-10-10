@@ -48,14 +48,14 @@
             "partnersList": [
               {
                 "partnerLogo": {
-                  "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/d0ace1cc-ef7e-444c-a1f8-16e341adae76/imagem_2024-09-09_121511570.png",
+                  "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/36ae4bf4-2ba9-43c6-860b-28b03d7a9e5b/imagem_2024-10-09_221650593.png",
                   "width": 100,
                   "height": 53,
                   "alt": "IT"
                 },
-                "title": "<p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://investtools.com.br/en\"><strong><span style=\"font-size: 20pt\">Investtools</span></strong></a></p>",
-                "description": "<p><span style=\"font-size: 10pt\">A </span><strong><span style=\"font-size: 10pt\">Investtools</span></strong><span style=\"font-size: 10pt\"> é uma empresa com mais de 15 anos</span></p><p><span style=\"font-size: 10pt\">de know-how no desenvolvimento de tecnologias</span></p><p><span style=\"font-size: 10pt\">para mercado financeiro.</span></p>",
-                "bgImage": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/760f825d-dfd7-42ef-9492-6edb3451a71c/imagem_2024-09-09_213527108.png",
+                "title": "Investtools",
+                "description": "A investtools é uma empresa com mais de 15 anos de know-how no desenvolvimento de tecnologias para mercado financeiro. São parceiros do RIO Endowment.",
+                "bgImage": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/06a5d343-f60f-4053-84eb-9b57ef5f7505/imagem_2024-10-09_213840630.png",
                 "name": "Investtools",
                 "bgClosed": "#ffffff",
                 "bgOpened": "#000000"
@@ -68,8 +68,8 @@
                 },
                 "bgImage": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/a68cc5da-2cf3-400b-8336-a61a31dba214/imagem_2024-09-09_214606387.png",
                 "name": "deco.cx",
-                "title": "<p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://deco.cx/\"><strong><span style=\"color: rgb(246, 239, 239); font-size: 20pt\">Deco.cx</span></strong></a></p>",
-                "description": "<p><span style=\"color: rgb(246, 239, 239); font-size: 10pt\">A </span><strong><span style=\"color: rgb(246, 239, 239); font-size: 10pt\">deco.cx</span></strong><span style=\"color: rgb(246, 239, 239); font-size: 10pt\"> é um CMS universal baseado em Git para</span></p><p><span style=\"color: rgb(246, 239, 239); font-size: 10pt\">construir sites e aplicativos de alta performance.</span></p>"
+                "title": "Deco.cx",
+                "description": "A deco.cx é um CMS universal baseado em Git para construir sites e aplicativos de alta permofance. São parceiros do RIO Endowment."
               },
               {
                 "partnerLogo": {
@@ -79,8 +79,8 @@
                 },
                 "name": "Play9",
                 "bgImage": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/349cacf2-4126-48cc-9634-886fa6a133e4/imagem_2024-09-09_204850906.png",
-                "title": "<p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://play9.com.br/\"><strong><span style=\"color: rgb(246, 239, 239); font-size: 20pt\">Play9</span></strong></a></p>",
-                "description": "<p><strong><span style=\"color: #f6efef; font-size: 10pt\">Mediatech</span></strong><span style=\"color: #f6efef; font-size: 10pt\"> focada no desenvolvimento de</span></p><p><span style=\"color: #f6efef; font-size: 10pt\">narrativas e soluções para expansão de audiência</span></p><p><span style=\"color: #f6efef; font-size: 10pt\">e resultados de marcas e influenciadores.</span></p>"
+                "title": "Play9",
+                "description": " Mediatech especializada no desenvolvimento de narrativas e soluções para expansão de audiência e resultados de marcas e influenciadores. São parceiros do RIO Endowment"
               },
               {
                 "partnerLogo": {
@@ -90,8 +90,8 @@
                 },
                 "bgImage": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/f7ed830f-7443-40a7-8a31-76e6da1e41f7/imagem_2024-09-09_214847596.png",
                 "name": "Ismart",
-                "title": "<p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://www.ismart.org.br/\"><strong><span style=\"color: rgb(246, 239, 239); font-size: 20pt\">Ismart</span></strong></a></p>",
-                "description": "<p><span style=\"color: rgb(246, 239, 239); font-size: 10pt\">O </span><strong><span style=\"color: rgb(246, 239, 239); font-size: 10pt\">Ismart</span></strong><span style=\"color: rgb(246, 239, 239); font-size: 10pt\"> é uma entidade privada, que identifica</span></p><p><span style=\"color: rgb(246, 239, 239); font-size: 10pt\">jovens talentos de baixa renda e</span></p><p><span style=\"color: rgb(246, 239, 239); font-size: 10pt\">os apoia com bolsas de estudo em escolas particulares</span></p><p><span style=\"color: rgb(246, 239, 239); font-size: 10pt\">de excelência - do ensino fundamental ao médio.</span></p>"
+                "title": "Ismart",
+                "description": "O Ismart é uma entidade privada, que identifica jovens talentos de baixa renda e os apoia com bolsas de estudos em escolas particulares de excelência - do ensino fundamental ao médio. São parceiros do RIO Endowment"
               },
               {
                 "partnerLogo": {
@@ -101,8 +101,8 @@
                 },
                 "bgImage": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/fc606e1d-6988-4c85-a20e-33175f9994f6/imagem_2024-09-09_215009142.png",
                 "name": "deX",
-                "title": "<p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://www.dexlabs.io/\"><strong><span style=\"color: rgb(246, 239, 239); font-size: 20pt\">deX</span></strong></a></p>",
-                "description": "<p><span style=\"color: rgb(246, 239, 239); font-size: 10pt\">A </span><strong><span style=\"color: rgb(246, 239, 239); font-size: 10pt\">deX</span></strong><span style=\"color: rgb(246, 239, 239); font-size: 10pt\"> é uma plataforma unificada de engenharia de dados, </span></p><p><span style=\"color: rgb(246, 239, 239); font-size: 10pt\">analytics e AI.</span></p>"
+                "title": "deX",
+                "description": "A deX é um SaaS de Engenharia de dados, startup em estágio pre-seed, e relevante apoiadora do RIO Endowment."
               }
             ]
           },
@@ -116,61 +116,61 @@
             "partnersList": [
               {
                 "partnerLogo": {
-                  "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/d0ace1cc-ef7e-444c-a1f8-16e341adae76/imagem_2024-09-09_121511570.png",
-                  "width": 100,
-                  "height": 53,
-                  "alt": "IT"
+                  "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/5b9d4c5a-cd2f-44ba-b847-1699a0de7efb/imagem_2024-09-09_214949526.png",
+                  "width": 71,
+                  "height": 38
                 },
-                "title": "<p></p>",
-                "description": "<p>A <strong>Investtools</strong> é uma empresa com mais de 15 anos</p><p>de know-how no desenvolvimento de tecnologias </p><p>para mercado financeiro.</p><p><strong>São parceiros do RIO Endowment</strong>.</p>",
-                "bgImage": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/760f825d-dfd7-42ef-9492-6edb3451a71c/imagem_2024-09-09_213527108.png",
-                "name": "Investtools",
-                "bgClosed": "#ffffff",
-                "bgOpened": "#000000"
+                "title": "deX",
+                "description": "A deX é um SaaS de Engenharia de dados, startup em estágio pre-seed, e relevante apoiadora do RIO Endowment.",
+                "bgImage": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/fc606e1d-6988-4c85-a20e-33175f9994f6/imagem_2024-09-09_215009142.png",
+                "name": "deX"
               },
               {
                 "partnerLogo": {
-                  "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/c9aec179-5b88-499d-9453-834e50527652/deco.svg",
-                  "width": 100,
-                  "height": 53
+                  "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/cb853d68-30c1-4b03-ae71-41f49556dea4/imagem_2024-10-09_221428408.png",
+                  "width": 71,
+                  "height": 37
                 },
-                "bgImage": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/a68cc5da-2cf3-400b-8336-a61a31dba214/imagem_2024-09-09_214606387.png",
-                "name": "deco.cx",
-                "title": "<p></p>",
-                "description": "<p>A <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"http://deco.cx\"><strong>deco.cx</strong></a> é um CMS universal baseado em Git para</p><p>construir sites e aplicativos de alta performance.</p><p><strong>São parceiros do RIO Endowment</strong>.</p>"
-              },
-              {
-                "partnerLogo": {
-                  "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/b07c37e3-cc52-4fe6-b312-6708e461e4b0/imagem_2024-09-09_214500714.png",
-                  "width": 100,
-                  "height": 53
-                },
-                "bgImage": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/349cacf2-4126-48cc-9634-886fa6a133e4/imagem_2024-09-09_204850906.png",
-                "name": "Play9",
-                "description": "<p>Mediatech especializada no desenvolvimento de narrativas</p><p>e soluções para expansão de audiência e resultados de</p><p>marcas e influenciadores.</p><p><strong>São parceiros do RIO Endowment</strong>.</p>",
-                "title": "<p></p>"
-              },
-              {
-                "partnerLogo": {
-                  "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/a5f2d90f-8265-46b7-86e1-5ab3e7b3fbfa/imagem_2024-09-09_214830945.png",
-                  "width": 100,
-                  "height": 53
-                },
-                "description": "<p><span style=\"color: rgb(203, 189, 189)\">O </span><strong><span style=\"color: rgb(203, 189, 189)\">Ismart</span></strong><span style=\"color: rgb(203, 189, 189)\"> é uma entidade privada, que identifica</span></p><p><span style=\"color: rgb(203, 189, 189)\">jovens talentos de baixa renda e</span></p><p><span style=\"color: rgb(203, 189, 189)\">os apoia com bolsas de estudo em escolas particulares</span></p><p><span style=\"color: rgb(203, 189, 189)\">de excelência - do ensino fundamental ao médio.</span></p><p><strong><span style=\"color: rgb(203, 189, 189)\">São parceiros do RIO Endowment</span></strong><span style=\"color: rgb(203, 189, 189)\">.</span></p>",
                 "bgImage": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/f7ed830f-7443-40a7-8a31-76e6da1e41f7/imagem_2024-09-09_214847596.png",
                 "name": "Ismart",
-                "title": "<p></p>"
+                "title": "Ismart",
+                "description": "O Ismart é uma entidade privada, que identifica jovens talentos de baixa renda e os apoia com bolsas de estudos em escolas particulares de excelência - do ensino fundamental ao médio. São parceiros do RIO Endowment"
               },
               {
                 "partnerLogo": {
-                  "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/5b9d4c5a-cd2f-44ba-b847-1699a0de7efb/imagem_2024-09-09_214949526.png",
-                  "width": 100,
-                  "height": 52
+                  "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/b99fe6ad-9b03-49d2-944e-5f61a0943724/imagem_2024-10-09_221519957.png",
+                  "width": 71,
+                  "height": 37
                 },
-                "description": "<p>A <strong>deX</strong> é uma plataforma unificada de engenharia de dados,</p><p>analytics e AI.</p><p><strong>São parceiros do RIO Endowment</strong>.</p>",
-                "bgImage": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/fc606e1d-6988-4c85-a20e-33175f9994f6/imagem_2024-09-09_215009142.png",
-                "name": "deX",
-                "title": "<p></p>"
+                "bgImage": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/d8d04792-afbd-42b4-9276-331a99720cd6/imagem_2024-10-09_221847450.png",
+                "name": "Play9",
+                "description": " Mediatech especializada no desenvolvimento de narrativas e soluções para expansão de audiência e resultados de marcas e influenciadores. São parceiros do RIO Endowment",
+                "title": "Play9"
+              },
+              {
+                "partnerLogo": {
+                  "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/1328aefd-d59f-40ed-bcc8-0c72a32b9127/imagem_2024-10-09_221627096.png",
+                  "width": 41,
+                  "height": 41
+                },
+                "description": "deco.cx é um CMS universal baseado em Git para construir sites e aplicativos de alta performance. São parceiros do RIO Endowment.",
+                "bgImage": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/f720a996-b2fb-46c1-9d57-2e85dba8c6b3/imagem_2024-10-09_221750893.png",
+                "name": "deco.cx",
+                "title": "Deco.cx"
+              },
+              {
+                "partnerLogo": {
+                  "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/36ae4bf4-2ba9-43c6-860b-28b03d7a9e5b/imagem_2024-10-09_221650593.png",
+                  "width": 53,
+                  "height": 54,
+                  "alt": "IT"
+                },
+                "description": "A investtools é uma empresa com mais de 15 anos de know-how no desenvolvimento de tecnologias para mercado financeiro. São parceiros do RIO Endowment.",
+                "bgImage": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/06a5d343-f60f-4053-84eb-9b57ef5f7505/imagem_2024-10-09_213840630.png",
+                "name": "Investtools",
+                "title": "Investtools",
+                "bgClosed": "#ffffff",
+                "bgOpened": "#000000"
               }
             ]
           },
