@@ -4,8 +4,7 @@ import Slider from "site/components/ui/Slider.tsx";
 import { useId } from "site/sdk/useId.ts";
 import Icon from "site/components/ui/Icon.tsx";
 import { clx } from "site/sdk/clx.ts";
-import { useScript } from "deco/hooks/useScript.ts";
-
+import { useScript } from "@deco/deco/hooks";
 /** @title {{name}} */
 interface SocialMediaProps {
     /**
@@ -30,7 +29,6 @@ interface SocialMediaProps {
      */
     link?: string;
 }
-
 /** @title {{firstName}} */
 interface PartnerProps {
     /**
@@ -66,122 +64,70 @@ interface PartnerProps {
      */
     socialMediaLogos: SocialMediaProps[];
 }
-
 export interface Props {
     titleSection: string;
     bgSection: Color;
     biographies: PartnerProps[];
-} 
-
+}
 const BiographySlider = ({ bgSection, biographies, titleSection }: Props) => {
     const id = useId();
-    function setup () {
-        const observer = new IntersectionObserver(
-            (entries) => {
-                entries.forEach((entry) => {
-                    const element = entry.target;
-                    if (entry.isIntersecting) {
-                        element.classList.add("animate-fade-up");
-                    }
-                });
-            },
-            { threshold: 0.1 }
-        );
-
+    function setup() {
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach((entry) => {
+                const element = entry.target;
+                if (entry.isIntersecting) {
+                    element.classList.add("animate-fade-up");
+                }
+            });
+        }, { threshold: 0.1 });
         const elements = document.querySelectorAll(".scroll-animate");
         elements.forEach((el) => observer.observe(el));
-
         return () => observer.disconnect();
     }
-
-    return (
-        <>
-            <main
-                id={id}
-                class="relative w-full mb-28 lg:max-w-[1920px] lg:mx-auto"
-            >
+    return (<>
+            <main id={id} class="relative w-full mb-28 lg:max-w-[1920px] lg:mx-auto">
                 <div class="scroll-animate flex gap-8 ml-6 lg:ml-28 lg:h-[54px]">
-                    <h1 class={clx(
-                        "font-poppins font-medium text-blue-100 text-2xl/7 mb-8 sm:mb-8",
-                        "lg:text-3xl/none"
-                    )}>
+                    <h1 class={clx("font-poppins font-medium text-blue-100 text-2xl/7 mb-8 sm:mb-8", "lg:text-3xl/none")}>
                         {titleSection}
                     </h1>
                     <span class="flex gap-6">
-                        {biographies?.map(({ firstName, position }, index) => (
-                            <Slider.Dot
-                                additionalClasses={clx(
-                                    "hidden sm:block font-semibold font-poppins text-gray-100 group w-24 pb-5",
-                                    "disabled:text-blue-300 disabled:border-b-2 disabled:border-pink-200"
-                                )}
-                                index={index}
-                            >
+                        {biographies?.map(({ firstName, position }, index) => (<Slider.Dot additionalClasses={clx("hidden sm:block font-semibold font-poppins text-gray-100 group w-24 pb-5", "disabled:text-blue-300 disabled:border-b-2 disabled:border-pink-200")} index={index}>
                                 <p class="font-poppins text-left text-blue-100 text-base/5 opacity-50 transition-opacity group-disabled:opacity-100">
                                     {firstName}
                                 </p>
                                 <p class="font-poppins text-left text-xs/none text-gray-200">
                                     {position}
                                 </p>
-                            </Slider.Dot>
-                        ))}
+                            </Slider.Dot>))}
                     </span>
                 </div>
         
                 <div class="flex" style={{ backgroundColor: bgSection }}>
-                    <Slider
-                        class="carousel carousel-center gap-6 px-4 py-11 lg:max-w-7xl lg:mx-auto"
-                        rootId={id}
-                    >
-                        {biographies.map(({ firstName, lastName, biography, photo, height, socialMediaLogos, width }, index) => (
-                            <Slider.Item
-                                class={clx(
-                                    "carousel-item w-fit flex-col gap-8",
-                                    "lg:gap-[76px] lg:flex-row"
-                                )}
-                                index={index}
-                            >
-                                <Image
-                                    alt={firstName}
-                                    src={photo}
-                                    width={width}
-                                    height={height}
-                                    class="scroll-animate rounded-[32px] mx-auto"
-                                />
+                    <Slider class="carousel carousel-center gap-6 px-4 py-11 lg:max-w-7xl lg:mx-auto" rootId={id}>
+                        {biographies.map(({ firstName, lastName, biography, photo, height, socialMediaLogos, width }, index) => (<Slider.Item class={clx("carousel-item w-fit flex-col gap-8", "lg:gap-[76px] lg:flex-row")} index={index}>
+                                <Image alt={firstName} src={photo} width={width} height={height} class="scroll-animate rounded-[32px] mx-auto"/>
                                 <div class="scroll-animate flex flex-col gap-6  ">
                                     <h2 class="font-poppins text-blue-400 text-[40px]/none">{firstName} {lastName}, </h2>
-                                    <span class="text-blue-400 text-base/tight" dangerouslySetInnerHTML={{ __html: biography }} />
+                                    <span class="text-blue-400 text-base/tight" dangerouslySetInnerHTML={{ __html: biography }}/>
                                     <span>
-                                        {socialMediaLogos?.map(({ height, icon, name, width, link }) => (
-                                            <a class="w-fit" href={link}>
-                                                <Image
-                                                    alt={name}
-                                                    src={icon}
-                                                    width={width}
-                                                    height={height}
-                                                />
-                                            </a>
-                                        ))}
+                                        {socialMediaLogos?.map(({ height, icon, name, width, link }) => (<a class="w-fit" href={link}>
+                                                <Image alt={name} src={icon} width={width} height={height}/>
+                                            </a>))}
                                     </span>
                                 </div>
-                            </Slider.Item>
-                        ))}
+                            </Slider.Item>))}
                     </Slider>
                     <Slider.PrevButton class="absolute top-1/3 left-5 disabled:hidden z-20 lg:hidden">
-                        <Icon id="BigLeftArrow" width={21} height={38} /> 
+                        <Icon id="BigLeftArrow" width={21} height={38}/> 
                     </Slider.PrevButton>
                     <Slider.NextButton class="absolute top-1/3 right-5 disabled:hidden z-20 lg:hidden ">
-                        <Icon id="BigRightArrow" width={21} height={38} />
+                        <Icon id="BigRightArrow" width={21} height={38}/>
                     </Slider.NextButton>
                 </div>
             </main>
-            <script
-                type="module"
-                dangerouslySetInnerHTML={{
-                    __html: useScript(setup)
-                }}
-            />
-        </>
-    )
+            <script type="module" dangerouslySetInnerHTML={{
+            __html: useScript(setup)
+        }}/>
+        </>);
 };
-
 export default BiographySlider;
