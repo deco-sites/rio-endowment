@@ -229,6 +229,42 @@
           ],
           "position": "<p>Líder de Captação.</p>",
           "name": "Avy Pinto"
+        },
+        {
+          "photo": {
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/a32d7b74-5c09-495f-a256-e582e4477bf0/Carolina-Pego.jpeg",
+            "width": 64,
+            "height": 64
+          },
+          "socialMedias": [
+            {
+              "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/3fdd52fe-fd60-4f8e-8d16-af8c28238386/imagem_2024-09-08_212137679.png",
+              "name": "Linkedin",
+              "width": 16,
+              "height": 18,
+              "link": "https://www.linkedin.com/in/ana-carolina-p%C3%AAgo/"
+            }
+          ],
+          "name": "Carol Pêgo",
+          "position": "<p>Líder de People.</p>"
+        },
+        {
+          "photo": {
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/41cd3c22-6c99-404b-9772-ee0372a1e4c4/rodrigo-lopes.jpeg",
+            "width": 64,
+            "height": 64
+          },
+          "socialMedias": [
+            {
+              "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/3fdd52fe-fd60-4f8e-8d16-af8c28238386/imagem_2024-09-08_212137679.png",
+              "name": "Linkedin",
+              "width": 16,
+              "height": 18,
+              "link": "https://www.linkedin.com/in/rodrigo-lopes-a9a913a4/"
+            }
+          ],
+          "name": "Rodrigo Lopes",
+          "position": "<p>Líder de Compliance.</p>"
         }
       ],
       "initOpen": false
