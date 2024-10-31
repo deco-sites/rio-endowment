@@ -21,11 +21,11 @@ import * as $$$$$$35 from "./sections/hero-1.tsx";
 import * as $$$$$$36 from "./sections/hero-2.tsx";
 import * as $$$$$$13 from "./sections/Hero.tsx";
 import * as $$$$$$37 from "./sections/hero2.tsx";
-import * as $$$$$$15 from "./sections/Image/BannerText.tsx";
-import * as $$$$$$16 from "./sections/Image/GridBanner.tsx";
-import * as $$$$$$17 from "./sections/Image/Media.tsx";
-import * as $$$$$$18 from "./sections/Image/Parallax.tsx";
-import * as $$$$$$14 from "./sections/ImageWithParagraph.tsx";
+import * as $$$$$$14 from "./sections/Image/BannerText.tsx";
+import * as $$$$$$15 from "./sections/Image/GridBanner.tsx";
+import * as $$$$$$16 from "./sections/Image/Media.tsx";
+import * as $$$$$$17 from "./sections/Image/Parallax.tsx";
+import * as $$$$$$18 from "./sections/ImageWithParagraph.tsx";
 import * as $$$$$$19 from "./sections/Logos.tsx";
 import * as $$$$$$20 from "./sections/Page404/Page404.tsx";
 import * as $$$$$$21 from "./sections/Slider/BiographySlider.tsx";
@@ -62,11 +62,11 @@ const manifest = {
     "site/sections/hero-2.tsx": $$$$$$36,
     "site/sections/Hero.tsx": $$$$$$13,
     "site/sections/hero2.tsx": $$$$$$37,
-    "site/sections/Image/BannerText.tsx": $$$$$$15,
-    "site/sections/Image/GridBanner.tsx": $$$$$$16,
-    "site/sections/Image/Media.tsx": $$$$$$17,
-    "site/sections/Image/Parallax.tsx": $$$$$$18,
-    "site/sections/ImageWithParagraph.tsx": $$$$$$14,
+    "site/sections/Image/BannerText.tsx": $$$$$$14,
+    "site/sections/Image/GridBanner.tsx": $$$$$$15,
+    "site/sections/Image/Media.tsx": $$$$$$16,
+    "site/sections/Image/Parallax.tsx": $$$$$$17,
+    "site/sections/ImageWithParagraph.tsx": $$$$$$18,
     "site/sections/Logos.tsx": $$$$$$19,
     "site/sections/Page404/Page404.tsx": $$$$$$20,
     "site/sections/Slider/BiographySlider.tsx": $$$$$$21,
