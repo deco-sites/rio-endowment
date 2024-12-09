@@ -25,9 +25,9 @@
     }
   ],
   "ctaButton": {
-    "isExternal": true,
-    "ctaText": "Inscrições Bolsa RIO",
-    "link": "https://docs.google.com/forms/d/e/1FAIpQLSdFThYF9mNeRKVYT9Y_rVFKaD3sREkidTsX-dv7EhUZzO62bw/viewform?embedded=true"
+    "isExternal": false,
+    "ctaText": "Aprovados Bolsa RIO 2024",
+    "link": "https://www.rioendowment.com/bolsa-rio-aprovados-2024"
   },
   "logoDesktop": {
     "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12250/258f7fb4-1149-4c9a-90ad-0928a47915ed",
