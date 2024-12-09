@@ -372,7 +372,7 @@
       "section": {
         "__resolveType": "site/sections/Faq.tsx",
         "title": "FAQs",
-        "description": "Perguntas importantes sobre o Programa de Bolsas RIO 2024.",
+        "description": "Perguntas importantes sobre o Programa Bolsa RIO 2024.",
         "questions": [
           {
             "title": "Como foi o processo seletivo?",
