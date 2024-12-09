@@ -1,0 +1,389 @@
+{
+  "name": "Aprovados Bolsa RIO",
+  "path": "/bolsa-rio-aprovados-2024",
+  "sections": [
+    {
+      "__resolveType": "Header Principal"
+    },
+    {
+      "__resolveType": "site/sections/Image/BannerText.tsx",
+      "mobileBanner": {
+        "text": "<p><span style=\"color: rgb(255, 255, 255); font-size: 39pt\">Aprovados </span><strong><span style=\"color: rgb(255, 255, 255); font-size: 39pt\">Bolsa RIO 2024</span></strong></p><p><strong><span style=\"color: rgb(255, 255, 255); font-size: 13pt\">(Vocês receberão um e-mail com os próximos passos)</span></strong></p>",
+        "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/683b2dbf-83e5-41f0-9195-99807a51d4e6/rio-de-janeiro-4k-pc-desktop-hd-wallpaper-preview.jpeg",
+        "width": 475,
+        "height": 600,
+        "alt": "Banner - time - Mobile"
+      },
+      "desktopBanner": {
+        "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/683b2dbf-83e5-41f0-9195-99807a51d4e6/rio-de-janeiro-4k-pc-desktop-hd-wallpaper-preview.jpeg",
+        "width": 1920,
+        "height": 1080,
+        "alt": "Banner - Time - Desktop ",
+        "text": "<p><span style=\"color: rgb(255, 255, 255); font-size: 39pt\">Aprovados </span><strong><span style=\"color: rgb(255, 255, 255); font-size: 39pt\">Bolsa RIO 2024</span></strong></p><p><strong><span style=\"color: rgb(255, 255, 255); font-size: 13pt\">(Vocês receberão um e-mail com os próximos passos)</span></strong></p>"
+      },
+      "tabletBanner": {
+        "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/683b2dbf-83e5-41f0-9195-99807a51d4e6/rio-de-janeiro-4k-pc-desktop-hd-wallpaper-preview.jpeg",
+        "width": 1024,
+        "height": 768,
+        "alt": "Banner - Time - Tablet",
+        "text": "<p><span style=\"color: rgb(255, 255, 255); font-size: 39pt\">Aprovados </span><strong><span style=\"color: rgb(255, 255, 255); font-size: 39pt\">Bolsa RIO 2024</span></strong></p><p><strong><span style=\"color: rgb(255, 255, 255); font-size: 13pt\">(Vocês receberão um e-mail com os próximos passos)</span></strong></p>"
+      }
+    },
+    {
+      "__resolveType": "site/sections/Content/Accordion.tsx",
+      "cardFormat": "image-highlight",
+      "cards": [
+        {
+          "photo": {
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/648257b9-c5b8-4b86-948c-0227f702711b/wallison.jpeg",
+            "width": 312,
+            "height": 188
+          },
+          "socialMedias": [
+            {
+              "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/3fdd52fe-fd60-4f8e-8d16-af8c28238386/imagem_2024-09-08_212137679.png",
+              "name": "Linkedin",
+              "width": 16,
+              "height": 18,
+              "link": "https://www.linkedin.com/in/wallison-nascimento/"
+            }
+          ],
+          "position": "<p>Medicina, Telemedicina. UERJ 10° Semestre.</p>",
+          "name": "J. Wallison Nascimento"
+        },
+        {
+          "photo": {
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/d05cc6d7-5499-40ad-8d93-2d6da9274c3e/leticia-frazao.jpeg",
+            "width": 312,
+            "height": 188
+          },
+          "socialMedias": [
+            {
+              "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/3fdd52fe-fd60-4f8e-8d16-af8c28238386/imagem_2024-09-08_212137679.png",
+              "name": "Linkedin",
+              "width": 16,
+              "height": 18,
+              "link": "https://www.linkedin.com/in/let%C3%ADcia-fraz%C3%A3o-911470222/"
+            }
+          ],
+          "position": "<p>Administração de Empresas. FGV-RJ, 2° Semestre. </p>",
+          "name": "Letícia Frazão"
+        },
+        {
+          "photo": {
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/2b1f141d-d19d-440e-b529-46746a21ed7e/sophia.jpeg",
+            "width": 312,
+            "height": 188
+          },
+          "socialMedias": [
+            {
+              "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/3fdd52fe-fd60-4f8e-8d16-af8c28238386/imagem_2024-09-08_212137679.png",
+              "name": "Linkedin",
+              "width": 16,
+              "height": 18,
+              "link": "https://www.linkedin.com/in/sophia-barbosa-899580214/"
+            }
+          ],
+          "position": "<p>Engenharia. UFRJ, 4° Semestre. </p>",
+          "name": "Sophia Barbosa"
+        }
+      ],
+      "initOpen": false,
+      "title": "Incentivo Mensal - R$400"
+    },
+    {
+      "__resolveType": "site/sections/Content/Accordion.tsx",
+      "title": "Bolsa Curso de Inglês Completo",
+      "cardFormat": "image-highlight",
+      "cards": [
+        {
+          "photo": {
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/648257b9-c5b8-4b86-948c-0227f702711b/wallison.jpeg",
+            "width": 312,
+            "height": 188
+          },
+          "socialMedias": [
+            {
+              "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/3fdd52fe-fd60-4f8e-8d16-af8c28238386/imagem_2024-09-08_212137679.png",
+              "name": "Linkedin",
+              "width": 16,
+              "height": 18,
+              "link": "https://www.linkedin.com/in/wallison-nascimento/"
+            }
+          ],
+          "position": "<p>Medicina, Telemedicina. UERJ 10° Semestre.</p>",
+          "name": "J. Wallison Nascimento"
+        },
+        {
+          "photo": {
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/d05cc6d7-5499-40ad-8d93-2d6da9274c3e/leticia-frazao.jpeg",
+            "width": 312,
+            "height": 188
+          },
+          "socialMedias": [
+            {
+              "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/3fdd52fe-fd60-4f8e-8d16-af8c28238386/imagem_2024-09-08_212137679.png",
+              "name": "Linkedin",
+              "width": 16,
+              "height": 18,
+              "link": "https://www.linkedin.com/in/let%C3%ADcia-fraz%C3%A3o-911470222/"
+            }
+          ],
+          "position": "<p>Administração de Empresas. FGV-RJ, 2° Semestre. </p>",
+          "name": "Letícia Frazão"
+        },
+        {
+          "photo": {
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/2b1f141d-d19d-440e-b529-46746a21ed7e/sophia.jpeg",
+            "width": 312,
+            "height": 188
+          },
+          "socialMedias": [
+            {
+              "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/3fdd52fe-fd60-4f8e-8d16-af8c28238386/imagem_2024-09-08_212137679.png",
+              "name": "Linkedin",
+              "width": 16,
+              "height": 18,
+              "link": "https://www.linkedin.com/in/sophia-barbosa-899580214/"
+            }
+          ],
+          "position": "<p>Engenharia. UFRJ, 4° Semestre. </p>",
+          "name": "Sophia Barbosa"
+        },
+        {
+          "photo": {
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/ab2fccba-11a6-4c30-89a2-78d248bbd9ec/larissa.jpeg",
+            "width": 312,
+            "height": 188
+          },
+          "socialMedias": [
+            {
+              "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/3fdd52fe-fd60-4f8e-8d16-af8c28238386/imagem_2024-09-08_212137679.png",
+              "name": "Linkedin",
+              "width": 16,
+              "height": 18,
+              "link": "https://www.linkedin.com/in/larissa-saviani-ribeiro-a031061ab/?originalSubdomain=br"
+            }
+          ],
+          "position": "<p>Farmácia. UFF, 6° Semestre.</p>",
+          "name": "Larissa Saviani"
+        },
+        {
+          "photo": {
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/24abdbe9-9795-4f1c-950b-b691e333ceea/mayssa.gif",
+            "width": 312,
+            "height": 188
+          },
+          "socialMedias": [
+            {
+              "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/3fdd52fe-fd60-4f8e-8d16-af8c28238386/imagem_2024-09-08_212137679.png",
+              "name": "Linkedin",
+              "width": 16,
+              "height": 18,
+              "link": "https://www.linkedin.com/in/larissa-saviani-ribeiro-a031061ab/?originalSubdomain=br"
+            }
+          ],
+          "position": "<p>Gestão Pública. UFRJ, 2° Semestre.</p>",
+          "name": "Mayssa Rosa"
+        },
+        {
+          "photo": {
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/828f78ca-4b48-4915-adb1-d0696f38c01b/roberta.jpeg",
+            "width": 312,
+            "height": 188
+          },
+          "socialMedias": [
+            {
+              "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/3fdd52fe-fd60-4f8e-8d16-af8c28238386/imagem_2024-09-08_212137679.png",
+              "name": "Linkedin",
+              "width": 16,
+              "height": 18,
+              "link": "https://www.linkedin.com/in/robertadgsantos/"
+            }
+          ],
+          "position": "<p>Ciência da Computação. PUC-RIO, 2° Semestre.</p>",
+          "name": "Roberta Santos"
+        }
+      ],
+      "initOpen": false
+    },
+    {
+      "__resolveType": "site/sections/Content/Accordion.tsx",
+      "title": "Vaga Garantida - Programa de Mentoria de Carreira",
+      "cardFormat": "image-highlight",
+      "cards": [
+        {
+          "photo": {
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/648257b9-c5b8-4b86-948c-0227f702711b/wallison.jpeg",
+            "width": 312,
+            "height": 188
+          },
+          "socialMedias": [
+            {
+              "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/3fdd52fe-fd60-4f8e-8d16-af8c28238386/imagem_2024-09-08_212137679.png",
+              "name": "Linkedin",
+              "width": 16,
+              "height": 18,
+              "link": "https://www.linkedin.com/in/wallison-nascimento/"
+            }
+          ],
+          "position": "<p>Medicina, Telemedicina. UERJ 10° Semestre.</p>",
+          "name": "J. Wallison Nascimento"
+        },
+        {
+          "photo": {
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/d05cc6d7-5499-40ad-8d93-2d6da9274c3e/leticia-frazao.jpeg",
+            "width": 312,
+            "height": 188
+          },
+          "socialMedias": [
+            {
+              "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/3fdd52fe-fd60-4f8e-8d16-af8c28238386/imagem_2024-09-08_212137679.png",
+              "name": "Linkedin",
+              "width": 16,
+              "height": 18,
+              "link": "https://www.linkedin.com/in/let%C3%ADcia-fraz%C3%A3o-911470222/"
+            }
+          ],
+          "position": "<p>Administração de Empresas. FGV-RJ, 2° Semestre. </p>",
+          "name": "Letícia Frazão"
+        },
+        {
+          "photo": {
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/2b1f141d-d19d-440e-b529-46746a21ed7e/sophia.jpeg",
+            "width": 312,
+            "height": 188
+          },
+          "socialMedias": [
+            {
+              "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/3fdd52fe-fd60-4f8e-8d16-af8c28238386/imagem_2024-09-08_212137679.png",
+              "name": "Linkedin",
+              "width": 16,
+              "height": 18,
+              "link": "https://www.linkedin.com/in/sophia-barbosa-899580214/"
+            }
+          ],
+          "position": "<p>Engenharia. UFRJ, 4° Semestre. </p>",
+          "name": "Sophia Barbosa"
+        },
+        {
+          "photo": {
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/24abdbe9-9795-4f1c-950b-b691e333ceea/mayssa.gif",
+            "width": 312,
+            "height": 188
+          },
+          "socialMedias": [
+            {
+              "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/3fdd52fe-fd60-4f8e-8d16-af8c28238386/imagem_2024-09-08_212137679.png",
+              "name": "Linkedin",
+              "width": 16,
+              "height": 18,
+              "link": "https://www.linkedin.com/in/larissa-saviani-ribeiro-a031061ab/?originalSubdomain=br"
+            }
+          ],
+          "position": "<p>Gestão Pública. UFRJ, 2° Semestre.</p>",
+          "name": "Mayssa Rosa"
+        },
+        {
+          "photo": {
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/828f78ca-4b48-4915-adb1-d0696f38c01b/roberta.jpeg",
+            "width": 312,
+            "height": 188
+          },
+          "socialMedias": [
+            {
+              "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/3fdd52fe-fd60-4f8e-8d16-af8c28238386/imagem_2024-09-08_212137679.png",
+              "name": "Linkedin",
+              "width": 16,
+              "height": 18,
+              "link": "https://www.linkedin.com/in/robertadgsantos/"
+            }
+          ],
+          "position": "<p>Ciência da Computação. PUC-RIO, 2° Semestre.</p>",
+          "name": "Roberta Santos"
+        },
+        {
+          "photo": {
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/504c24c4-0257-4b92-af38-9518e340230a/pedro-melo.jpeg",
+            "width": 312,
+            "height": 188
+          },
+          "socialMedias": [
+            {
+              "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/3fdd52fe-fd60-4f8e-8d16-af8c28238386/imagem_2024-09-08_212137679.png",
+              "name": "Linkedin",
+              "width": 16,
+              "height": 18,
+              "link": "https://www.linkedin.com/in/pedro-de-melo-pinheiro-265692191/"
+            }
+          ],
+          "position": "<p>Engenharia. PUC-RIO, 6° Semestre.</p>",
+          "name": "Pedro Melo"
+        },
+        {
+          "photo": {
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/ac3ea1fd-6d45-4b65-b672-aae52fd9f3db/joaao-pedro.jpeg",
+            "width": 312,
+            "height": 188
+          },
+          "socialMedias": [
+            {
+              "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/3fdd52fe-fd60-4f8e-8d16-af8c28238386/imagem_2024-09-08_212137679.png",
+              "name": "Linkedin",
+              "width": 16,
+              "height": 18,
+              "link": "https://www.linkedin.com/in/jo%C3%A3o-pedro-oliveira-de-souza/"
+            }
+          ],
+          "position": "<p>Ciências Econômicas. PUC-RIO, 3° Semestre.</p>",
+          "name": "João Pedro Souza"
+        }
+      ],
+      "initOpen": false
+    },
+    {
+      "__resolveType": "site/sections/Content/Accordion.tsx",
+      "title": "Bolsa Curso Fundamentos de Python",
+      "cardFormat": "simple",
+      "cards": [
+        {
+          "photo": {
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/ac3ea1fd-6d45-4b65-b672-aae52fd9f3db/joaao-pedro.jpeg",
+            "width": 64,
+            "height": 64
+          },
+          "socialMedias": [
+            {
+              "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/3fdd52fe-fd60-4f8e-8d16-af8c28238386/imagem_2024-09-08_212137679.png",
+              "name": "Linkedin",
+              "width": 16,
+              "height": 18,
+              "link": "https://www.linkedin.com/in/jo%C3%A3o-pedro-oliveira-de-souza/"
+            }
+          ],
+          "position": "<p>Ciências Econômicas. PUC-RIO, 3° Semestre.</p>",
+          "name": "João Pedro Souza"
+        }
+      ],
+      "initOpen": false
+    },
+    {
+      "__resolveType": "Newsletter"
+    },
+    {
+      "__resolveType": "Footer"
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "website/sections/Seo/SeoV2.tsx",
+        "title": "Time",
+        "favicon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/045f26cc-d00e-4217-bc14-ff4a563e7e77/imagem_2024-09-11_104231459.png"
+      }
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}
