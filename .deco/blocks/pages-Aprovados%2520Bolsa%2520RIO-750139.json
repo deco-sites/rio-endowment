@@ -89,7 +89,7 @@
         }
       ],
       "initOpen": false,
-      "title": "Incentivo Mensal - R$400"
+      "title": "Incentivo Mensal"
     },
     {
       "__resolveType": "site/sections/Content/Accordion.tsx",
