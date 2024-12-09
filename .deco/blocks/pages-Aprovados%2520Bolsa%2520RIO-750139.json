@@ -8,7 +8,7 @@
     {
       "__resolveType": "site/sections/Image/BannerText.tsx",
       "mobileBanner": {
-        "text": "<p><span style=\"color: rgb(255, 255, 255); font-size: 39pt\">Aprovados </span><strong><span style=\"color: rgb(255, 255, 255); font-size: 39pt\">Bolsa RIO 2024</span></strong></p><p><strong><span style=\"color: rgb(255, 255, 255); font-size: 13pt\">(Vocês receberão um e-mail com os próximos passos)</span></strong></p>",
+        "text": "<p><span style=\"color: rgb(255, 255, 255); font-size: 39pt\">Aprovados </span><strong><span style=\"color: rgb(255, 255, 255); font-size: 39pt\">Bolsa RIO 2024</span></strong></p><p></p>",
         "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/683b2dbf-83e5-41f0-9195-99807a51d4e6/rio-de-janeiro-4k-pc-desktop-hd-wallpaper-preview.jpeg",
         "width": 475,
         "height": 600,
@@ -19,14 +19,14 @@
         "width": 1920,
         "height": 1080,
         "alt": "Banner - Time - Desktop ",
-        "text": "<p><span style=\"color: rgb(255, 255, 255); font-size: 39pt\">Aprovados </span><strong><span style=\"color: rgb(255, 255, 255); font-size: 39pt\">Bolsa RIO 2024</span></strong></p><p><strong><span style=\"color: rgb(255, 255, 255); font-size: 13pt\">(Vocês receberão um e-mail com os próximos passos)</span></strong></p>"
+        "text": "<p><span style=\"color: rgb(255, 255, 255); font-size: 39pt\">Aprovados </span><strong><span style=\"color: rgb(255, 255, 255); font-size: 39pt\">Bolsa RIO 2024</span></strong></p><p></p>"
       },
       "tabletBanner": {
         "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/683b2dbf-83e5-41f0-9195-99807a51d4e6/rio-de-janeiro-4k-pc-desktop-hd-wallpaper-preview.jpeg",
         "width": 1024,
         "height": 768,
         "alt": "Banner - Time - Tablet",
-        "text": "<p><span style=\"color: rgb(255, 255, 255); font-size: 39pt\">Aprovados </span><strong><span style=\"color: rgb(255, 255, 255); font-size: 39pt\">Bolsa RIO 2024</span></strong></p><p><strong><span style=\"color: rgb(255, 255, 255); font-size: 13pt\">(Vocês receberão um e-mail com os próximos passos)</span></strong></p>"
+        "text": "<p><span style=\"color: rgb(255, 255, 255); font-size: 39pt\">Aprovados </span><strong><span style=\"color: rgb(255, 255, 255); font-size: 39pt\">Bolsa RIO 2024</span></strong></p><p></p>"
       }
     },
     {
