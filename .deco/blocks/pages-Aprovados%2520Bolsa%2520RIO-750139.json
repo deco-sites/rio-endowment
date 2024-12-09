@@ -344,13 +344,13 @@
     {
       "__resolveType": "site/sections/Content/Accordion.tsx",
       "title": "Bolsa Curso Fundamentos de Python",
-      "cardFormat": "simple",
+      "cardFormat": "image-highlight",
       "cards": [
         {
           "photo": {
             "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/ac3ea1fd-6d45-4b65-b672-aae52fd9f3db/joaao-pedro.jpeg",
-            "width": 64,
-            "height": 64
+            "width": 312,
+            "height": 188
           },
           "socialMedias": [
             {
@@ -366,6 +366,37 @@
         }
       ],
       "initOpen": false
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Faq.tsx",
+        "title": "FAQs",
+        "description": "Perguntas importantes sobre o Programa de Bolsas RIO 2024.",
+        "questions": [
+          {
+            "title": "Como foi o processo seletivo?",
+            "answer": "<p>Após meses de acompanhamento dos estudantes, organizamos uma sessão exclusiva com os vários candidatos que demonstraram maior alinhamento com os valores e objetivos do RIO. Durante essa sessão, nosso Comitê de Seleção de Bolsas, composto por membros do Conselho de Administração, ouviu atentamente as apresentações de cada estudante, nas quais eles expuseram suas razões para serem contemplados com a bolsa.</p><p></p><p>A seleção final foi baseada em uma análise criteriosa que considerou um conjunto de fatores, incluindo custo de oportunidade, alinhamento cultural, afinidade com o RIO, necessidade financeira, potencial de impacto e outros critérios relevantes. Assim, definimos os nomes que compõem a lista final.</p>"
+          },
+          {
+            "title": "Quais são os próximos passos?",
+            "answer": "<p>Você, estudante contemplado em uma das categorias mencionadas, receberá em breve um e-mail com as instruções necessárias para assegurar o recebimento do benefício. Fique atento à sua caixa de entrada.</p>"
+          },
+          {
+            "title": "Eu posso divulgar a Bolsa?",
+            "answer": "<p>Pode. Colocar no Linkedin, por exemplo, que você é bolsista RIO Endowment, deve ajudá-los com conexões futuras, vagas de emprego e oportunidades de crescimento profissional. </p>"
+          },
+          {
+            "title": "Não fui aprovado. E agora?",
+            "answer": "<p>Você é um aluno excepcional e sua dedicação não passa despercebida. Infelizmente, devido a limitações de recursos, não foi possível contemplar todos os candidatos neste momento. </p><p></p><p>Estamos comprometidos em expandir nosso alcance para que, no futuro, possamos apoiar ainda mais pessoas como você. Nada impede que você se inscreva novamente na próxima turma — na verdade, incentivamos fortemente que o faça!</p>"
+          }
+        ],
+        "cta": {
+          "outline": false,
+          "href": "https://www.rioendowment.com/sobre-nos",
+          "text": "Sobre o RIO Endowment"
+        }
+      }
     },
     {
       "__resolveType": "Newsletter"
