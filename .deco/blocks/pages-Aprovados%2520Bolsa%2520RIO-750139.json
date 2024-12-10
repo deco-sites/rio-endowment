@@ -368,6 +368,32 @@
       "initOpen": false
     },
     {
+      "__resolveType": "site/sections/Content/Accordion.tsx",
+      "title": "Bolsa Curso Introdução ao Power BI",
+      "cardFormat": "image-highlight",
+      "cards": [
+        {
+          "photo": {
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/504c24c4-0257-4b92-af38-9518e340230a/pedro-melo.jpeg",
+            "width": 312,
+            "height": 188
+          },
+          "socialMedias": [
+            {
+              "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/3fdd52fe-fd60-4f8e-8d16-af8c28238386/imagem_2024-09-08_212137679.png",
+              "name": "Linkedin",
+              "width": 16,
+              "height": 18,
+              "link": "https://www.linkedin.com/in/pedro-de-melo-pinheiro-265692191/"
+            }
+          ],
+          "position": "<p>Engenharia. PUC-RIO, 6° Semestre.</p>",
+          "name": "Pedro Melo"
+        }
+      ],
+      "initOpen": false
+    },
+    {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
         "__resolveType": "site/sections/Faq.tsx",
