@@ -129,7 +129,7 @@
               "link": "https://www.linkedin.com/in/marcus-vinicius-freire-oly-3a5b8b111/"
             }
           ],
-          "position": "<p>Conselheiro.</p>",
+          "position": "<p>Executivo de Esportes, Sócio Fundador da Play9 e Board Member.</p>",
           "name": "Marcus Vinicius Freire OLY"
         },
         {
@@ -147,7 +147,7 @@
               "link": "https://www.linkedin.com/in/pedrohenriquefr/"
             }
           ],
-          "position": "<p>Conselheiro.</p>",
+          "position": "<p>Tech Investor na Bridge One e Conselheiro do RIO.</p>",
           "name": "Pedro Rodrigues"
         },
         {
@@ -165,8 +165,62 @@
               "link": "https://www.linkedin.com/in/gilvanbueno/"
             }
           ],
-          "position": "<p>Conselheiro.</p>",
+          "position": "<p>Comentarista econômico na CNN Brasil, Fundador do Instituto Consuelo.</p>",
           "name": "Gilvan Bueno"
+        },
+        {
+          "photo": {
+            "image": "https://data.decoassets.com/rio-endowment/cfe7b202-d263-4da1-887e-e1ad19c2b270/silvia-motta.jpeg",
+            "width": 312,
+            "height": 188
+          },
+          "socialMedias": [
+            {
+              "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/3fdd52fe-fd60-4f8e-8d16-af8c28238386/imagem_2024-09-08_212137679.png",
+              "name": "Linkedin",
+              "width": 16,
+              "height": 18,
+              "link": "https://www.linkedin.com/in/silviamotta/"
+            }
+          ],
+          "position": "<p>CFO na Hashdex e Conselheira no RIO.</p>",
+          "name": "Silvia Motta"
+        },
+        {
+          "photo": {
+            "image": "https://data.decoassets.com/rio-endowment/ed392b22-212d-4f6e-abe4-eb9f92bfa9e2/deborah.jpeg",
+            "width": 312,
+            "height": 188
+          },
+          "socialMedias": [
+            {
+              "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/3fdd52fe-fd60-4f8e-8d16-af8c28238386/imagem_2024-09-08_212137679.png",
+              "name": "Linkedin",
+              "width": 16,
+              "height": 18,
+              "link": "https://www.linkedin.com/in/deborah-meirelles-r-brasil/"
+            }
+          ],
+          "position": "<p>Diretora Jurídica e Conselheira no RIO.</p>",
+          "name": "Déborah Meirelles"
+        },
+        {
+          "photo": {
+            "image": "https://data.decoassets.com/rio-endowment/b99762fe-d497-4c90-a4d4-f5975393cafc/julia-franco.jpeg",
+            "width": 312,
+            "height": 188
+          },
+          "socialMedias": [
+            {
+              "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/3fdd52fe-fd60-4f8e-8d16-af8c28238386/imagem_2024-09-08_212137679.png",
+              "name": "Linkedin",
+              "width": 16,
+              "height": 18,
+              "link": "https://www.linkedin.com/in/julia-damazio-franco-80117b33/"
+            }
+          ],
+          "position": "<p>Sócia no Cescon, Barrieu, Flesch &amp; Barreto Advogados e Conselheira no RIO.</p>",
+          "name": "Julia Franco"
         }
       ],
       "initOpen": false
@@ -294,6 +348,24 @@
         },
         {
           "photo": {
+            "image": "https://data.decoassets.com/rio-endowment/402abf3c-d69f-43a0-a18d-641a67e9a1b3/ana-laura.jpeg",
+            "width": 64,
+            "height": 64
+          },
+          "socialMedias": [
+            {
+              "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/3fdd52fe-fd60-4f8e-8d16-af8c28238386/imagem_2024-09-08_212137679.png",
+              "name": "Linkedin",
+              "width": 16,
+              "height": 18,
+              "link": "https://www.linkedin.com/in/ana-laura-magalh%C3%A3es-barata/"
+            }
+          ],
+          "position": "<p>Fundadora da Caccao, Ex-Sócia da XP e Fundadora da Humana. </p>",
+          "name": "Ana Laura Magalhães"
+        },
+        {
+          "photo": {
             "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/483b8d51-2b16-45c8-a307-30827f63353c/maria-pia.jpeg",
             "width": 64,
             "height": 64
@@ -307,7 +379,7 @@
               "link": "https://www.linkedin.com/in/mariapiabastostigrebuchheim/"
             }
           ],
-          "position": "<p>Advogada e Conselheira de Administração.</p>",
+          "position": "<p>Advogada e Conselheira.</p>",
           "name": "Maria Pia Tigre Buchheim"
         }
       ],
