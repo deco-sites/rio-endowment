@@ -48,15 +48,15 @@
             "partnersList": [
               {
                 "partnerLogo": {
-                  "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/d0ace1cc-ef7e-444c-a1f8-16e341adae76/imagem_2024-09-09_121511570.png",
+                  "image": "https://data.decoassets.com/rio-endowment/036f4b75-5aa9-4f51-a2a0-a36c942be80e/Logo-original-01-(3).jpg",
                   "width": 100,
                   "height": 53,
                   "alt": "IT"
                 },
-                "title": "<p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://investtools.com.br/en\"><strong><span style=\"font-size: 20pt\">Investtools</span></strong></a></p>",
-                "description": "<p><span style=\"font-size: 10pt\">A </span><strong><span style=\"font-size: 10pt\">Investtools</span></strong><span style=\"font-size: 10pt\"> é uma empresa com mais de 15 anos</span></p><p><span style=\"font-size: 10pt\">de know-how no desenvolvimento de tecnologias</span></p><p><span style=\"font-size: 10pt\">para mercado financeiro.</span></p>",
+                "title": "<p><strong><span style=\"font-size: 20pt\">BRASAS</span></strong></p>",
+                "description": "<p><span style=\"font-size: 10pt\">O </span><strong><span style=\"font-size: 10pt\">Brasas</span></strong><span style=\"font-size: 10pt\"> é uma escola de inglês com mais de 55 anos</span></p><p><span style=\"font-size: 10pt\">e metodologia própria, focada em conversação, </span></p><p><span style=\"font-size: 10pt\">criada por George Zinovetz.</span></p><p></p>",
                 "bgImage": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/760f825d-dfd7-42ef-9492-6edb3451a71c/imagem_2024-09-09_213527108.png",
-                "name": "Investtools",
+                "name": "BRASAS",
                 "bgClosed": "#ffffff",
                 "bgOpened": "#000000"
               },
@@ -116,15 +116,15 @@
             "partnersList": [
               {
                 "partnerLogo": {
-                  "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/d0ace1cc-ef7e-444c-a1f8-16e341adae76/imagem_2024-09-09_121511570.png",
+                  "image": "https://data.decoassets.com/rio-endowment/036f4b75-5aa9-4f51-a2a0-a36c942be80e/Logo-original-01-(3).jpg",
                   "width": 100,
                   "height": 53,
                   "alt": "IT"
                 },
                 "title": "<p></p>",
-                "description": "<p>A <strong>Investtools</strong> é uma empresa com mais de 15 anos</p><p>de know-how no desenvolvimento de tecnologias </p><p>para mercado financeiro.</p><p><strong>São parceiros do RIO Endowment</strong>.</p>",
+                "description": "<p>O <strong>Brasas</strong> é uma escola de inglês com mais de 55 anos</p><p>e metodologia própria, focada em conversação,</p><p>criada por George Zinovetz.</p>",
                 "bgImage": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/760f825d-dfd7-42ef-9492-6edb3451a71c/imagem_2024-09-09_213527108.png",
-                "name": "Investtools",
+                "name": "BRASAS",
                 "bgClosed": "#ffffff",
                 "bgOpened": "#000000"
               },
@@ -394,7 +394,7 @@
           "quoteHighlight": "Impacto para as gerações futuras, mente de longo prazo",
           "quoteMain": "É sobre a semente que plantamos hoje,para colher um futuro brilhante para nossos alunos e para o Rio de Janeiro.",
           "name": "Thomas Ramirez",
-          "position": "Co-Fundador do RIO Endowment e Head de Estratégia na deX"
+          "position": "Co-Fundador e Presidente do RIO Endowment"
         }
       ]
     },
