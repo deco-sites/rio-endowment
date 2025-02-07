@@ -268,24 +268,6 @@
         },
         {
           "photo": {
-            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/699c2384-944d-4a27-918f-25c07577b922/avyman.jpeg",
-            "width": 64,
-            "height": 64
-          },
-          "socialMedias": [
-            {
-              "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/3fdd52fe-fd60-4f8e-8d16-af8c28238386/imagem_2024-09-08_212137679.png",
-              "name": "Linkedin",
-              "width": 16,
-              "height": 18,
-              "link": "https://www.linkedin.com/in/avy-pinto-7092a8132/"
-            }
-          ],
-          "position": "<p>Líder de Captação.</p>",
-          "name": "Avy Pinto"
-        },
-        {
-          "photo": {
             "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/rio-endowment/a32d7b74-5c09-495f-a256-e582e4477bf0/Carolina-Pego.jpeg",
             "width": 64,
             "height": 64
@@ -299,8 +281,8 @@
               "link": "https://www.linkedin.com/in/ana-carolina-p%C3%AAgo/"
             }
           ],
-          "name": "Carol Pêgo",
-          "position": "<p>Líder de People.</p>"
+          "position": "<p>Líder de People.</p>",
+          "name": "Carol Pêgo"
         },
         {
           "photo": {
